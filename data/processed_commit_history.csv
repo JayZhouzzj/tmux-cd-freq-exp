@@ -1,0 +1,793 @@
+date,hash,message,author_name,url,Linked Issue,Issue Number,Closed At,Is Linked to Issue,Next Release Time,Manual Release Delay (Days),Next Merge Time,CD Release Delay (Days)
+2019-03-25 10:05:03+00:00,517d673dbe4b7b5ab290203868d871a712624446,"Ignore mouse on status line which are not part of a range, GitHub issue 1649.",nicm,https://github.com/tmux/tmux/commit/517d673dbe4b7b5ab290203868d871a712624446,1649.0,1649.0,2019-03-25 10:05:03+00:00,True,2019-03-26 14:43:38+00:00,1.1934606481481482,2019-03-25 15:57:47+00:00,0.2449537037037037
+2019-04-28 20:08:03+00:00,c4b0da5513ee4c9692f0980408b0da2ee7e3a553,"Support multiple occurances of the same argument. Use this for a new
+flag -e to new-window, split-window, respawn-window, respawn-pane to
+pass environment variables into the newly created process. From Steffen
+Christgau in GitHub issue 1697.",nicm,https://github.com/tmux/tmux/commit/c4b0da5513ee4c9692f0980408b0da2ee7e3a553,1697.0,1697.0,2019-04-28 20:08:03+00:00,True,2019-05-01 06:18:48+00:00,2.4241319444444445,2019-04-28 22:02:30+00:00,0.07947916666666667
+2019-04-30 18:02:24+00:00,429c4bc51b2c03e400802c9d224e4f7cc6113194,"Fix user options after show-hooks merge, GitHub issue 1704.",nicm,https://github.com/tmux/tmux/commit/429c4bc51b2c03e400802c9d224e4f7cc6113194,1704.0,1704.0,2019-04-30 18:02:24+00:00,True,2019-05-01 06:18:48+00:00,0.5113888888888889,2019-04-30 20:02:26+00:00,0.08335648148148148
+2019-05-03 10:01:27+00:00,4bb48998e075017707b0fd8d61499409bd144c6d,"Fix reverse attribute in status line, GitHub issue 1709.",nicm,https://github.com/tmux/tmux/commit/4bb48998e075017707b0fd8d61499409bd144c6d,1709.0,1709.0,2019-05-03 10:01:27+00:00,True,2019-05-29 10:33:15+00:00,26.022083333333335,2019-05-03 16:04:11+00:00,0.25189814814814815
+2019-05-03 18:43:17+00:00,4097257beffc100d1eb0948d1390cea952e5fe4a,"Do not store the mouse position we calculate as the start of a drag back
+into the mouse event that later code uses, it has been adjusted and they
+should use the original position. GitHub issue 1710.",nicm,https://github.com/tmux/tmux/commit/4097257beffc100d1eb0948d1390cea952e5fe4a,1710.0,1710.0,2019-05-03 18:43:17+00:00,True,2019-05-29 10:33:15+00:00,25.659699074074073,2019-05-03 20:02:26+00:00,0.05496527777777778
+2019-05-07 19:46:24+00:00,d53d3bce59daa26720682dfcb6bcad182851c9a0,"Adjust the same bit to adjust the selection for history-top and
+history-bottom as for cursor-up and cursor-down. GitHub issue 1723.",nicm,https://github.com/tmux/tmux/commit/d53d3bce59daa26720682dfcb6bcad182851c9a0,1723.0,1723.0,2019-05-07 19:46:24+00:00,True,2019-05-29 10:33:15+00:00,21.615868055555556,2019-05-07 20:02:25+00:00,0.011122685185185185
+2019-05-14 08:05:33+00:00,38b8a198bac62c16d351c54ed83ead29a2e0ecc8,"Fix sizing of main-vertical and main-horizontal layouts, GitHub issue 1736.",nicm,https://github.com/tmux/tmux/commit/38b8a198bac62c16d351c54ed83ead29a2e0ecc8,1736.0,1736.0,2019-05-14 08:05:33+00:00,True,2019-05-29 10:33:15+00:00,15.102569444444445,2019-05-15 21:50:42+00:00,1.5730208333333333
+2019-05-16 06:27:20+00:00,cf4566b47b184abbb28e1cf4a05df6ce0ce2da96,"Fix dragging when in view mode rather than copy mode, GitHub issue 1740
+from Brad Town.",nicm,https://github.com/tmux/tmux/commit/cf4566b47b184abbb28e1cf4a05df6ce0ce2da96,1740.0,1740.0,2019-05-16 06:27:20+00:00,True,2019-05-29 10:33:15+00:00,13.170775462962963,2019-05-17 08:02:36+00:00,1.0661574074074074
+2019-05-22 19:04:08+00:00,5571d7a21c5dc920eb9d25336b5bb7b04d72fc9d,"Fix crash if window doesn't exist, GitHub issue 1751.",nicm,https://github.com/tmux/tmux/commit/5571d7a21c5dc920eb9d25336b5bb7b04d72fc9d,1751.0,1751.0,2019-05-22 19:04:08+00:00,True,2019-05-29 10:33:15+00:00,6.645219907407407,2019-05-22 20:02:28+00:00,0.04050925925925926
+2019-05-23 13:16:38+00:00,a4fe7e81c8aa674c93d48f4ac8eff842203c1d3e,"Fix length calculation for pasting UTF-8 characters in the status line,
+GitHub issue 1753.",nicm,https://github.com/tmux/tmux/commit/a4fe7e81c8aa674c93d48f4ac8eff842203c1d3e,1753.0,1753.0,2019-05-23 13:16:38+00:00,True,2019-05-29 10:33:15+00:00,5.886539351851852,2019-05-23 14:02:28+00:00,0.031828703703703706
+2019-05-23 13:16:38+00:00,d0c462f718f4769140da73328cdcd1cbd2048ab7,"Fix length calculation for pasting UTF-8 characters in the status line,
+GitHub issue 1753.",nicm,https://github.com/tmux/tmux/commit/d0c462f718f4769140da73328cdcd1cbd2048ab7,1753.0,1753.0,2019-05-23 13:16:38+00:00,True,2019-05-29 10:33:15+00:00,5.886539351851852,2019-05-23 14:02:28+00:00,0.031828703703703706
+2019-05-25 16:51:20+00:00,a65a6d62d19136e20ce6e6ec72d676a334dcc914,"Add <, >, <=, >= for formats, GitHub issue 1747.",nicm,https://github.com/tmux/tmux/commit/a65a6d62d19136e20ce6e6ec72d676a334dcc914,1747.0,1747.0,2019-05-25 16:51:20+00:00,True,2019-05-29 10:33:15+00:00,3.73744212962963,2019-05-25 17:41:51+00:00,0.03508101851851852
+2019-05-27 08:08:44+00:00,65e5e1456179d68f36602a5976184b38cc4b636c,"Fix the intended ordering of items in buffer mode - it should not always
+be tag 0 when the tree is empty. GitHub issue 1759.",nicm,https://github.com/tmux/tmux/commit/65e5e1456179d68f36602a5976184b38cc4b636c,1759.0,1759.0,2019-05-27 08:08:44+00:00,True,2019-05-29 10:33:15+00:00,2.1003587962962964,2019-05-27 14:02:28+00:00,0.24564814814814814
+2019-05-27 12:43:10+00:00,ae3eba6e08a8ff36a63b328880d4a97f21e1108b,"Fix crash when killing the current window, reported by Jesus Rafael
+Sanchez in GitHub issue 1760.",nicm,https://github.com/tmux/tmux/commit/ae3eba6e08a8ff36a63b328880d4a97f21e1108b,1760.0,1760.0,2019-05-27 12:43:10+00:00,True,2019-05-29 10:33:15+00:00,1.9097800925925925,2019-05-27 14:02:28+00:00,0.05506944444444444
+2019-05-28 19:30:51+00:00,8d137233a96c86d311f7f03c3322177a5e54d3fa,"Redraw status line if size changes, GitHub issue 1762. Also fix length
+of target buffer when pasting into status line.",nicm,https://github.com/tmux/tmux/commit/8d137233a96c86d311f7f03c3322177a5e54d3fa,1762.0,1762.0,2019-05-28 19:30:51+00:00,True,2019-05-29 10:33:15+00:00,0.6266666666666667,2019-05-28 20:02:28+00:00,0.021956018518518517
+2019-05-28 19:30:51+00:00,580cd16f4c3474d7cae867b9b24f01665a268e9d,"Redraw status line if size changes, GitHub issue 1762. Also fix length
+of target buffer when pasting into status line.",nicm,https://github.com/tmux/tmux/commit/580cd16f4c3474d7cae867b9b24f01665a268e9d,1762.0,1762.0,2019-05-28 19:30:51+00:00,True,2019-05-29 10:33:15+00:00,0.6266666666666667,2019-05-28 20:02:28+00:00,0.021956018518518517
+2019-05-30 10:05:06+00:00,89d2c7eb2625804060092330f22ea211c2c97ba3,"I had hoped that non-xenl terminals had died out, at least in fairly
+modern OSs, but no - DragonFly BSD's console returns to haunt us. Fix it
+at least somewhat. GitHub issue 1763.",nicm,https://github.com/tmux/tmux/commit/89d2c7eb2625804060092330f22ea211c2c97ba3,1763.0,1763.0,2019-05-30 10:05:06+00:00,True,2019-12-01 08:55:42+00:00,184.95180555555555,2019-05-30 12:02:26+00:00,0.08148148148148149
+2019-06-05 19:03:31+00:00,09e90c1645a8ecd1e467b13a743bb46d48febd37,"Need to increment the argument to skip the prefix earlier, fixes
+repeated incremental search in copy mode, reported by Kaushal Modi in
+GitHub issue 1780.",nicm,https://github.com/tmux/tmux/commit/09e90c1645a8ecd1e467b13a743bb46d48febd37,1780.0,1780.0,2019-06-05 19:03:31+00:00,True,2019-12-01 08:55:42+00:00,178.5779050925926,2019-06-05 20:02:26+00:00,0.040914351851851855
+2019-06-05 19:03:31+00:00,db5a7c1740b4400a1ea5cabaae5e99f942179d16,"Need to increment the argument to skip the prefix earlier, fixes
+repeated incremental search in copy mode, reported by Kaushal Modi in
+GitHub issue 1780.",nicm,https://github.com/tmux/tmux/commit/db5a7c1740b4400a1ea5cabaae5e99f942179d16,1780.0,1780.0,2019-06-05 19:03:31+00:00,True,2019-12-01 08:55:42+00:00,178.5779050925926,2019-06-05 20:02:26+00:00,0.040914351851851855
+2019-06-08 21:48:46+00:00,43796bf131c4d7d3a44185c10e5d75860869af0d,"Do not try to parse command when unsetting, GitHub issue 1788.",nicm,https://github.com/tmux/tmux/commit/43796bf131c4d7d3a44185c10e5d75860869af0d,1788.0,1788.0,2019-06-08 21:48:46+00:00,True,2019-12-01 08:55:42+00:00,175.46314814814815,2019-06-09 00:02:26+00:00,0.09282407407407407
+2019-06-08 21:48:46+00:00,e337c1ba7d0a5e8895d8903fa801344f385d92d7,"Do not try to parse command when unsetting, GitHub issue 1788.",nicm,https://github.com/tmux/tmux/commit/e337c1ba7d0a5e8895d8903fa801344f385d92d7,1788.0,1788.0,2019-06-08 21:48:46+00:00,True,2019-12-01 08:55:42+00:00,175.46314814814815,2019-06-09 00:02:26+00:00,0.09282407407407407
+2019-06-11 14:29:21+00:00,1a9f9c09b4bcc9f99f10190ab91f1aea5206809b,"Do not resize panes unless they are in an attached, active window. From
+Morten M Neergaard in GitHub issue 1782.",nicm,https://github.com/tmux/tmux/commit/1a9f9c09b4bcc9f99f10190ab91f1aea5206809b,1782.0,1782.0,2019-06-11 14:29:21+00:00,True,2019-12-01 08:55:42+00:00,172.7682986111111,2019-06-12 10:02:25+00:00,0.8146296296296296
+2019-06-12 09:12:04+00:00,7e6a26cc9d857ffc53fdb2395aa5413ff1865f9e,"Do not use $TMUX to find the session because for windows in multiple
+sessions it is wrong as often as it is right, and for windows in one
+session it is pointless. Instead check TMUX_PANE to find the pane and
+look for the MRU session as usual. GitHub issue 1793.",nicm,https://github.com/tmux/tmux/commit/7e6a26cc9d857ffc53fdb2395aa5413ff1865f9e,1793.0,1793.0,2019-06-12 09:12:04+00:00,True,2019-12-01 08:55:42+00:00,171.98863425925927,2019-06-12 10:02:25+00:00,0.034965277777777776
+2019-06-23 10:00:55+00:00,f1100f97f7a06fcbebcf18b2c46e7f8f89fdd65b,"Do not always set scope for panes because the window check might fail,
+GitHub issue 1810.",nicm,https://github.com/tmux/tmux/commit/f1100f97f7a06fcbebcf18b2c46e7f8f89fdd65b,1810.0,1810.0,2019-06-23 10:00:55+00:00,True,2019-12-01 08:55:42+00:00,160.95471064814814,2019-06-23 12:02:26+00:00,0.08438657407407407
+2019-07-01 08:06:47+00:00,2da050413c17e587be8bede710112096ce6b5f5a,"Add a ""fill"" style attribute to clear the entire format drawing area in
+a colour, GitHub issue 1815.",nicm,https://github.com/tmux/tmux/commit/2da050413c17e587be8bede710112096ce6b5f5a,1815.0,1815.0,2019-07-01 08:06:47+00:00,True,2019-12-01 08:55:42+00:00,153.0339699074074,2019-07-02 22:02:26+00:00,1.5803125
+2019-07-08 20:29:46+00:00,a4be028b76b8cc9c2066e30db8dc3866b52418ef,"Clear search marks before resize, GitHub issue 1823.",nicm,https://github.com/tmux/tmux/commit/a4be028b76b8cc9c2066e30db8dc3866b52418ef,1823.0,1823.0,2019-07-08 20:29:46+00:00,True,2019-12-01 08:55:42+00:00,145.51800925925926,2019-07-08 22:02:26+00:00,0.06435185185185185
+2019-07-09 12:45:04+00:00,b74b8be680bb7ca0a6952adafd29d97e85da5c67,"Add j and k for navigation in menus, GitHub issue 1828.",nicm,https://github.com/tmux/tmux/commit/b74b8be680bb7ca0a6952adafd29d97e85da5c67,1828.0,1828.0,2019-07-09 12:45:04+00:00,True,2019-12-01 08:55:42+00:00,144.8407175925926,2019-07-09 14:02:25+00:00,0.05371527777777778
+2019-07-09 12:45:15+00:00,ddf53d6e4e76463e6d777b2de7304572333935e9,"Correctly adjust mouse position if the status line is at the top and
+more than one line. GitHub issue 1822.",nicm,https://github.com/tmux/tmux/commit/ddf53d6e4e76463e6d777b2de7304572333935e9,1822.0,1822.0,2019-07-09 12:45:15+00:00,True,2019-12-01 08:55:42+00:00,144.84059027777778,2019-07-09 14:02:25+00:00,0.05358796296296296
+2019-07-09 13:19:44+00:00,ad11d49d640c911b42c5292b5f5b7dbdffb4908b,"Do not leak empty lines, GitHub issue 1824.",nicm,https://github.com/tmux/tmux/commit/ad11d49d640c911b42c5292b5f5b7dbdffb4908b,1824.0,1824.0,2019-07-09 13:19:44+00:00,True,2019-12-01 08:55:42+00:00,144.81664351851853,2019-07-09 14:02:25+00:00,0.029641203703703704
+2019-07-10 11:20:27+00:00,f4d858e7a0888cfd1d09c421f71729e833322851,"Add -F to refresh-client to specify flags for control clients - one flag
+at the moment, no-output which turns off forwarding pane output. From
+Thomas Adam. GitHub issue 1834.",nicm,https://github.com/tmux/tmux/commit/f4d858e7a0888cfd1d09c421f71729e833322851,1834.0,1834.0,2019-07-10 11:20:27+00:00,True,2019-12-01 08:55:42+00:00,143.89947916666668,2019-07-10 12:02:26+00:00,0.029155092592592594
+2019-07-16 12:13:55+00:00,b89f2f28bb5f21bfe836870d907ec6992acb5f28,"Fix grid clear code to correctly clear with the default background
+colour rather than ending up with the used count higher than the total
+size, GitHub issue 1829.",nicm,https://github.com/tmux/tmux/commit/b89f2f28bb5f21bfe836870d907ec6992acb5f28,1829.0,1829.0,2019-07-16 12:13:55+00:00,True,2019-12-01 08:55:42+00:00,137.86234953703703,2019-07-16 16:02:25+00:00,0.15868055555555555
+2019-07-16 16:50:50+00:00,99852f8401477e90e0887f1f2964fe6bdca86a57,"Fix check for wrapping when redrawing entire lines, GitHub issue 1836.",nicm,https://github.com/tmux/tmux/commit/99852f8401477e90e0887f1f2964fe6bdca86a57,1836.0,1836.0,2019-07-16 16:50:50+00:00,True,2019-12-01 08:55:42+00:00,137.6700462962963,2019-07-17 20:02:26+00:00,1.1330555555555555
+2019-07-24 21:17:14+00:00,90dba3ec66b712a9a12f7a61fee89d9647c726f6,"Mark pane status line jobs with FORMAT_STATUS also so it redraws when
+they finish, GitHub issue 1852.",nicm,https://github.com/tmux/tmux/commit/90dba3ec66b712a9a12f7a61fee89d9647c726f6,1852.0,1852.0,2019-07-24 21:17:14+00:00,True,2019-12-01 08:55:42+00:00,129.4850462962963,2019-07-24 22:02:30+00:00,0.031435185185185184
+2019-07-27 07:00:01+00:00,8f40f791d9d45fa70ca5d388eba0f4c2a4cf397b,"Change ""lost server"" message to ""server exited unexpectedly"", from Neal
+McBurnett in GitHub issue 1857.",nicm,https://github.com/tmux/tmux/commit/8f40f791d9d45fa70ca5d388eba0f4c2a4cf397b,1857.0,1857.0,2019-07-27 07:00:01+00:00,True,2019-12-01 08:55:42+00:00,127.08033564814815,2019-07-30 12:02:26+00:00,3.2100115740740742
+2019-08-01 14:30:48+00:00,3d660b0023bd1fc8c1f103d214b54e1ac5eb4e4d,"Select the correct word for select-word when already at the start of a
+word, GitHub issue 1820.",nicm,https://github.com/tmux/tmux/commit/3d660b0023bd1fc8c1f103d214b54e1ac5eb4e4d,1820.0,1820.0,2019-08-01 14:30:48+00:00,True,2019-12-01 08:55:42+00:00,121.76729166666667,2019-08-01 16:02:26+00:00,0.06363425925925927
+2019-08-05 06:42:19+00:00,45f4ff54850ff9b448070a96b33e63451f973e33,"Add support for the SD (scroll down) escape sequence, GitHub issue 1861.",nicm,https://github.com/tmux/tmux/commit/45f4ff54850ff9b448070a96b33e63451f973e33,1861.0,1861.0,2019-08-05 06:42:19+00:00,True,2019-12-01 08:55:42+00:00,118.09262731481482,2019-08-06 06:02:33+00:00,0.9723842592592593
+2019-08-05 06:42:19+00:00,79f09b4d855b2339db2c859266135ab1b6368a61,"Add support for the SD (scroll down) escape sequence, GitHub issue 1861.",nicm,https://github.com/tmux/tmux/commit/79f09b4d855b2339db2c859266135ab1b6368a61,1861.0,1861.0,2019-08-05 06:42:19+00:00,True,2019-12-01 08:55:42+00:00,118.09262731481482,2019-08-06 06:02:33+00:00,0.9723842592592593
+2019-08-14 10:02:54+00:00,0f243f03882671f19d35c9bd2decfc94919979fa,"Add -Z flag to rotate-window, select-pane, swap-pane, switch-client to
+preserve zoomed state. GitHub issue 1839.",nicm,https://github.com/tmux/tmux/commit/0f243f03882671f19d35c9bd2decfc94919979fa,1839.0,1839.0,2019-08-14 10:02:54+00:00,True,2019-12-01 08:55:42+00:00,108.95333333333333,2019-08-15 10:02:48+00:00,0.9999305555555555
+2019-08-16 08:52:36+00:00,e85ea9f67dcecab91599a658ad694d8e08514509,"grid_view_delete_cells does need to clear, GitHub issue 1871.",nicm,https://github.com/tmux/tmux/commit/e85ea9f67dcecab91599a658ad694d8e08514509,1871.0,1871.0,2019-08-16 08:52:36+00:00,True,2019-12-01 08:55:42+00:00,107.00215277777778,2019-08-16 10:02:31+00:00,0.048553240740740744
+2019-08-16 08:52:36+00:00,5644d37876faf69ecf9f34cbd52e6cdfab83cf79,"grid_view_delete_cells does need to clear, GitHub issue 1871.",nicm,https://github.com/tmux/tmux/commit/5644d37876faf69ecf9f34cbd52e6cdfab83cf79,1871.0,1871.0,2019-08-16 08:52:36+00:00,True,2019-12-01 08:55:42+00:00,107.00215277777778,2019-08-16 10:02:31+00:00,0.048553240740740744
+2019-08-16 18:35:16+00:00,37583f0a69d22668bdd47e0b30b61d8dac74bdf6,"Add a flag to reverse sort in the various choose modes, from Benjamin
+Poirier in GitHub issue 1875.",nicm,https://github.com/tmux/tmux/commit/37583f0a69d22668bdd47e0b30b61d8dac74bdf6,1875.0,1875.0,2019-08-16 18:35:16+00:00,True,2019-12-01 08:55:42+00:00,106.59752314814814,2019-08-27 09:02:31+00:00,10.602256944444445
+2019-08-28 07:33:56+00:00,39c55d5b6fcafd9476528ebc1064192c90f559a4,"Fix swap-window -d to work as intended, GitHub issue 1879 from Sam Stuewe.",nicm,https://github.com/tmux/tmux/commit/39c55d5b6fcafd9476528ebc1064192c90f559a4,1879.0,1879.0,2019-08-28 07:33:56+00:00,True,2019-12-01 08:55:42+00:00,95.05678240740741,2019-08-28 19:02:24+00:00,0.47810185185185183
+2019-08-28 07:33:56+00:00,5e4f3714084dc3edcc8f5e9bfcc86faeb92d900a,"Fix swap-window -d to work as intended, GitHub issue 1879 from Sam Stuewe.",nicm,https://github.com/tmux/tmux/commit/5e4f3714084dc3edcc8f5e9bfcc86faeb92d900a,1879.0,1879.0,2019-08-28 07:33:56+00:00,True,2019-12-01 08:55:42+00:00,95.05678240740741,2019-08-28 19:02:24+00:00,0.47810185185185183
+2019-09-08 20:42:41+00:00,9a476c5f29d404128da070f2fe35a66bbe29ed9b,"Fix ""make ctags"", GitHub issue 1888.",Nicholas Marriott,https://github.com/tmux/tmux/commit/9a476c5f29d404128da070f2fe35a66bbe29ed9b,1888.0,1888.0,2019-09-08 20:42:41+00:00,True,2019-12-01 08:55:42+00:00,83.50903935185185,2019-09-09 11:02:32+00:00,0.5971180555555555
+2019-09-13 10:58:54+00:00,4b7e97ba533161e6130b957b91c9bb6aa3da7afa,"Set up format tree for %if, GitHub issue 1896.",nicm,https://github.com/tmux/tmux/commit/4b7e97ba533161e6130b957b91c9bb6aa3da7afa,1896.0,1896.0,2019-09-13 10:58:54+00:00,True,2019-12-01 08:55:42+00:00,78.91444444444444,2019-09-15 23:01:25+00:00,2.501747685185185
+2019-09-13 10:59:22+00:00,a23ce1b45ff8b8999e2817c9e747188c559725e1,"Add window_marked_flag, GitHub issue 1887.",nicm,https://github.com/tmux/tmux/commit/a23ce1b45ff8b8999e2817c9e747188c559725e1,1887.0,1887.0,2019-09-13 10:59:22+00:00,True,2019-12-01 08:55:42+00:00,78.91412037037037,2019-09-15 23:01:25+00:00,2.501423611111111
+2019-09-16 07:48:14+00:00,63e07b245f898af17657c4655f1251aa43e19d0c,"Add push-default and pop-default in styles to change the default colours
+and attributes and use them to restore the previous behaviour of
+window-status-style being the default for window-status-format in the
+status line. From John Drouhard in GitHub issue 1912.",nicm,https://github.com/tmux/tmux/commit/63e07b245f898af17657c4655f1251aa43e19d0c,1912.0,1912.0,2019-09-16 07:48:14+00:00,True,2019-12-01 08:55:42+00:00,76.04685185185186,2019-09-16 15:01:23+00:00,0.3007986111111111
+2019-09-19 11:48:54+00:00,d01847735903496c25e1d24375b911edffa56ef8,"Do not use bright when emulating 256 colours on an 8 colour terminal
+because it is also bold on some terminals. GitHub issue 1914.",nicm,https://github.com/tmux/tmux/commit/d01847735903496c25e1d24375b911edffa56ef8,1914.0,1914.0,2019-09-19 11:48:54+00:00,True,2019-12-01 08:55:42+00:00,72.87972222222223,2019-09-23 17:01:24+00:00,4.217013888888889
+2019-09-19 11:49:14+00:00,647887b794c00285047aa54ac0d44ae50c7847d7,"Add a ""latest"" window-size option which tries to size windows based on
+the most recently used client. From Tommie Gannert in GitHub issue 1869
+based on earlier changes from me.",nicm,https://github.com/tmux/tmux/commit/647887b794c00285047aa54ac0d44ae50c7847d7,1869.0,1869.0,2019-09-19 11:49:14+00:00,True,2019-12-01 08:55:42+00:00,72.87949074074074,2019-09-23 17:01:24+00:00,4.216782407407408
+2019-09-23 17:05:10+00:00,77deef733bfc547325d7c6db3e0274b1c52281b9,"Use the correct size for new windows when window-size is latest,
+reported by Vamsi Krishna Avula in GitHub issue 1917.",nicm,https://github.com/tmux/tmux/commit/77deef733bfc547325d7c6db3e0274b1c52281b9,1917.0,1917.0,2019-09-23 17:05:10+00:00,True,2019-12-01 08:55:42+00:00,68.66009259259259,2019-09-24 11:01:23+00:00,0.7473726851851852
+2019-10-14 11:44:21+00:00,68d59a16cec91d2c2747c8c2862560e89f8f2d31,"Memory leaks, from Igor Wong in GitHub issue 1934.",nicm,https://github.com/tmux/tmux/commit/68d59a16cec91d2c2747c8c2862560e89f8f2d31,1934.0,1934.0,2019-10-14 11:44:21+00:00,True,2019-12-01 08:55:42+00:00,47.88288194444444,2019-10-15 09:01:28+00:00,0.8868865740740741
+2019-10-14 11:44:46+00:00,f18cd5b19c3c8e3941c714f9d7e51914fb5d81f0,"Turn automatic-rename back on if the rename escape sequence is used with
+an empty name, GitHub issue 1921.",nicm,https://github.com/tmux/tmux/commit/f18cd5b19c3c8e3941c714f9d7e51914fb5d81f0,1921.0,1921.0,2019-10-14 11:44:46+00:00,True,2019-12-01 08:55:42+00:00,47.882592592592594,2019-10-15 09:01:28+00:00,0.8865972222222223
+2019-10-14 11:45:02+00:00,47c0405b332e080e483e04752fd93955a8140505,"Some old tmux versions can sometimes generate layout strings which have
+the incorrect size for the top cell. Previously tmux didn't care but now
+that panes can be partly hidden, the size matters and is checked more
+strictly. So add some code to fix up the most common problem and a
+sanity check to reject layouts with any other size problems. Reported by
+Aleksandrs Ledovskis in GitHub issue 1930.",nicm,https://github.com/tmux/tmux/commit/47c0405b332e080e483e04752fd93955a8140505,1930.0,1930.0,2019-10-14 11:45:02+00:00,True,2019-12-01 08:55:42+00:00,47.882407407407406,2019-10-15 09:01:28+00:00,0.8864120370370371
+2019-10-14 11:45:02+00:00,bbe8ebf9c26e45fd8c402627b84b3646db445d45,"Some old tmux versions can sometimes generate layout strings which have
+the incorrect size for the top cell. Previously tmux didn't care but now
+that panes can be partly hidden, the size matters and is checked more
+strictly. So add some code to fix up the most common problem and a
+sanity check to reject layouts with any other size problems. Reported by
+Aleksandrs Ledovskis in GitHub issue 1930.",nicm,https://github.com/tmux/tmux/commit/bbe8ebf9c26e45fd8c402627b84b3646db445d45,1930.0,1930.0,2019-10-14 11:45:02+00:00,True,2019-12-01 08:55:42+00:00,47.882407407407406,2019-10-15 09:01:28+00:00,0.8864120370370371
+2019-11-02 10:51:20+00:00,bad95db8785f4ee6b6e17750500c024642e83134,"Limit lazy resize to panes in attached sessions only - those in
+unattached are likely to have been resized by something like
+split-window where the user probably wants the resize to happen
+immediately. GitHub issue 1963.",nicm,https://github.com/tmux/tmux/commit/bad95db8785f4ee6b6e17750500c024642e83134,1963.0,1963.0,2019-11-02 10:51:20+00:00,True,2019-12-01 08:55:42+00:00,28.919699074074074,2019-11-07 08:01:26+00:00,4.882013888888889
+2019-11-07 07:13:25+00:00,c225262e132ded1b4e1e8c0bd21884e9da78ddb3,"Add -F flag to send-keys to expand formats in search-backward and
+forward copy mode commands, this makes it easier to use the cursor_word
+and cursor_line formats. From Anindya Mukherjee in GitHub issue 1964.",nicm,https://github.com/tmux/tmux/commit/c225262e132ded1b4e1e8c0bd21884e9da78ddb3,1964.0,1964.0,2019-11-07 07:13:25+00:00,True,2019-12-01 08:55:42+00:00,24.071030092592594,2019-11-07 08:01:26+00:00,0.033344907407407406
+2019-11-14 10:06:02+00:00,08b07b1a08ad02f7a195437deead0a60f971e1ee,"Add an option to set the key sent by backspace for those whose system
+uses ^H rather than ^?. GitHub issue 1969.",nicm,https://github.com/tmux/tmux/commit/08b07b1a08ad02f7a195437deead0a60f971e1ee,1969.0,1969.0,2019-11-14 10:06:02+00:00,True,2019-12-01 08:55:42+00:00,16.951157407407408,2019-11-14 16:01:25+00:00,0.2467939814814815
+2019-11-20 21:20:55+00:00,3c312a915094fe566c323aee35387d144cdeb6b2,"Do not check the client readonly flag when there is no client, GitHub issue 1980.",nicm,https://github.com/tmux/tmux/commit/3c312a915094fe566c323aee35387d144cdeb6b2,1980.0,1980.0,2019-11-20 21:20:55+00:00,True,2019-12-01 08:55:42+00:00,10.482488425925926,2019-11-24 20:01:24+00:00,3.9447800925925924
+2019-11-25 22:18:14+00:00,c2fde58701d3d0a55ba15ba6004df7ca009175b9,"Do not clear search marks on cursor movement with vi(1) keys, from Eric
+Pruitt in GitHub issue 1985.",nicm,https://github.com/tmux/tmux/commit/c2fde58701d3d0a55ba15ba6004df7ca009175b9,1985.0,1985.0,2019-11-25 22:18:14+00:00,True,2019-12-01 08:55:42+00:00,5.442685185185185,2019-11-26 00:01:25+00:00,0.07165509259259259
+2019-11-27 20:54:40+00:00,eb4d60b1ce0e2dc917bd47b10a3ce89de840448a,"REG_STARTEND is not portable, but it turns out we don't actually need
+it. From Evan Green, GitHub issue 1982.",nicm,https://github.com/tmux/tmux/commit/eb4d60b1ce0e2dc917bd47b10a3ce89de840448a,1982.0,1982.0,2019-11-27 20:54:40+00:00,True,2019-12-01 08:55:42+00:00,3.5007175925925926,2019-11-27 22:01:24+00:00,0.046342592592592595
+2019-11-27 20:54:40+00:00,1b0cc4503e14932e5f14167102cb2504b7af69da,"REG_STARTEND is not portable, but it turns out we don't actually need
+it. From Evan Green, GitHub issue 1982.",nicm,https://github.com/tmux/tmux/commit/1b0cc4503e14932e5f14167102cb2504b7af69da,1982.0,1982.0,2019-11-27 20:54:40+00:00,True,2019-12-01 08:55:42+00:00,3.5007175925925926,2019-11-27 22:01:24+00:00,0.046342592592592595
+2019-11-28 11:22:04+00:00,7fb8eec8f13bf54b3a6c06763d2cf0b29df51281,"status-left and status-right need push-default also, reported by Eric
+Pruitt in GitHub issue 1989.",nicm,https://github.com/tmux/tmux/commit/7fb8eec8f13bf54b3a6c06763d2cf0b29df51281,1989.0,1989.0,2019-11-28 11:22:04+00:00,True,2019-12-01 08:55:42+00:00,2.8983564814814815,2019-11-28 12:18:41+00:00,0.03931712962962963
+2019-12-11 18:24:06+00:00,ab630f72ed7a076a3e49b6649a49f9d8764a861c,"Allow search across wrapped lines and fix some inconsistencies in how th
+position is represented, GitHub issue 2014 from Anindya Mukherjee.",nicm,https://github.com/tmux/tmux/commit/ab630f72ed7a076a3e49b6649a49f9d8764a861c,2014.0,2014.0,2019-12-11 18:24:06+00:00,True,2020-02-04 07:26:13+00:00,54.543136574074076,2019-12-11 20:01:25+00:00,0.06758101851851851
+2019-12-12 15:08:03+00:00,dcf41ec9275a2a1a87a5943d9ba189d83de67a89,"Do not crash in tree modes if the pane is only 1 in width, reported by
+KOIE Hidetaka in GitHub issue 2015.",nicm,https://github.com/tmux/tmux/commit/dcf41ec9275a2a1a87a5943d9ba189d83de67a89,2015.0,2015.0,2019-12-12 15:08:03+00:00,True,2020-02-04 07:26:13+00:00,53.679282407407406,2019-12-12 15:38:33+00:00,0.021180555555555557
+2019-12-19 09:23:00+00:00,1764f66b7d1ed0e494cfa8967c78ace8728ee86c,"When adding a list with multiple commands to the queue, the next item to
+insert after needs to be the last one added, not the first. Reported by
+Jason Kim in GitHub issue 2023.",nicm,https://github.com/tmux/tmux/commit/1764f66b7d1ed0e494cfa8967c78ace8728ee86c,2023.0,2023.0,2019-12-19 09:23:00+00:00,True,2020-02-04 07:26:13+00:00,46.91890046296297,2019-12-19 10:01:26+00:00,0.026689814814814816
+2019-12-24 09:57:24+00:00,07e37479c214023f5d0107414a6e5f414d37197a,"Fix name of option, GitHub issue 2030.",nicm,https://github.com/tmux/tmux/commit/07e37479c214023f5d0107414a6e5f414d37197a,2030.0,2030.0,2019-12-24 09:57:24+00:00,True,2020-02-04 07:26:13+00:00,41.895011574074076,2019-12-24 12:01:25+00:00,0.08612268518518519
+2019-12-26 11:05:50+00:00,817d199cbb6720f1848452824f7b93cdc1a24111,"Add a number of new formats to inspect what sessions and clients a
+window is present or active in. From Tyler Culp in GitHub issue 2034.",nicm,https://github.com/tmux/tmux/commit/817d199cbb6720f1848452824f7b93cdc1a24111,2034.0,2034.0,2019-12-26 11:05:50+00:00,True,2020-02-04 07:26:13+00:00,39.847488425925924,2019-12-26 12:01:26+00:00,0.03861111111111111
+2019-12-30 21:25:55+00:00,206d878127b4ba4aedb5255b03d71272fa06bcab,"Do not let readonly clients limit the size, suggested by Max Barraclough
+in GitHub issue 2042.",nicm,https://github.com/tmux/tmux/commit/206d878127b4ba4aedb5255b03d71272fa06bcab,2042.0,2042.0,2019-12-30 21:25:55+00:00,True,2020-02-04 07:26:13+00:00,35.416875,2019-12-30 22:01:25+00:00,0.024652777777777777
+2020-01-02 13:44:33+00:00,a770a3bf7ea8370b850b19a50f2d4839b44c4a1f,"Add CMD_FIND_DEFAULT_MARKED to join-pane like move-pane, from
+davidegirardi in GitHub issue 2046.",nicm,https://github.com/tmux/tmux/commit/a770a3bf7ea8370b850b19a50f2d4839b44c4a1f,2046.0,2046.0,2020-01-02 13:44:33+00:00,True,2020-02-04 07:26:13+00:00,32.73726851851852,2020-01-02 14:01:26+00:00,0.011724537037037037
+2020-01-05 13:49:40+00:00,7c6c66cc3cc40b663fc2ba8573f26a6aa4cb291e,"Send errors to stdout in control mode so they don't get reordered with
+other output, reported by George Nachman in GitHub issue 2048.",nicm,https://github.com/tmux/tmux/commit/7c6c66cc3cc40b663fc2ba8573f26a6aa4cb291e,2048.0,2048.0,2020-01-05 13:49:40+00:00,True,2020-02-04 07:26:13+00:00,29.733715277777776,2020-01-05 14:01:23+00:00,0.008136574074074074
+2020-01-13 07:52:33+00:00,04eee2410df4a85005c9562db13a1fec93d7c2e4,"Treat plausible but invalid keys (like C-BSpace) as literal like any
+other unrecognised string passed to send-keys. Reported by Anthony
+Sottile in GitHub issue 2049.",nicm,https://github.com/tmux/tmux/commit/04eee2410df4a85005c9562db13a1fec93d7c2e4,2049.0,2049.0,2020-01-13 07:52:33+00:00,True,2020-02-04 07:26:13+00:00,21.981712962962963,2020-01-13 10:01:27+00:00,0.08951388888888889
+2020-01-25 16:40:55+00:00,9169ee0e874a9e4c46eda77abca075b9ec38dbb6,"Mention swap-window -d, GitHub issue 2068.",nicm,https://github.com/tmux/tmux/commit/9169ee0e874a9e4c46eda77abca075b9ec38dbb6,2068.0,2068.0,2020-01-25 16:40:55+00:00,True,2020-02-04 07:26:13+00:00,9.614791666666667,2020-01-25 18:01:26+00:00,0.055914351851851854
+2020-01-25 16:42:37+00:00,74b424075c6d0ee668343936624b12cea10f3f19,"Use FNM_IGNORECASE if present, from Eric N Vander Weele in GitHub issue 2067.",Nicholas Marriott,https://github.com/tmux/tmux/commit/74b424075c6d0ee668343936624b12cea10f3f19,2067.0,2067.0,2020-01-25 16:42:37+00:00,True,2020-02-04 07:26:13+00:00,9.613611111111112,2020-01-25 18:01:26+00:00,0.054733796296296294
+2020-01-27 08:24:17+00:00,2e39b621c9b29b58b4bfe761989b14f0f13d07b6,"Change so that assignments may be specified alone - a command isn't
+required. GitHub issue 2062.",nicm,https://github.com/tmux/tmux/commit/2e39b621c9b29b58b4bfe761989b14f0f13d07b6,2062.0,2062.0,2020-01-27 08:24:17+00:00,True,2020-02-04 07:26:13+00:00,7.959675925925926,2020-01-27 10:01:27+00:00,0.06747685185185186
+2020-01-27 08:53:23+00:00,d0b8d036be97efc885f879aa63ce9bbb0efd8222,"Add support for adding a note to a key binding (with bind-key -N) and
+use this to add descriptions to the default key bindings. A new -N flag
+to list-keys shows key bindings with notes rather than the default
+bind-key command used to create them. Change the default ? binding to
+use this to show a readable summary of keys.
+
+Also extend command-prompt to return the name of the key pressed and add
+a default binding (/) to show the note for the next key pressed
+
+Suggested by Alex Tremblay in GitHub issue 2000.",nicm,https://github.com/tmux/tmux/commit/d0b8d036be97efc885f879aa63ce9bbb0efd8222,2000.0,2000.0,2020-01-27 08:53:23+00:00,True,2020-02-04 07:26:13+00:00,7.939467592592592,2020-01-27 10:01:27+00:00,0.047268518518518515
+2020-02-03 13:46:33+00:00,265164d251f427bf9275c355a4f205c781d70b20,"Instead of passing titles through vis() which doubles backslashes, just
+ignore any containing control characters or invalid UTF-8. GitHub issue 2070.",nicm,https://github.com/tmux/tmux/commit/265164d251f427bf9275c355a4f205c781d70b20,2070.0,2070.0,2020-02-03 13:46:33+00:00,True,2020-02-04 07:26:13+00:00,0.7358796296296296,2020-02-03 14:01:25+00:00,0.010324074074074074
+2020-03-02 08:30:36+00:00,8be179de4669a76464d664d9af6b3301ca3f286d,"Use current session for cwd of new sessions, not the new session which
+doesn't have one yet. GitHub issue 2091.",nicm,https://github.com/tmux/tmux/commit/8be179de4669a76464d664d9af6b3301ca3f286d,2091.0,2091.0,2020-03-02 08:30:36+00:00,True,2020-04-29 20:03:31+00:00,58.481192129629626,2020-03-02 23:09:48+00:00,0.6105555555555555
+2020-03-17 12:05:47+00:00,115bb33257ece9eec1c890cc04683227678a895f,"Ignore default-shell (and use /bin/sh) if it invalid not just if it is
+tmux itself, also refuse to set the option to something invalid in the
+first place. GitHub issue 2120.",nicm,https://github.com/tmux/tmux/commit/115bb33257ece9eec1c890cc04683227678a895f,2120.0,2120.0,2020-03-17 12:05:47+00:00,True,2020-04-29 20:03:31+00:00,43.33175925925926,2020-03-17 14:01:25+00:00,0.08030092592592593
+2020-03-18 16:59:24+00:00,7815b30c7d15cc5a728687de3a54f032c77cb4e3,"Terminate the output buffer for control mode output - it is now used as
+a string. GitHub issue 2114.",nicm,https://github.com/tmux/tmux/commit/7815b30c7d15cc5a728687de3a54f032c77cb4e3,2114.0,2114.0,2020-03-18 16:59:24+00:00,True,2020-04-29 20:03:31+00:00,42.127858796296294,2020-03-19 14:01:31+00:00,0.8764699074074074
+2020-03-18 16:59:24+00:00,4ffbebedce48d1758e082a82cbe9292fee358992,"Terminate the output buffer for control mode output - it is now used as
+a string. GitHub issue 2114.",nicm,https://github.com/tmux/tmux/commit/4ffbebedce48d1758e082a82cbe9292fee358992,2114.0,2114.0,2020-03-18 16:59:24+00:00,True,2020-04-29 20:03:31+00:00,42.127858796296294,2020-03-19 14:01:31+00:00,0.8764699074074074
+2020-03-21 13:35:47+00:00,af6ae35900a066389c1c9b4dbd430b557fcb8816,"Set end position correctly, GitHub issue 2129 from Anindya Mukherjee.",nicm,https://github.com/tmux/tmux/commit/af6ae35900a066389c1c9b4dbd430b557fcb8816,2129.0,2129.0,2020-03-21 13:35:47+00:00,True,2020-04-29 20:03:31+00:00,39.26925925925926,2020-03-21 14:01:27+00:00,0.017824074074074076
+2020-03-31 15:02:36+00:00,2a4714e76b3a85b3391b05413f36623bcb1493f9,Add session_path from Chris Ruegge in GitHub issue 2142.,nicm,https://github.com/tmux/tmux/commit/2a4714e76b3a85b3391b05413f36623bcb1493f9,2142.0,2142.0,2020-03-31 15:02:36+00:00,True,2020-04-29 20:03:31+00:00,29.208969907407408,2020-03-31 19:01:34+00:00,0.16594907407407408
+2020-03-31 15:02:36+00:00,2ca95840d16e2292d3560ec30f4f24dc9e2eedb2,Add session_path from Chris Ruegge in GitHub issue 2142.,nicm,https://github.com/tmux/tmux/commit/2ca95840d16e2292d3560ec30f4f24dc9e2eedb2,2142.0,2142.0,2020-03-31 15:02:36+00:00,True,2020-04-29 20:03:31+00:00,29.208969907407408,2020-03-31 19:01:34+00:00,0.16594907407407408
+2020-04-01 08:42:52+00:00,e6cddcf752b335cb945bba4619b500b527cfee0a,"Add a -T flag to resize-pane to trim lines below the cursor, moving
+lines out of the history. GitHub issue 2134.",nicm,https://github.com/tmux/tmux/commit/e6cddcf752b335cb945bba4619b500b527cfee0a,2134.0,2134.0,2020-04-01 08:42:52+00:00,True,2020-04-29 20:03:31+00:00,28.472673611111112,2020-04-01 09:01:30+00:00,0.012939814814814815
+2020-04-01 08:42:52+00:00,e221ef203c8d21e6ef3f6847c076c915ba1d9788,"Add a -T flag to resize-pane to trim lines below the cursor, moving
+lines out of the history. GitHub issue 2134.",nicm,https://github.com/tmux/tmux/commit/e221ef203c8d21e6ef3f6847c076c915ba1d9788,2134.0,2134.0,2020-04-01 08:42:52+00:00,True,2020-04-29 20:03:31+00:00,28.472673611111112,2020-04-01 09:01:30+00:00,0.012939814814814815
+2020-04-01 09:18:53+00:00,0dbf4145788cda92b983037e3a7dcdd9a8997e23,"Performance improvements for regex searching, most notably:
+
+- Use the grid data directly instead of copying it.
+
+- Special case the most typical one byte character cells and use memcmp
+  for multiple bytes instead of a handrolled loop.
+
+- Hoist regcomp out of the loop into the calling functions.
+
+GitHub issue 2143.
+
+Also a man page from from jmc@.",nicm,https://github.com/tmux/tmux/commit/0dbf4145788cda92b983037e3a7dcdd9a8997e23,2143.0,2143.0,2020-04-01 09:18:53+00:00,True,2020-04-29 20:03:31+00:00,28.447662037037038,2020-04-01 11:01:27+00:00,0.07122685185185185
+2020-04-01 09:18:53+00:00,89d2a20e561878f3fee11005369c1d56b9a08c38,"Performance improvements for regex searching, most notably:
+
+- Use the grid data directly instead of copying it.
+
+- Special case the most typical one byte character cells and use memcmp
+  for multiple bytes instead of a handrolled loop.
+
+- Hoist regcomp out of the loop into the calling functions.
+
+GitHub issue 2143.
+
+Also a man page from from jmc@.",nicm,https://github.com/tmux/tmux/commit/89d2a20e561878f3fee11005369c1d56b9a08c38,2143.0,2143.0,2020-04-01 09:18:53+00:00,True,2020-04-29 20:03:31+00:00,28.447662037037038,2020-04-01 11:01:27+00:00,0.07122685185185185
+2020-04-01 09:18:53+00:00,46ed81fc45c26e383e6bb97b0bf624a3087b217f,"Performance improvements for regex searching, most notably:
+
+- Use the grid data directly instead of copying it.
+
+- Special case the most typical one byte character cells and use memcmp
+  for multiple bytes instead of a handrolled loop.
+
+- Hoist regcomp out of the loop into the calling functions.
+
+GitHub issue 2143.
+
+Also a man page from from jmc@.",nicm,https://github.com/tmux/tmux/commit/46ed81fc45c26e383e6bb97b0bf624a3087b217f,2143.0,2143.0,2020-04-01 09:18:53+00:00,True,2020-04-29 20:03:31+00:00,28.447662037037038,2020-04-01 11:01:27+00:00,0.07122685185185185
+2020-04-02 05:35:45+00:00,90f4e149c1b8c2211727d5e9c3eecf8f4dd9b151,"Add a W position to display-menu -y to use the line above (or below) the
+status line containing the window list. Leave S meaning above (or below)
+all status lines. GitHub issue 2145.",nicm,https://github.com/tmux/tmux/commit/90f4e149c1b8c2211727d5e9c3eecf8f4dd9b151,2145.0,2145.0,2020-04-02 05:35:45+00:00,True,2020-04-29 20:03:31+00:00,27.60261574074074,2020-04-02 07:01:29+00:00,0.059537037037037034
+2020-04-15 16:02:52+00:00,1e72f5ea4356a102e12c0b5325d4af824899d39c,"Use mode-style for selected items, like choose modes. GitHub issue 2166.",nicm,https://github.com/tmux/tmux/commit/1e72f5ea4356a102e12c0b5325d4af824899d39c,2166.0,2166.0,2020-04-15 16:02:52+00:00,True,2020-04-29 20:03:31+00:00,14.167118055555555,2020-04-15 17:01:27+00:00,0.04068287037037037
+2020-04-16 20:37:07+00:00,9311ed049b2dba24d562e34ae17af0f5e316784e,"Start menu with top item selected if no mouse, GitHub issue 2169.",nicm,https://github.com/tmux/tmux/commit/9311ed049b2dba24d562e34ae17af0f5e316784e,2169.0,2169.0,2020-04-16 20:37:07+00:00,True,2020-04-29 20:03:31+00:00,12.976666666666667,2020-04-16 23:01:35+00:00,0.10032407407407408
+2020-04-22 10:00:27+00:00,b72498c4ff0566d377a4757d1393817627c281ec,"Update the cursor position when deleting lines from screens without
+history, GitHub issue 2173.",nicm,https://github.com/tmux/tmux/commit/b72498c4ff0566d377a4757d1393817627c281ec,2173.0,2173.0,2020-04-22 10:00:27+00:00,True,2020-04-29 20:03:31+00:00,7.418796296296296,2020-04-22 11:01:38+00:00,0.04248842592592592
+2020-04-22 10:00:27+00:00,4b5a16567a7ceb1990bdaa821c12061ed80144f5,"Update the cursor position when deleting lines from screens without
+history, GitHub issue 2173.",nicm,https://github.com/tmux/tmux/commit/4b5a16567a7ceb1990bdaa821c12061ed80144f5,2173.0,2173.0,2020-04-22 10:00:27+00:00,True,2020-04-29 20:03:31+00:00,7.418796296296296,2020-04-22 11:01:38+00:00,0.04248842592592592
+2020-04-24 08:56:11+00:00,950af3363678de5b88cb6713f4837f1001e46d47,"Improve join-pane, move-pane and break-pane:
+
+- There is no need for join-pane and move-pane to be different.
+- break-pane can just behave like move-window if the source has only one
+  pane, instead of failing.
+- Add -a to break-pane like move-window.
+
+Also add missing man page bits for previous window-tree.c changes.
+
+GitHub issue 2176.",nicm,https://github.com/tmux/tmux/commit/950af3363678de5b88cb6713f4837f1001e46d47,2176.0,2176.0,2020-04-24 08:56:11+00:00,True,2020-04-29 20:03:31+00:00,5.463425925925926,2020-04-27 09:01:27+00:00,3.0036574074074074
+2020-04-24 08:56:11+00:00,e46cf86d307546e2f31e54e1af59d8e275a60269,"Improve join-pane, move-pane and break-pane:
+
+- There is no need for join-pane and move-pane to be different.
+- break-pane can just behave like move-window if the source has only one
+  pane, instead of failing.
+- Add -a to break-pane like move-window.
+
+Also add missing man page bits for previous window-tree.c changes.
+
+GitHub issue 2176.",nicm,https://github.com/tmux/tmux/commit/e46cf86d307546e2f31e54e1af59d8e275a60269,2176.0,2176.0,2020-04-24 08:56:11+00:00,True,2020-04-29 20:03:31+00:00,5.463425925925926,2020-04-27 09:01:27+00:00,3.0036574074074074
+2020-05-10 09:01:47+00:00,5fa377d9273ee609784acc538a5defa09feb3095,"Do not loop forever when search finds an empty match, GitHub issue 2203.",Nicholas Marriott,https://github.com/tmux/tmux/commit/5fa377d9273ee609784acc538a5defa09feb3095,2203.0,2203.0,2020-05-10 09:01:47+00:00,True,2020-10-30 12:16:36+00:00,173.13528935185184,2020-05-13 00:05:04+00:00,2.6272800925925925
+2020-05-10 09:01:47+00:00,126bacb473f7950a156944caba42fad5f1764287,"Do not loop forever when search finds an empty match, GitHub issue 2203.",nicm,https://github.com/tmux/tmux/commit/126bacb473f7950a156944caba42fad5f1764287,2203.0,2203.0,2020-05-10 09:01:47+00:00,True,2020-10-30 12:16:36+00:00,173.13528935185184,2020-05-13 00:05:04+00:00,2.6272800925925925
+2020-05-10 15:55:24+00:00,dceb6a15d04a2b2e050ab41816d0df3fe224b416,"Add a -D flag to ask tmux not to daemonize, useful both for running a
+debugger (lldb does not have follow-fork-mode) and for running with a
+managed supervisor init system. GitHub issue 2190.",nicm,https://github.com/tmux/tmux/commit/dceb6a15d04a2b2e050ab41816d0df3fe224b416,2190.0,2190.0,2020-05-10 15:55:24+00:00,True,2020-10-30 12:16:36+00:00,172.84805555555556,2020-05-13 00:05:04+00:00,2.3400462962962965
+2020-05-10 15:55:24+00:00,d01e7aac89fefff31e668ac2d668c84c345b9e67,"Add a -D flag to ask tmux not to daemonize, useful both for running a debugger
+(lldb does not have follow-fork-mode) and for running with a managed supervisor
+init system. GitHub issue 2190.",Nicholas Marriott,https://github.com/tmux/tmux/commit/d01e7aac89fefff31e668ac2d668c84c345b9e67,2190.0,2190.0,2020-05-10 15:55:24+00:00,True,2020-10-30 12:16:36+00:00,172.84805555555556,2020-05-13 00:05:04+00:00,2.3400462962962965
+2020-05-11 08:18:40+00:00,c489bf0a1e5d1ef7dfd886a95b638fa7bfa1fbe2,"Support embedded styles in the display-message message, GitHub issue 2206.",Nicholas Marriott,https://github.com/tmux/tmux/commit/c489bf0a1e5d1ef7dfd886a95b638fa7bfa1fbe2,2206.0,2206.0,2020-05-11 08:18:40+00:00,True,2020-10-30 12:16:36+00:00,172.16523148148147,2020-05-13 00:05:04+00:00,1.6572222222222222
+2020-05-29 16:25:24+00:00,6214cd07264b393fd751271791870f1e8f251371,"Add a mark in copy mode. Set with set-mark command (bound to 'X') by default
+and the mark and cursor position are swapped with 'jump-to-mark' (bound to
+M-x). The line containing the mark is shown in copy-mode-mark-style with the
+horizontal position in reverse.
+
+From Anindya Mukherjee in GitHub issue 2209.",Nicholas Marriott,https://github.com/tmux/tmux/commit/6214cd07264b393fd751271791870f1e8f251371,2209.0,2209.0,2020-05-29 16:25:24+00:00,True,2020-10-30 12:16:36+00:00,153.82722222222222,2020-06-01 11:01:20+00:00,2.7749537037037038
+2020-05-29 16:25:24+00:00,ff8dd150e0c59b37d9a4942e499a2a025820db8d,"Add a mark in copy mode. Set with set-mark command (bound to 'X') by
+default and the mark and cursor position are swapped with 'jump-to-mark'
+(bound to M-x). The line containing the mark is shown in
+copy-mode-mark-style with the horizontal position in reverse.
+
+From Anindya Mukherjee in GitHub issue 2209.",nicm,https://github.com/tmux/tmux/commit/ff8dd150e0c59b37d9a4942e499a2a025820db8d,2209.0,2209.0,2020-05-29 16:25:24+00:00,True,2020-10-30 12:16:36+00:00,153.82722222222222,2020-06-01 11:01:20+00:00,2.7749537037037038
+2020-06-01 16:09:47+00:00,674ec410b7ecf14fa24e9c3987469a4d9da599c1,"Try without cursor/keypad flags if a key doesn't exist, and limit ctrl
+key translation to ASCII keys. Fixes send-keys, GitHub issue 2247.",nicm,https://github.com/tmux/tmux/commit/674ec410b7ecf14fa24e9c3987469a4d9da599c1,2247.0,2247.0,2020-06-01 16:09:47+00:00,True,2020-10-30 12:16:36+00:00,150.83806712962962,2020-06-01 17:01:18+00:00,0.03577546296296296
+2020-06-03 17:05:52+00:00,3f6af4156f451cfbee867babe74cc6675eb3f947,"Make paste -p the default for ], GitHub issue 2248.",nicm,https://github.com/tmux/tmux/commit/3f6af4156f451cfbee867babe74cc6675eb3f947,2248.0,2248.0,2020-06-03 17:05:52+00:00,True,2020-10-30 12:16:36+00:00,148.79912037037036,2020-06-04 09:01:20+00:00,0.6635185185185185
+2020-06-04 21:42:20+00:00,d9cd493d093f14b934343a2e57998c86fbca2ef7,"Reset wrapped flag when clearing or moving lines, GitHub issue 2215.",nicm,https://github.com/tmux/tmux/commit/d9cd493d093f14b934343a2e57998c86fbca2ef7,2215.0,2215.0,2020-06-04 21:42:20+00:00,True,2020-10-30 12:16:36+00:00,147.60712962962964,2020-06-04 23:01:19+00:00,0.05484953703703704
+2020-06-05 09:36:44+00:00,c4732af0067d8cf8d2e45fa78ded6b8f308ec779,"Some improvements to performance of searching:
+
+- Do not allow searches to be repeated at intervals of less than 50
+  milliseconds, to prevent a huge queue of repeat key presses blocking
+  up everything for ages.
+
+- If the search text hasn't changed, the match count can't have changed
+  and there is no need to do a full search, so only search the visible
+  text. This includes both scrolling and repeating the search.
+
+- Do not redraw twice when jumping to the search location.
+
+GitHub issue 2258.",nicm,https://github.com/tmux/tmux/commit/c4732af0067d8cf8d2e45fa78ded6b8f308ec779,2258.0,2258.0,2020-06-05 09:36:44+00:00,True,2020-10-30 12:16:36+00:00,147.1110185185185,2020-06-05 11:01:18+00:00,0.05872685185185185
+2020-06-05 11:22:31+00:00,d919fa1ed0ea3b167ffc811abba26a2dbcd20631,"Change how panes are resized so that the code is clearer and if the pane
+is resized multiple times during one event loop, it is forced to resize
+at the end. Also don't zoom/unzoom in switch-client if the pane hasn't
+changed. GitHub issue 2260.",nicm,https://github.com/tmux/tmux/commit/d919fa1ed0ea3b167ffc811abba26a2dbcd20631,2260.0,2260.0,2020-06-05 11:22:31+00:00,True,2020-10-30 12:16:36+00:00,147.03755787037036,2020-06-05 13:01:19+00:00,0.06861111111111111
+2020-06-11 21:05:22+00:00,63c2ed14833bc543254b8dbd7d244e143a89b736,"Add some formats for search in copy mode (search_present, search_match).
+GitHub issue 2268.",nicm,https://github.com/tmux/tmux/commit/63c2ed14833bc543254b8dbd7d244e143a89b736,2268.0,2268.0,2020-06-11 21:05:22+00:00,True,2020-10-30 12:16:36+00:00,140.63280092592592,2020-06-12 09:01:19+00:00,0.4971875
+2020-06-12 08:49:08+00:00,a54a88edd6fd893d4370feb9f9136e13096b891c,"Instead of sending all data to control mode clients as fast as possible,
+add a limit of how much data will be sent to the client and try to use
+it for panes with some degree of fairness. GitHub issue 2217, with
+George Nachman.",nicm,https://github.com/tmux/tmux/commit/a54a88edd6fd893d4370feb9f9136e13096b891c,2217.0,2217.0,2020-06-12 08:49:08+00:00,True,2020-10-30 12:16:36+00:00,140.14407407407407,2020-06-12 09:01:19+00:00,0.008460648148148148
+2020-06-12 08:49:08+00:00,c586208991e4291450757e3a19739f368aecbe5d,"Add support for pausing a pane when the output buffered for a control
+mode client gets too far behind. The pause-after flag with a time is set
+on the pane with refresh-client -f and a paused pane may be resumed with
+refresh-client -A. GitHub issue 2217.",nicm,https://github.com/tmux/tmux/commit/c586208991e4291450757e3a19739f368aecbe5d,2217.0,2217.0,2020-06-12 08:49:08+00:00,True,2020-10-30 12:16:36+00:00,140.14407407407407,2020-06-12 09:01:19+00:00,0.008460648148148148
+2020-06-13 09:06:07+00:00,1c78155e70a9f72ed6c191807c2b381cf114b91f,"Add -b flags to insert a window before (like the existing -a for after)
+to break-pane, move-window, new-window. GitHub issue 2261.",nicm,https://github.com/tmux/tmux/commit/1c78155e70a9f72ed6c191807c2b381cf114b91f,2261.0,2261.0,2020-06-13 09:06:07+00:00,True,2020-10-30 12:16:36+00:00,139.1322800925926,2020-06-13 11:01:20+00:00,0.08001157407407407
+2020-06-27 10:24:01+00:00,74df7071adf5e721b15c15e9e07c86d1deb86def,"Fix 0x Unicode character parsing, GitHub issue 2286.",nicm,https://github.com/tmux/tmux/commit/74df7071adf5e721b15c15e9e07c86d1deb86def,2286.0,2286.0,2020-06-27 10:24:01+00:00,True,2020-10-30 12:16:36+00:00,125.07818287037037,2020-06-27 11:01:18+00:00,0.025891203703703704
+2020-06-27 10:24:01+00:00,c9b4d5a4a5c98d9d0a074800b5291d3c8b02f4b1,"Fix 0x Unicode character parsing, GitHub issue 2286.",nicm,https://github.com/tmux/tmux/commit/c9b4d5a4a5c98d9d0a074800b5291d3c8b02f4b1,2286.0,2286.0,2020-06-27 10:24:01+00:00,True,2020-10-30 12:16:36+00:00,125.07818287037037,2020-06-27 11:01:18+00:00,0.025891203703703704
+2020-07-03 07:07:56+00:00,43e1577b5d6c40369eb353322f68a12b36d609b0,"Missing word, from annihilannic at hotmail dot com, GitHub issue 2288.",nicm,https://github.com/tmux/tmux/commit/43e1577b5d6c40369eb353322f68a12b36d609b0,2288.0,2288.0,2020-07-03 07:07:56+00:00,True,2020-10-30 12:16:36+00:00,119.21435185185184,2020-07-03 09:01:20+00:00,0.07875
+2020-07-03 07:07:56+00:00,5661346c41fc176c29cc829c177c718ee1775d93,"Missing word, from annihilannic at hotmail dot com, GitHub issue 2288.",nicm,https://github.com/tmux/tmux/commit/5661346c41fc176c29cc829c177c718ee1775d93,2288.0,2288.0,2020-07-03 07:07:56+00:00,True,2020-10-30 12:16:36+00:00,119.21435185185184,2020-07-03 09:01:20+00:00,0.07875
+2020-07-03 11:05:08+00:00,2b1e8d06e18e22e3196c4558f1d300f7088d2417,"Check if client is NULL before using it, GitHub issue 2295.",nicm,https://github.com/tmux/tmux/commit/2b1e8d06e18e22e3196c4558f1d300f7088d2417,2295.0,2295.0,2020-07-03 11:05:08+00:00,True,2020-10-30 12:16:36+00:00,119.04962962962964,2020-07-04 15:01:20+00:00,1.1640277777777779
+2020-07-03 11:05:08+00:00,0d0fc13aaaea2fc32d39ea8cd5564dbadb40c718,"Check if client is NULL before using it, GitHub issue 2295.",nicm,https://github.com/tmux/tmux/commit/0d0fc13aaaea2fc32d39ea8cd5564dbadb40c718,2295.0,2295.0,2020-07-03 11:05:08+00:00,True,2020-10-30 12:16:36+00:00,119.04962962962964,2020-07-04 15:01:20+00:00,1.1640277777777779
+2020-07-06 09:03:06+00:00,2bf612a8066ab75725eeb09adf1ebc0f4fe851ab,Always send xterm-style keys for M-Left and M-Right. GitHub issue 2296.,nicm,https://github.com/tmux/tmux/commit/2bf612a8066ab75725eeb09adf1ebc0f4fe851ab,2296.0,2296.0,2020-07-06 09:03:06+00:00,True,2020-10-30 12:16:36+00:00,116.134375,2020-07-06 11:01:22+00:00,0.08212962962962964
+2020-07-06 13:00:52+00:00,2aa177d102b573e5802f69885e738e554d350e7e,"Do not eliminate redundant clears, the code is wrong and doing it
+correctly wouldn't be worth it. GitHub issue 2298.",nicm,https://github.com/tmux/tmux/commit/2aa177d102b573e5802f69885e738e554d350e7e,2298.0,2298.0,2020-07-06 13:00:52+00:00,True,2020-10-30 12:16:36+00:00,115.96925925925926,2020-07-13 09:01:18+00:00,6.833634259259259
+2020-07-06 13:01:24+00:00,66d5e5de7ac6a81f638d1a2b2f5262368a68fee2,"Add a way for control mode clients to subscribe to a format and be
+notified of changes rather than having to poll. GitHub issue 2242.",nicm,https://github.com/tmux/tmux/commit/66d5e5de7ac6a81f638d1a2b2f5262368a68fee2,2242.0,2242.0,2020-07-06 13:01:24+00:00,True,2020-10-30 12:16:36+00:00,115.96888888888888,2020-07-13 09:01:18+00:00,6.833263888888889
+2020-07-13 07:09:52+00:00,f26b7b7788bdeea4d523ac1699b845350165644e,"Clarify /tmp permissions and use, GitHub issue 2300.",nicm,https://github.com/tmux/tmux/commit/f26b7b7788bdeea4d523ac1699b845350165644e,2300.0,2300.0,2020-07-13 07:09:52+00:00,True,2020-10-30 12:16:36+00:00,109.21300925925927,2020-07-13 09:01:18+00:00,0.07738425925925926
+2020-07-13 10:10:40+00:00,468be2a37f6185b43e6fa08cd1940abd040a7c03,"Do not dereference NULL environment variable value, GitHub issue 2304.",nicm,https://github.com/tmux/tmux/commit/468be2a37f6185b43e6fa08cd1940abd040a7c03,2304.0,2304.0,2020-07-13 10:10:40+00:00,True,2020-10-30 12:16:36+00:00,109.0874537037037,2020-07-13 11:01:17+00:00,0.03515046296296296
+2020-07-16 10:57:10+00:00,1e426896611f81dd6306263cb337e7ea7d80238e,"kill-window -a cannot just walk the list of windows because if
+renumber-windows is on, the window it wants to keep could be moved.
+Change to renumber afterwards and also behave better if the window is
+linked into the session twice. GitHub issue 2287.",nicm,https://github.com/tmux/tmux/commit/1e426896611f81dd6306263cb337e7ea7d80238e,2287.0,2287.0,2020-07-16 10:57:10+00:00,True,2020-10-30 12:16:36+00:00,106.05516203703704,2020-07-18 05:01:20+00:00,1.7528935185185186
+2020-07-21 05:24:38+00:00,743ab5728da1ce950a3782d5bc08831f61c5d744,"Fix show-buffer when run from inside tmux, GitHub issue 2314.",nicm,https://github.com/tmux/tmux/commit/743ab5728da1ce950a3782d5bc08831f61c5d744,2314.0,2314.0,2020-07-21 05:24:38+00:00,True,2020-10-30 12:16:36+00:00,101.28608796296297,2020-07-21 07:01:19+00:00,0.0671412037037037
+2020-07-27 09:21:57+00:00,40e65c511502fe47932e230290537e7391ab8a83,"Add a -d option to display-message to set delay, from theonekeyg at
+gmail dot com in GitHub issue 2322.",nicm,https://github.com/tmux/tmux/commit/40e65c511502fe47932e230290537e7391ab8a83,2322.0,2322.0,2020-07-27 09:21:57+00:00,True,2020-10-30 12:16:36+00:00,95.12128472222223,2020-07-30 09:01:18+00:00,2.985659722222222
+2020-08-06 09:50:14+00:00,8f1179d65685b8f470f91194c685a008422d49e7,"Handle padding cells correctly when searching, GitHub issue 2301.",nicm,https://github.com/tmux/tmux/commit/8f1179d65685b8f470f91194c685a008422d49e7,2301.0,2301.0,2020-08-06 09:50:14+00:00,True,2020-10-30 12:16:36+00:00,85.10164351851851,2020-08-07 09:01:19+00:00,0.9660300925925925
+2020-08-10 09:40:07+00:00,212c0c1f7212b537aafc6f83d848ecf0b804696d,"Do not force line width to grid width because it may need to be larger
+to accomodate a wide character. GitHub issue 2336.",nicm,https://github.com/tmux/tmux/commit/212c0c1f7212b537aafc6f83d848ecf0b804696d,2336.0,2336.0,2020-08-10 09:40:07+00:00,True,2020-10-30 12:16:36+00:00,81.10866898148149,2020-08-19 09:01:19+00:00,8.973055555555556
+2020-08-27 06:56:00+00:00,2ab289980afd7d47a92dfb17d488c127d335b429,"Add pane_last format, GitHub issue 2353.",nicm,https://github.com/tmux/tmux/commit/2ab289980afd7d47a92dfb17d488c127d335b429,2353.0,2353.0,2020-08-27 06:56:00+00:00,True,2020-10-30 12:16:36+00:00,64.2226388888889,2020-08-27 09:01:20+00:00,0.08703703703703704
+2020-09-01 11:02:41+00:00,60860aced8d424ef6c1d527b63842a0ea0f452ad,Add -F to set-environment and source-file; GitHub issue 2359.,nicm,https://github.com/tmux/tmux/commit/60860aced8d424ef6c1d527b63842a0ea0f452ad,2359.0,2359.0,2020-09-01 11:02:41+00:00,True,2020-10-30 12:16:36+00:00,59.05133101851852,2020-09-02 15:01:20+00:00,1.1657291666666667
+2020-09-02 15:15:57+00:00,37b1600d9cf7076498760372dcc20f021e4c181a,"Add a -w flag to set- and load-buffer to send to clipboard using OSC 52.
+GitHub issue 2363.",nicm,https://github.com/tmux/tmux/commit/37b1600d9cf7076498760372dcc20f021e4c181a,2363.0,2363.0,2020-09-02 15:15:57+00:00,True,2020-10-30 12:16:36+00:00,57.87545138888889,2020-09-02 19:01:17+00:00,0.15648148148148147
+2020-09-16 19:13:10+00:00,3206869ea5cbcf0caa9e62ec11edb170aae2cf27,"Add -q flag to unbind-key to hide errors, GitHub issue 2381.",nicm,https://github.com/tmux/tmux/commit/3206869ea5cbcf0caa9e62ec11edb170aae2cf27,2381.0,2381.0,2020-09-16 19:13:10+00:00,True,2020-10-30 12:16:36+00:00,43.710717592592594,2020-09-16 21:01:18+00:00,0.07509259259259259
+2020-09-22 05:25:09+00:00,869c0e860fcf0851ef1751ca9187599913ca056a,"Fix some warnings, GitHub issue 2382.",nicm,https://github.com/tmux/tmux/commit/869c0e860fcf0851ef1751ca9187599913ca056a,2382.0,2382.0,2020-09-22 05:25:09+00:00,True,2020-10-30 12:16:36+00:00,38.28572916666667,2020-09-22 07:01:18+00:00,0.06677083333333333
+2020-09-22 05:25:09+00:00,ed946dccc76f87064f1b8299b6ea332db9ab6c19,"Some other warnings, GitHub issue 2382.",nicm,https://github.com/tmux/tmux/commit/ed946dccc76f87064f1b8299b6ea332db9ab6c19,2382.0,2382.0,2020-09-22 05:25:09+00:00,True,2020-10-30 12:16:36+00:00,38.28572916666667,2020-09-22 07:01:18+00:00,0.06677083333333333
+2020-09-22 05:25:09+00:00,cf8ef63c4a5cbbc29f655a076b2e57c144ad8316,"Fix some warnings, GitHub issue 2382.",Nicholas Marriott,https://github.com/tmux/tmux/commit/cf8ef63c4a5cbbc29f655a076b2e57c144ad8316,2382.0,2382.0,2020-09-22 05:25:09+00:00,True,2020-10-30 12:16:36+00:00,38.28572916666667,2020-09-22 07:01:18+00:00,0.06677083333333333
+2020-10-05 10:01:00+00:00,1479e32e1af82826dbc5a323e22f1a96eb0a692b,"Tidy the resize code, merge some common bits and add some comments. From
+""Mike"" in GitHub issue 2392.",nicm,https://github.com/tmux/tmux/commit/1479e32e1af82826dbc5a323e22f1a96eb0a692b,2392.0,2392.0,2020-10-05 10:01:00+00:00,True,2020-10-30 12:16:36+00:00,25.094166666666666,2020-10-05 11:01:23+00:00,0.04193287037037037
+2020-10-06 07:38:11+00:00,e369f646692e411961a4a7442d71736932929afb,"Add a state struct to store working state during format expansion
+instead of modiyfing the format tree.
+
+Use this to disable nested job expansion so that the result of #() is
+not expanded again. Reported by Chas J Owens IV, GitHub issue 2390.",nicm,https://github.com/tmux/tmux/commit/e369f646692e411961a4a7442d71736932929afb,2390.0,2390.0,2020-10-06 07:38:11+00:00,True,2020-10-30 12:16:36+00:00,24.193344907407408,2020-10-06 09:01:20+00:00,0.057743055555555554
+2020-10-07 08:40:08+00:00,991d5a9c74f658225cc82e0b08d168c092eefdbe,"Add compat for getdtablesize, GitHub issue 2406.",Nicholas Marriott,https://github.com/tmux/tmux/commit/991d5a9c74f658225cc82e0b08d168c092eefdbe,2406.0,2406.0,2020-10-07 08:40:08+00:00,True,2020-10-30 12:16:36+00:00,23.150324074074074,2020-10-07 09:01:19+00:00,0.014710648148148148
+2020-10-07 09:03:48+00:00,3afcc6faac828be21da68576d196f5ab344f84d5,"Allow fnmatch(3) wildcards in update-environment, GitHub issue 2397.",nicm,https://github.com/tmux/tmux/commit/3afcc6faac828be21da68576d196f5ab344f84d5,2397.0,2397.0,2020-10-07 09:03:48+00:00,True,2020-10-30 12:16:36+00:00,23.13388888888889,2020-10-09 21:01:22+00:00,2.498310185185185
+2020-10-13 07:29:31+00:00,977cf3cf697153c827724988db9e715cf4af2a67,"Set RGB flag if capabilities are present, GitHub issue 2418.",nicm,https://github.com/tmux/tmux/commit/977cf3cf697153c827724988db9e715cf4af2a67,2418.0,2418.0,2020-10-13 07:29:31+00:00,True,2020-10-30 12:16:36+00:00,17.199363425925927,2020-10-13 09:01:19+00:00,0.06375
+2020-10-13 07:29:31+00:00,d603dbdef007c879dfb812d569289119e61b4d3f,"Set RGB flag if capabilities are present, GitHub issue 2418.",nicm,https://github.com/tmux/tmux/commit/d603dbdef007c879dfb812d569289119e61b4d3f,2418.0,2418.0,2020-10-13 07:29:31+00:00,True,2020-10-30 12:16:36+00:00,17.199363425925927,2020-10-13 09:01:19+00:00,0.06375
+2020-10-19 08:34:14+00:00,d8cda9286ff1157ed46126bc4a797b08bb9436ae,"Client could be NULL in select-window (for example in .tmux.conf), do
+not set latest session if so. GitHub issue 2429 from Han Boetes.",nicm,https://github.com/tmux/tmux/commit/d8cda9286ff1157ed46126bc4a797b08bb9436ae,2429.0,2429.0,2020-10-19 08:34:14+00:00,True,2020-10-30 12:16:36+00:00,11.154421296296297,2020-10-19 09:01:18+00:00,0.018796296296296297
+2020-10-19 08:34:14+00:00,7ffb41429955b714f8b872fe375360e615a05003,"Client could be NULL in select-window (for example in .tmux.conf), do
+not set latest session if so. GitHub issue 2429 from Han Boetes.",nicm,https://github.com/tmux/tmux/commit/7ffb41429955b714f8b872fe375360e615a05003,2429.0,2429.0,2020-10-19 08:34:14+00:00,True,2020-10-30 12:16:36+00:00,11.154421296296297,2020-10-19 09:01:18+00:00,0.018796296296296297
+2020-10-30 08:25:36+00:00,b33a302235affc19d8a1d8f7473fe589d1bcd17e,"Do not require that there be no other clients before loading the config,
+being the first client is enough. GitHub issue 2438.",nicm,https://github.com/tmux/tmux/commit/b33a302235affc19d8a1d8f7473fe589d1bcd17e,2438.0,2438.0,2020-10-30 08:25:36+00:00,True,2020-10-30 12:16:36+00:00,0.16041666666666668,2020-10-30 10:01:22+00:00,0.06650462962962964
+2020-10-30 08:25:36+00:00,7a4aa146187cc60d2df66333b3e7dd5a5176f793,"Do not require that there be no other clients before loading the config,
+being the first client is enough. GitHub issue 2438.",nicm,https://github.com/tmux/tmux/commit/7a4aa146187cc60d2df66333b3e7dd5a5176f793,2438.0,2438.0,2020-10-30 08:25:36+00:00,True,2020-10-30 12:16:36+00:00,0.16041666666666668,2020-10-30 10:01:22+00:00,0.06650462962962964
+2020-10-30 09:00:20+00:00,910457f68dfc04c491f31d773788c61300f3f8c7,"There is no reason not to fire focus events when a pane is in a mode,
+GitHub issue 2372.",nicm,https://github.com/tmux/tmux/commit/910457f68dfc04c491f31d773788c61300f3f8c7,2372.0,2372.0,2020-10-30 09:00:20+00:00,True,2020-10-30 12:16:36+00:00,0.1362962962962963,2020-10-30 10:01:22+00:00,0.04238425925925926
+2020-11-06 17:23:45+00:00,ac5045a00f1fee2ca94aef063e6a5a3d2efce3f1,"Add numeric comparisons for formats, from teo_paul1 at yahoo dot com in
+GitHub issue 2442.",nicm,https://github.com/tmux/tmux/commit/ac5045a00f1fee2ca94aef063e6a5a3d2efce3f1,2442.0,2442.0,2020-11-06 17:23:45+00:00,True,2021-04-13 07:45:10+00:00,157.5982060185185,2020-11-09 10:01:27+00:00,2.6928472222222224
+2020-11-06 17:23:45+00:00,9d83c5e94827db0248226149cffee23296c851aa,"Expand menu and popup -x and -y as a format, from teo_paul1 at yahoo dot
+com in GitHub issue 2442.",nicm,https://github.com/tmux/tmux/commit/9d83c5e94827db0248226149cffee23296c851aa,2442.0,2442.0,2020-11-06 17:23:45+00:00,True,2021-04-13 07:45:10+00:00,157.5982060185185,2020-11-09 10:01:27+00:00,2.6928472222222224
+2020-11-09 09:01:32+00:00,72c46aa15e50ef6391ab3fe6e230ed3abc9485b0,"Add support for Haiku, from David Carlier. GitHub issue 2453.",Nicholas Marriott,https://github.com/tmux/tmux/commit/72c46aa15e50ef6391ab3fe6e230ed3abc9485b0,2453.0,2453.0,2020-11-09 09:01:32+00:00,True,2021-04-13 07:45:10+00:00,154.94696759259259,2020-11-09 10:01:27+00:00,0.041608796296296297
+2020-11-09 09:12:16+00:00,61e55fa50dc7119a8c88bb385e615a8e6c8d6a85,"Change how escaping is processed for formats so that ## and # can be
+used in styles. Also add a 'w' format modifier for the width. From Chas
+J Owens IV in GitHub issue 2389.",nicm,https://github.com/tmux/tmux/commit/61e55fa50dc7119a8c88bb385e615a8e6c8d6a85,2389.0,2389.0,2020-11-09 09:12:16+00:00,True,2021-04-13 07:45:10+00:00,154.93951388888888,2020-11-09 10:01:27+00:00,0.03415509259259259
+2020-11-09 10:54:55+00:00,f1193b48910aed15a2c73cdb5784a26f2ea0f64c,"If mouse bits change, clear them all and set again to avoid problems
+with some bits implying others. GitHub issue 2458.",nicm,https://github.com/tmux/tmux/commit/f1193b48910aed15a2c73cdb5784a26f2ea0f64c,2458.0,2458.0,2020-11-09 10:54:55+00:00,True,2021-04-13 07:45:10+00:00,154.86822916666668,2020-11-09 12:01:21+00:00,0.04613425925925926
+2020-11-26 09:19:29+00:00,76cfb5f471ac785b133cdfd6ec53a5097c0bdf3c,"Add -N flag to display-panes to ignore keys, GitHub issue 2473.",nicm,https://github.com/tmux/tmux/commit/76cfb5f471ac785b133cdfd6ec53a5097c0bdf3c,2473.0,2473.0,2020-11-26 09:19:29+00:00,True,2021-04-13 07:45:10+00:00,137.9345023148148,2020-11-26 10:01:21+00:00,0.029074074074074075
+2020-11-30 13:41:07+00:00,33046ecee2090a7ff733097d1c05d377936b3e5f,"Ignore running command when checking for no-hooks flag if it is blocked.
+GitHub issue 2483.",nicm,https://github.com/tmux/tmux/commit/33046ecee2090a7ff733097d1c05d377936b3e5f,2483.0,2483.0,2020-11-30 13:41:07+00:00,True,2021-04-13 07:45:10+00:00,133.7528125,2020-11-30 16:01:22+00:00,0.09739583333333333
+2020-12-01 08:13:12+00:00,9a74bba007a60b93d1fdf68772e5cfb61b3558ff,"Make replacement of ##s consistent when drawing formats, whether
+followed by [ or not. Add a flag (e) to the q: format modifier to double
+up #s and use it for the window_flags format variable so it doesn't end
+up escaping any following text. GitHub issue 2485.",nicm,https://github.com/tmux/tmux/commit/9a74bba007a60b93d1fdf68772e5cfb61b3558ff,2485.0,2485.0,2020-12-01 08:13:12+00:00,True,2021-04-13 07:45:10+00:00,132.9805324074074,2020-12-01 10:01:22+00:00,0.07511574074074075
+2020-12-07 09:22:27+00:00,fd451aa7962f399250fd166f207451fcf4b9cb94,"Redraw any visible modes when status line changes so that formats like
+the pane title are updated. GitHub issue 2487. Also a man page fix from
+jmc.",nicm,https://github.com/tmux/tmux/commit/fd451aa7962f399250fd166f207451fcf4b9cb94,2487.0,2487.0,2020-12-07 09:22:27+00:00,True,2021-04-13 07:45:10+00:00,126.93244212962964,2020-12-07 10:01:20+00:00,0.027002314814814816
+2020-12-07 09:47:33+00:00,f6095cad993293ec0f1988c1f6ae22921f9d2b2e,"Do not include the status line size when working out the character for
+the pane status line. GitHub issue 2493.",nicm,https://github.com/tmux/tmux/commit/f6095cad993293ec0f1988c1f6ae22921f9d2b2e,2493.0,2493.0,2020-12-07 09:47:33+00:00,True,2021-04-13 07:45:10+00:00,126.91501157407407,2020-12-07 10:01:20+00:00,0.009571759259259259
+2020-12-07 12:13:24+00:00,681c0d2bfbf22a51f90c977d0b3e91d30c23c11e,"Include compat.h after system headers, GitHub issue 2492.",Nicholas Marriott,https://github.com/tmux/tmux/commit/681c0d2bfbf22a51f90c977d0b3e91d30c23c11e,2492.0,2492.0,2020-12-07 12:13:24+00:00,True,2021-04-13 07:45:10+00:00,126.81372685185185,2020-12-15 10:01:22+00:00,7.908310185185186
+2020-12-11 06:37:50+00:00,ed786309ccc7ceb2077f658e689a5f35549bb2bc,"Do not clear the wrapped flag on linefeeds if it is already set - this
+does not appear to be what applications want. GitHub issue 2478 and 2414.",nicm,https://github.com/tmux/tmux/commit/ed786309ccc7ceb2077f658e689a5f35549bb2bc,2478.0,2478.0,2020-12-11 06:37:50+00:00,True,2021-04-13 07:45:10+00:00,123.04675925925926,2020-12-15 10:01:22+00:00,4.141342592592593
+2020-12-15 08:31:52+00:00,8bd29a30bff4e9d50765e2168a7aad11e163ccde,"Make synchronize-panes a pane option and add -U flag to set-option to
+unset an option on all panes. GitHub issue 2491 from Rostislav Nesin.",nicm,https://github.com/tmux/tmux/commit/8bd29a30bff4e9d50765e2168a7aad11e163ccde,2491.0,2491.0,2020-12-15 08:31:52+00:00,True,2021-04-13 07:45:10+00:00,118.96756944444445,2020-12-15 10:01:22+00:00,0.06215277777777778
+2020-12-28 09:36:35+00:00,c68baaad98807963da954bc1aa77c22f2df05ff0,"Remove current match indicator which can't work anymore since we only
+search the visible region. From Anindya Mukherjee, GitHub issue 2508.",nicm,https://github.com/tmux/tmux/commit/c68baaad98807963da954bc1aa77c22f2df05ff0,2508.0,2508.0,2020-12-28 09:36:35+00:00,True,2021-04-13 07:45:10+00:00,105.92262731481482,2020-12-28 12:01:21+00:00,0.1005324074074074
+2020-12-30 18:30:08+00:00,f97305af317daded5d234ea1d3fcea78974f1200,"Use right format for session loop, GitHub issue 2519.",nicm,https://github.com/tmux/tmux/commit/f97305af317daded5d234ea1d3fcea78974f1200,2519.0,2519.0,2020-12-30 18:30:08+00:00,True,2021-04-13 07:45:10+00:00,103.55210648148149,2020-12-30 22:01:23+00:00,0.1467013888888889
+2021-01-04 08:43:22+00:00,bd0fb22f0a206a73ec3f41322571d56d9d7d7c5d,"Add a variant of remain-on-exit that only keeps the pane if the program
+failed, GitHub issue 2513.",nicm,https://github.com/tmux/tmux/commit/bd0fb22f0a206a73ec3f41322571d56d9d7d7c5d,2513.0,2513.0,2021-01-04 08:43:22+00:00,True,2021-04-13 07:45:10+00:00,98.95958333333333,2021-01-04 10:01:20+00:00,0.05414351851851852
+2021-01-18 15:52:38+00:00,71c590a37f98d82c72279eddae74f9b8be146202,"Add -N flag to never start server even if command would normally do so,
+GitHub issue 2523.",nicm,https://github.com/tmux/tmux/commit/71c590a37f98d82c72279eddae74f9b8be146202,2523.0,2523.0,2021-01-18 15:52:38+00:00,True,2021-04-13 07:45:10+00:00,84.66148148148149,2021-01-20 08:01:22+00:00,1.6727314814814815
+2021-01-29 09:49:52+00:00,91d112bf12789da07e25ed001f7961b1d6bd7a76,"There is no need to clear every line entirely before drawing to it, this
+means moving the cursor and messes up wrapping. Better to just clear the
+sections that aren't written over. GitHub issue 2537.",nicm,https://github.com/tmux/tmux/commit/91d112bf12789da07e25ed001f7961b1d6bd7a76,2537.0,2537.0,2021-01-29 09:49:52+00:00,True,2021-04-13 07:45:10+00:00,73.91340277777778,2021-01-29 12:01:21+00:00,0.09130787037037037
+2021-01-29 09:49:52+00:00,255802d8d7357bf985bf2e4221eac8ab64b348ea,"Trim output overwritten by later text or clears completely rather than
+only in a few cases. This means we can better track when a line should
+wrap. GitHub issue 2537.",nicm,https://github.com/tmux/tmux/commit/255802d8d7357bf985bf2e4221eac8ab64b348ea,2537.0,2537.0,2021-01-29 09:49:52+00:00,True,2021-04-13 07:45:10+00:00,73.91340277777778,2021-01-29 12:01:21+00:00,0.09130787037037037
+2021-02-01 08:01:46+00:00,509221520c87510016f5c90aeea0d4dcc4b74a98,"Add a no-detached choice to detach-on-destroy which detaches only if
+there are no other detached sessions to switch to, from Sencer Selcuk in
+GitHub issue 2553.",nicm,https://github.com/tmux/tmux/commit/509221520c87510016f5c90aeea0d4dcc4b74a98,2553.0,2553.0,2021-02-01 08:01:46+00:00,True,2021-04-13 07:45:10+00:00,70.98847222222223,2021-02-01 10:01:20+00:00,0.0830324074074074
+2021-02-04 14:02:32+00:00,c13f2e1135df1f8be78262eb6f5ccb251a7e1d61,"Redraw status line and borders on pane enable/disable, GitHub issue 2554.",nicm,https://github.com/tmux/tmux/commit/c13f2e1135df1f8be78262eb6f5ccb251a7e1d61,2554.0,2554.0,2021-02-04 14:02:32+00:00,True,2021-04-13 07:45:10+00:00,67.73793981481481,2021-02-04 16:01:18+00:00,0.08247685185185186
+2021-02-05 11:01:24+00:00,e3d71d9bdfa31fb658794759f07af43d53253e5f,Add compat clock_gettime for older macOS. GitHub issue 2555.,Nicholas Marriott,https://github.com/tmux/tmux/commit/e3d71d9bdfa31fb658794759f07af43d53253e5f,2555.0,2555.0,2021-02-05 11:01:24+00:00,True,2021-04-13 07:45:10+00:00,66.86372685185185,2021-02-05 14:01:23+00:00,0.12498842592592592
+2021-02-05 12:30:21+00:00,3dddc11603b1bd66b5586b47795716e87921a096,"Send Unicode directional isolate characters around horizontal pane
+borders if the terminal support UTF-8 and an extension terminfo(5)
+capability ""Bidi"" is present. On terminals with BiDi support (ie, VTE)
+this seems to be enough to display right-to-left text acceptably enough
+to be usable (with some caveats about the mouse position). Requested by
+and with help from Mahmoud Elagdar in GitHub issue 2425.",nicm,https://github.com/tmux/tmux/commit/3dddc11603b1bd66b5586b47795716e87921a096,2425.0,2425.0,2021-02-05 12:30:21+00:00,True,2021-04-13 07:45:10+00:00,66.80195601851852,2021-02-05 14:01:23+00:00,0.06321759259259259
+2021-02-08 08:34:08+00:00,c579be1f2a8205c6405f7c6fdb229b31f30274c8,"Include ""focused"" in client flags, from Dan Aloni in GitHub issue 2558.",nicm,https://github.com/tmux/tmux/commit/c579be1f2a8205c6405f7c6fdb229b31f30274c8,2558.0,2558.0,2021-02-08 08:34:08+00:00,True,2021-04-13 07:45:10+00:00,63.96599537037037,2021-02-08 10:01:20+00:00,0.06055555555555556
+2021-02-10 20:55:39+00:00,679b2288e81a0aa1c375a5ae16c23866114ed766,"Restore utf8proc bits that went missing, GitHub issue 2564.",Nicholas Marriott,https://github.com/tmux/tmux/commit/679b2288e81a0aa1c375a5ae16c23866114ed766,2564.0,2564.0,2021-02-10 20:55:39+00:00,True,2021-04-13 07:45:10+00:00,61.45105324074074,2021-02-17 09:58:12+00:00,6.5434375
+2021-02-15 23:10:54+00:00,d6542c333d92aeee74c0a70939e5976de015bb0c,"Always resize the original screen before copying when exiting the
+alternate screen, GitHub issue 2536.",nicm,https://github.com/tmux/tmux/commit/d6542c333d92aeee74c0a70939e5976de015bb0c,2536.0,2536.0,2021-02-15 23:10:54+00:00,True,2021-04-13 07:45:10+00:00,56.35712962962963,2021-02-17 09:58:12+00:00,1.449513888888889
+2021-02-16 06:42:29+00:00,6642706f7baab2d7501ca8ac16659ddab1d729ca,"Support X11 colour names and some other variations for OSC 10/11, also
+add OSC 110 and 111. GitHub issue 2567.",nicm,https://github.com/tmux/tmux/commit/6642706f7baab2d7501ca8ac16659ddab1d729ca,2567.0,2567.0,2021-02-16 06:42:29+00:00,True,2021-04-13 07:45:10+00:00,56.04353009259259,2021-02-17 09:58:12+00:00,1.1359143518518517
+2021-02-16 06:42:29+00:00,d768fc2553c2bdec6bb7b026ffffdaee0dd102f4,"Make SGR 6 (rapid blink) the same as SGR 5 (blink) and make SGR 21 to
+the same as SGR 4:2, it is an old alternative. GitHub issue 2567.",nicm,https://github.com/tmux/tmux/commit/d768fc2553c2bdec6bb7b026ffffdaee0dd102f4,2567.0,2567.0,2021-02-16 06:42:29+00:00,True,2021-04-13 07:45:10+00:00,56.04353009259259,2021-02-17 09:58:12+00:00,1.1359143518518517
+2021-02-19 09:09:28+00:00,b04f8acb7057bda74e30976acedbbd73767e5bdc,"Check return value of chdir() to stop a silly warning with some
+compilers, GitHub issue 2573.",nicm,https://github.com/tmux/tmux/commit/b04f8acb7057bda74e30976acedbbd73767e5bdc,2573.0,2573.0,2021-02-19 09:09:28+00:00,True,2021-04-13 07:45:10+00:00,52.94145833333334,2021-02-19 10:01:19+00:00,0.036006944444444446
+2021-02-22 08:03:01+00:00,e858270006a9041b9016ed9e6cc12d622ac8fe31,"There are many format variables now so allocating all the default ones
+each time a tree is created is too expensive. Instead, convert them all
+into callbacks and put them in a static table so they only allocate on
+demand. The tree remains for the moment for extra (non-default)
+variables added by for example copy mode or popups. Also reduce
+expensive calls to localtime_r/strftime. GitHub issue 2253.",nicm,https://github.com/tmux/tmux/commit/e858270006a9041b9016ed9e6cc12d622ac8fe31,2253.0,2253.0,2021-02-22 08:03:01+00:00,True,2021-04-13 07:45:10+00:00,49.987604166666664,2021-02-22 10:01:22+00:00,0.0821875
+2021-03-09 08:24:40+00:00,81e57365102b8f7d067b1bd8b431529aef74fe14,"Copy mode improvements from Anindya Mukherjee:
+
+- Fix word and word-end for wrapped lines.
+- Fix copying of selection end on wrapped lines.
+- Fix wrapped word selection edge case.
+- Update select-line to respect wrapped lines.
+- Update window_copy_..._pos() functions to use grid_reader.
+
+GitHub issue 2605.",nicm,https://github.com/tmux/tmux/commit/81e57365102b8f7d067b1bd8b431529aef74fe14,2605.0,2605.0,2021-03-09 08:24:40+00:00,True,2021-04-13 07:45:10+00:00,34.972569444444446,2021-03-09 10:01:19+00:00,0.06711805555555556
+2021-03-11 06:31:18+00:00,d98f9f7fe56beefeb294184ffaed24b7ea510a97,"Add split-window -Z to start the pane zoomed, GitHub issue 2591.",nicm,https://github.com/tmux/tmux/commit/d98f9f7fe56beefeb294184ffaed24b7ea510a97,2591.0,2591.0,2021-03-11 06:31:18+00:00,True,2021-04-13 07:45:10+00:00,33.05129629629629,2021-03-11 08:01:29+00:00,0.06262731481481482
+2021-03-11 06:31:44+00:00,7f87280cd539c26a9b088cca2de895dd86b60449,"Allow cursor to be just after match if copying, GitHub issue 2602.",nicm,https://github.com/tmux/tmux/commit/7f87280cd539c26a9b088cca2de895dd86b60449,2602.0,2602.0,2021-03-11 06:31:44+00:00,True,2021-04-13 07:45:10+00:00,33.05099537037037,2021-03-11 08:01:29+00:00,0.06232638888888889
+2021-03-11 06:41:22+00:00,3eb91efba160eff0b077a5fee902edb632f7fdca,"Add an ""absolute-centre"" alignment to use the centre of the total space
+instead of only the available space. From Magnus Gross in GitHub issue 2578.",nicm,https://github.com/tmux/tmux/commit/3eb91efba160eff0b077a5fee902edb632f7fdca,2578.0,2578.0,2021-03-11 06:41:22+00:00,True,2021-04-13 07:45:10+00:00,33.04430555555555,2021-03-11 08:01:29+00:00,0.055636574074074074
+2021-03-11 08:40:41+00:00,ef9700816fd2bd521bab837ccd85e0a596aa3aa8,"malloc_trim is itself very poor and gets slower and slower as the heap becomes
+more fragmented. Run it only once an hour. GitHub issue 2551.",Nicholas Marriott,https://github.com/tmux/tmux/commit/ef9700816fd2bd521bab837ccd85e0a596aa3aa8,2551.0,2551.0,2021-03-11 08:40:41+00:00,True,2021-04-13 07:45:10+00:00,32.96144675925926,2021-03-12 10:01:18+00:00,1.0559837962962964
+2021-03-31 08:38:49+00:00,a4b9b5a1e5326b4ac4dfb439627b735d831b8992,"Do not exit if cannot write to normal log file, GitHub issue 2630.",nicm,https://github.com/tmux/tmux/commit/a4b9b5a1e5326b4ac4dfb439627b735d831b8992,2630.0,2630.0,2021-03-31 08:38:49+00:00,True,2021-04-13 07:45:10+00:00,12.962743055555556,2021-03-31 09:01:16+00:00,0.015590277777777778
+2021-04-05 08:44:01+00:00,5900b164a47689620db962e69f6d040bb82885b0,"Fix a couple of edge cases with the jump-back-xxx commands, and also
+update back-to-indentation to use grid_reader, thereby fixing line
+wrapping issues. From Anindya Mukherjee, GitHub issue 2633.",nicm,https://github.com/tmux/tmux/commit/5900b164a47689620db962e69f6d040bb82885b0,2633.0,2633.0,2021-04-05 08:44:01+00:00,True,2021-04-13 07:45:10+00:00,7.959131944444445,2021-04-05 09:01:19+00:00,0.012013888888888888
+2021-04-09 09:11:33+00:00,71fc9f3ee8753a2bb163c85c784936a8d6d3e0ac,"Add a current_file format for the config file being parsed. Originally
+suggested by kn@, also GitHub issue 2638.",nicm,https://github.com/tmux/tmux/commit/71fc9f3ee8753a2bb163c85c784936a8d6d3e0ac,2638.0,2638.0,2021-04-09 09:11:33+00:00,True,2021-04-13 07:45:10+00:00,3.940011574074074,2021-04-12 09:01:27+00:00,2.992986111111111
+2021-04-09 09:12:09+00:00,1ac47400d296ad3a56e9740f9249175bb59953d5,"When display-message used in config file, show the message after the
+config file finishes. GitHub issue 2637.",nicm,https://github.com/tmux/tmux/commit/1ac47400d296ad3a56e9740f9249175bb59953d5,2637.0,2637.0,2021-04-09 09:12:09+00:00,True,2021-04-13 07:45:10+00:00,3.9395949074074075,2021-04-12 09:01:27+00:00,2.9925694444444444
+2021-04-10 12:20:00+00:00,cd208c9d72df79a34024df6b8eb8f984613de8ef,"Permit shortcut keys in buffer, client, tree modes to be configured with
+a format; the default remains the line number. GitHub issue 2636.",nicm,https://github.com/tmux/tmux/commit/cd208c9d72df79a34024df6b8eb8f984613de8ef,2636.0,2636.0,2021-04-10 12:20:00+00:00,True,2021-04-13 07:45:10+00:00,2.8091435185185185,2021-04-12 09:01:27+00:00,1.8621180555555557
+2021-04-12 09:36:31+00:00,e6abe55134df1b9dc3b7dd7f3a65dff272a35bb7,"Add a flag to disable keys to close a message, GitHub issue 2625.",nicm,https://github.com/tmux/tmux/commit/e6abe55134df1b9dc3b7dd7f3a65dff272a35bb7,2625.0,2625.0,2021-04-12 09:36:31+00:00,True,2021-04-13 07:45:10+00:00,0.9226736111111111,2021-04-12 11:01:32+00:00,0.05903935185185185
+2021-04-13 06:52:20+00:00,715835510beff71cb666600e0c139f82fd14cc2d,"Handle C-Tab correctly with extended keys, GitHub issue 2642.",nicm,https://github.com/tmux/tmux/commit/715835510beff71cb666600e0c139f82fd14cc2d,2642.0,2642.0,2021-04-13 06:52:20+00:00,True,2021-04-13 07:45:10+00:00,0.036689814814814814,2021-04-13 07:01:22+00:00,0.006273148148148148
+2021-04-13 06:52:20+00:00,f29d3c7f74c10666c9970382ea735e11e12186c5,"Handle C-Tab correctly with extended keys, GitHub issue 2642.",nicm,https://github.com/tmux/tmux/commit/f29d3c7f74c10666c9970382ea735e11e12186c5,2642.0,2642.0,2021-04-13 06:52:20+00:00,True,2021-04-13 07:45:10+00:00,0.036689814814814814,2021-04-13 07:01:22+00:00,0.006273148148148148
+2021-04-15 07:23:17+00:00,a11aa870b397f1711a36666582d41492933d75ff,"Handle modifier 9 as Meta, GitHub issue 2647.",Nicholas Marriott,https://github.com/tmux/tmux/commit/a11aa870b397f1711a36666582d41492933d75ff,2647.0,2647.0,2021-04-15 07:23:17+00:00,True,2021-06-10 08:34:22+00:00,56.049363425925925,2021-06-18 08:52:47+00:00,64.06215277777778
+2021-04-15 07:23:17+00:00,98650658a7c63dfe77200709288418078a42de3f,"Handle modifier 9 as Meta, GitHub issue 2647.",Nicholas Marriott,https://github.com/tmux/tmux/commit/98650658a7c63dfe77200709288418078a42de3f,2647.0,2647.0,2021-04-15 07:23:17+00:00,True,2021-06-10 08:34:22+00:00,56.049363425925925,2021-06-18 08:52:47+00:00,64.06215277777778
+2021-04-16 10:59:46+00:00,c46a607dc10606047f685f29a71213501de819d1,"Adjust latest client when a client detaches, GitHub issue 2657.",nicm,https://github.com/tmux/tmux/commit/c46a607dc10606047f685f29a71213501de819d1,2657.0,2657.0,2021-04-16 10:59:46+00:00,True,2021-06-10 08:34:22+00:00,54.899027777777775,2021-06-18 08:52:47+00:00,62.91181712962963
+2021-04-16 10:59:46+00:00,9af78c8e694dd3c05859c228856621a5a746de58,"Adjust latest client when a client detaches, GitHub issue 2657.",Nicholas Marriott,https://github.com/tmux/tmux/commit/9af78c8e694dd3c05859c228856621a5a746de58,2657.0,2657.0,2021-04-16 10:59:46+00:00,True,2021-06-10 08:34:22+00:00,54.899027777777775,2021-06-18 08:52:47+00:00,62.91181712962963
+2021-04-16 10:59:46+00:00,a25af7d0f3347dc7664d7c1c13795eb05178895d,"Adjust latest client when a client detaches, GitHub issue 2657.",Nicholas Marriott,https://github.com/tmux/tmux/commit/a25af7d0f3347dc7664d7c1c13795eb05178895d,2657.0,2657.0,2021-04-16 10:59:46+00:00,True,2021-06-10 08:34:22+00:00,54.899027777777775,2021-06-18 08:52:47+00:00,62.91181712962963
+2021-04-19 19:24:11+00:00,e5106bfb9660d5c9470acf9defa1084c61a070d4,"Add another couple of keys needed for extended keys, GitHub issue 2658.
+
+Handle modifier 9 as Meta, GitHub issue 2647.",nicm,https://github.com/tmux/tmux/commit/e5106bfb9660d5c9470acf9defa1084c61a070d4,2658.0,2658.0,2021-04-19 19:24:11+00:00,True,2021-06-10 08:34:22+00:00,51.548738425925926,2021-06-18 08:52:47+00:00,59.561527777777776
+2021-04-19 19:24:11+00:00,88575a27e2e847dbb97e44780ebe0e415f6a4ba5,"Add another couple of keys needed for extended keys, GitHub issue 2658.",Nicholas Marriott,https://github.com/tmux/tmux/commit/88575a27e2e847dbb97e44780ebe0e415f6a4ba5,2658.0,2658.0,2021-04-19 19:24:11+00:00,True,2021-06-10 08:34:22+00:00,51.548738425925926,2021-06-18 08:52:47+00:00,59.561527777777776
+2021-04-19 19:24:11+00:00,825feac9f8f8aa10ec69932ab6ea52e58586e058,"Add another couple of keys needed for extended keys, GitHub issue 2658.",Nicholas Marriott,https://github.com/tmux/tmux/commit/825feac9f8f8aa10ec69932ab6ea52e58586e058,2658.0,2658.0,2021-04-19 19:24:11+00:00,True,2021-06-10 08:34:22+00:00,51.548738425925926,2021-06-18 08:52:47+00:00,59.561527777777776
+2021-04-20 05:37:30+00:00,736a276cc9bdb97bf35caa1995a54d328a839102,"Minor CHANGES and tmux.1 fixed, from Daniel Hahler, GitHub issue 2664.",Nicholas Marriott,https://github.com/tmux/tmux/commit/736a276cc9bdb97bf35caa1995a54d328a839102,2664.0,2664.0,2021-04-20 05:37:30+00:00,True,2021-06-10 08:34:22+00:00,51.122824074074074,2021-06-18 08:52:47+00:00,59.135613425925925
+2021-04-20 05:37:30+00:00,6c2bf0e22119804022c8038563b9865999f5a026,"Minor CHANGES and tmux.1 fixed, from Daniel Hahler, GitHub issue 2664.",Nicholas Marriott,https://github.com/tmux/tmux/commit/6c2bf0e22119804022c8038563b9865999f5a026,2664.0,2664.0,2021-04-20 05:37:30+00:00,True,2021-06-10 08:34:22+00:00,51.122824074074074,2021-06-18 08:52:47+00:00,59.135613425925925
+2021-04-23 07:03:14+00:00,4cf595a4023acfd9fce2e589f0d01de3e7b5eff7,"Include current client in size calcultion for new sessions, GitHub issue 2662.",Nicholas Marriott,https://github.com/tmux/tmux/commit/4cf595a4023acfd9fce2e589f0d01de3e7b5eff7,2662.0,2662.0,2021-04-23 07:03:14+00:00,True,2021-06-10 08:34:22+00:00,48.063287037037036,2021-06-18 08:52:47+00:00,56.076076388888886
+2021-04-23 07:03:14+00:00,cd6af4a52ef074754e25d5658f04c78f8353114e,"Include current client in size calcultion for new sessions, GitHub issue 2662.",Nicholas Marriott,https://github.com/tmux/tmux/commit/cd6af4a52ef074754e25d5658f04c78f8353114e,2662.0,2662.0,2021-04-23 07:03:14+00:00,True,2021-06-10 08:34:22+00:00,48.063287037037036,2021-06-18 08:52:47+00:00,56.076076388888886
+2021-04-27 07:30:13+00:00,ce8c56cc978df994e650fd9ba9ec9cea3d766f6a,"Mention S- for Shift, GitHub issue 2683.",Nicholas Marriott,https://github.com/tmux/tmux/commit/ce8c56cc978df994e650fd9ba9ec9cea3d766f6a,2683.0,2683.0,2021-04-27 07:30:13+00:00,True,2021-06-10 08:34:22+00:00,44.04454861111111,2021-06-18 08:52:47+00:00,52.05733796296296
+2021-04-27 07:30:13+00:00,7c28597e0f0a000e46aa7f42c00c9750fe6cff61,"Mention S- for Shift, GitHub issue 2683.",Nicholas Marriott,https://github.com/tmux/tmux/commit/7c28597e0f0a000e46aa7f42c00c9750fe6cff61,2683.0,2683.0,2021-04-27 07:30:13+00:00,True,2021-06-10 08:34:22+00:00,44.04454861111111,2021-06-18 08:52:47+00:00,52.05733796296296
+2021-04-28 08:16:11+00:00,589d3eb48fcb30163c9ac3f4b8d5e802e3f45118,"Change cursor style handling so tmux understands which sequences contain
+blinking and sets the flag appropriately, means that it works whether cnorm
+disables blinking or not. GitHub issue 2682.",Nicholas Marriott,https://github.com/tmux/tmux/commit/589d3eb48fcb30163c9ac3f4b8d5e802e3f45118,2682.0,2682.0,2021-04-28 08:16:11+00:00,True,2021-06-10 08:34:22+00:00,43.012627314814814,2021-06-18 08:52:47+00:00,51.025416666666665
+2021-04-28 08:16:11+00:00,f9f97c8145e97b0295f0792a643286126fe2d3f8,"Change cursor style handling so tmux understands which sequences contain
+blinking and sets the flag appropriately, means that it works whether
+cnorm disables blinking or not. GitHub issue 2682.",nicm,https://github.com/tmux/tmux/commit/f9f97c8145e97b0295f0792a643286126fe2d3f8,2682.0,2682.0,2021-04-28 08:16:11+00:00,True,2021-06-10 08:34:22+00:00,43.012627314814814,2021-06-18 08:52:47+00:00,51.025416666666665
+2021-04-28 08:17:40+00:00,cb2943faab2053719b13306f95ed58a2dae64e81,"Change resize timers and flags into one timer and a queue to fix problems with
+vim when resized multiple times. GitHub issue 2677.",Nicholas Marriott,https://github.com/tmux/tmux/commit/cb2943faab2053719b13306f95ed58a2dae64e81,2677.0,2677.0,2021-04-28 08:17:40+00:00,True,2021-06-10 08:34:22+00:00,43.01159722222222,2021-06-18 08:52:47+00:00,51.02438657407407
+2021-04-28 08:17:40+00:00,cf6034da92df1dec0a2ea6230bd7a424d0d181a8,"Change resize timers and flags into one timer and a queue to fix problems with
+vim when resized multiple times. GitHub issue 2677.",Nicholas Marriott,https://github.com/tmux/tmux/commit/cf6034da92df1dec0a2ea6230bd7a424d0d181a8,2677.0,2677.0,2021-04-28 08:17:40+00:00,True,2021-06-10 08:34:22+00:00,43.01159722222222,2021-06-18 08:52:47+00:00,51.02438657407407
+2021-05-03 05:42:29+00:00,40467726e3a985f0d7c064c6dcf7121f3266ab70,"Fix warnings, from Jan Tache in GitHub issue 2692.",Nicholas Marriott,https://github.com/tmux/tmux/commit/40467726e3a985f0d7c064c6dcf7121f3266ab70,2692.0,2692.0,2021-05-03 05:42:29+00:00,True,2021-06-10 08:34:22+00:00,38.119363425925926,2021-06-18 08:52:47+00:00,46.132152777777776
+2021-05-03 05:42:29+00:00,6c659494f5591ebba2ef91e6cfa6a24761c14915,"Fix warnings, from Jan Tache in GitHub issue 2692.",nicm,https://github.com/tmux/tmux/commit/6c659494f5591ebba2ef91e6cfa6a24761c14915,2692.0,2692.0,2021-05-03 05:42:29+00:00,True,2021-06-10 08:34:22+00:00,38.119363425925926,2021-06-18 08:52:47+00:00,46.132152777777776
+2021-05-03 05:42:29+00:00,bacb4d1b4df77c0f4ad940edcd75bbafef8efa9f,"Fix warnings, from Jan Tache in GitHub issue 2692.",Nicholas Marriott,https://github.com/tmux/tmux/commit/bacb4d1b4df77c0f4ad940edcd75bbafef8efa9f,2692.0,2692.0,2021-05-03 05:42:29+00:00,True,2021-06-10 08:34:22+00:00,38.119363425925926,2021-06-18 08:52:47+00:00,46.132152777777776
+2021-05-03 09:51:03+00:00,aaf87abfb4a93067c3fcb78d604636886252791a,"Fire check callback after cleaning up event so it does not get stuck, from
+Jeongho Jang in GitHub issue 2695.",Nicholas Marriott,https://github.com/tmux/tmux/commit/aaf87abfb4a93067c3fcb78d604636886252791a,2695.0,2695.0,2021-05-03 09:51:03+00:00,True,2021-06-10 08:34:22+00:00,37.94674768518519,2021-06-18 08:52:47+00:00,45.95953703703704
+2021-05-03 09:51:03+00:00,8da45730880467ea5defe010c58ac1ec7ca74c4e,"Fire check callback after cleaning up event so it does not get stuck, from
+Jeongho Jang in GitHub issue 2695.",Nicholas Marriott,https://github.com/tmux/tmux/commit/8da45730880467ea5defe010c58ac1ec7ca74c4e,2695.0,2695.0,2021-05-03 09:51:03+00:00,True,2021-06-10 08:34:22+00:00,37.94674768518519,2021-06-18 08:52:47+00:00,45.95953703703704
+2021-05-03 09:51:03+00:00,cfc7c9cf2403f9975421c634d09ed2dd1e04661d,"Fire check callback after cleaning up event so it does not get stuck,
+from Jeongho Jang in GitHub issue 2695.",nicm,https://github.com/tmux/tmux/commit/cfc7c9cf2403f9975421c634d09ed2dd1e04661d,2695.0,2695.0,2021-05-03 09:51:03+00:00,True,2021-06-10 08:34:22+00:00,37.94674768518519,2021-06-18 08:52:47+00:00,45.95953703703704
+2021-05-05 06:23:59+00:00,f706a7e2366ba19bb06265a331fa22a3c7546d90,"Remove old shift function keys which interfere with xterm keys now.
+GitHub issue 2696.",nicm,https://github.com/tmux/tmux/commit/f706a7e2366ba19bb06265a331fa22a3c7546d90,2696.0,2696.0,2021-05-05 06:23:59+00:00,True,2021-06-10 08:34:22+00:00,36.09054398148148,2021-06-18 08:52:47+00:00,44.10333333333333
+2021-05-10 06:50:36+00:00,d00d6820691947b00a1049a435e702e32453bcbe,"Looks like evports on SunOS are broken also, disable them. GitHub issue 2702.",Nicholas Marriott,https://github.com/tmux/tmux/commit/d00d6820691947b00a1049a435e702e32453bcbe,2702.0,2702.0,2021-05-10 06:50:36+00:00,True,2021-06-10 08:34:22+00:00,31.072060185185187,2021-06-18 08:52:47+00:00,39.08484953703704
+2021-05-10 06:50:36+00:00,434ac8734af2a15d5661139acc06a9659f4feed9,"Looks like evports on SunOS are broken also, disable them. GitHub issue 2702.",Nicholas Marriott,https://github.com/tmux/tmux/commit/434ac8734af2a15d5661139acc06a9659f4feed9,2702.0,2702.0,2021-05-10 06:50:36+00:00,True,2021-06-10 08:34:22+00:00,31.072060185185187,2021-06-18 08:52:47+00:00,39.08484953703704
+2021-05-10 06:53:03+00:00,1bbdd2aba27057363134fa8c20c10e56ce095dea,"Add -F for command-prompt and use it to fix ""Rename"" on the window menu,
+GitHub issue 2699.",nicm,https://github.com/tmux/tmux/commit/1bbdd2aba27057363134fa8c20c10e56ce095dea,2699.0,2699.0,2021-05-10 06:53:03+00:00,True,2021-06-10 08:34:22+00:00,31.070358796296297,2021-06-18 08:52:47+00:00,39.08314814814815
+2021-05-12 06:09:58+00:00,8aa34f616fa6723f4a98c435ddcab0ecaaa5b4e7,"Do not use NULL client when source-file finishes, GitHub issue 2707.",Nicholas Marriott,https://github.com/tmux/tmux/commit/8aa34f616fa6723f4a98c435ddcab0ecaaa5b4e7,2707.0,2707.0,2021-05-12 06:09:58+00:00,True,2021-06-10 08:34:22+00:00,29.100277777777777,2021-06-18 08:52:47+00:00,37.11306712962963
+2021-05-12 06:09:58+00:00,77bd6b9ec32bfbc7fbf4de09cae1ce7ea7f3ac35,"Do not use NULL client when source-file finishes, GitHub issue 2707.",nicm,https://github.com/tmux/tmux/commit/77bd6b9ec32bfbc7fbf4de09cae1ce7ea7f3ac35,2707.0,2707.0,2021-05-12 06:09:58+00:00,True,2021-06-10 08:34:22+00:00,29.100277777777777,2021-06-18 08:52:47+00:00,37.11306712962963
+2021-05-12 06:09:58+00:00,f03b27c72be01ad1934079d1b6907f94efff9dea,"Do not use NULL client when source-file finishes, GitHub issue 2707.",Nicholas Marriott,https://github.com/tmux/tmux/commit/f03b27c72be01ad1934079d1b6907f94efff9dea,2707.0,2707.0,2021-05-12 06:09:58+00:00,True,2021-06-10 08:34:22+00:00,29.100277777777777,2021-06-18 08:52:47+00:00,37.11306712962963
+2021-05-13 15:38:11+00:00,77b1290698e3bc3ea8edeadb96fd483af26efdfe,"More accurate vi(1) word navigation in copy mode and on the status line.
+This changes the meaning of the word-separators option - setting it to
+the empty string is equivalent to the previous behavior. From Will Noble
+in GitHub issue 2693.",nicm,https://github.com/tmux/tmux/commit/77b1290698e3bc3ea8edeadb96fd483af26efdfe,2693.0,2693.0,2021-05-13 15:38:11+00:00,True,2021-06-10 08:34:22+00:00,27.70568287037037,2021-06-18 08:52:47+00:00,35.718472222222225
+2021-05-19 08:05:17+00:00,f06ee2b87b88d0889e8dfeb2ae85a2b7d4ce0d49,"Bump FORMAT_LOOOP_LIMIT and add a log message when hit, GitHub issue 2715.",Nicholas Marriott,https://github.com/tmux/tmux/commit/f06ee2b87b88d0889e8dfeb2ae85a2b7d4ce0d49,2715.0,2715.0,2021-05-19 08:05:17+00:00,True,2021-06-10 08:34:22+00:00,22.02019675925926,2021-06-18 08:52:47+00:00,30.03298611111111
+2021-05-19 08:05:17+00:00,8d75542986a54fdedda9d8ad1fc37dd83f7f05c9,"Bump FORMAT_LOOOP_LIMIT and add a log message when hit, GitHub issue 2715.",nicm,https://github.com/tmux/tmux/commit/8d75542986a54fdedda9d8ad1fc37dd83f7f05c9,2715.0,2715.0,2021-05-19 08:05:17+00:00,True,2021-06-10 08:34:22+00:00,22.02019675925926,2021-06-18 08:52:47+00:00,30.03298611111111
+2021-05-19 08:05:17+00:00,5f7ff732fa7c7299c365b283a62d0154899f49db,"Bump FORMAT_LOOOP_LIMIT and add a log message when hit, GitHub issue 2715.",Nicholas Marriott,https://github.com/tmux/tmux/commit/5f7ff732fa7c7299c365b283a62d0154899f49db,2715.0,2715.0,2021-05-19 08:05:17+00:00,True,2021-06-10 08:34:22+00:00,22.02019675925926,2021-06-18 08:52:47+00:00,30.03298611111111
+2021-05-19 08:06:27+00:00,f48c46a76adb78527627894c07ca45a393d7fa2c,"Fix rectangle selection, from Anindya Mukherjee, GitHub issue 2709.",Nicholas Marriott,https://github.com/tmux/tmux/commit/f48c46a76adb78527627894c07ca45a393d7fa2c,2709.0,2709.0,2021-05-19 08:06:27+00:00,True,2021-06-10 08:34:22+00:00,22.019386574074073,2021-06-18 08:52:47+00:00,30.032175925925927
+2021-05-19 08:06:27+00:00,43514f4af612405c0dc07abfdee54bae0889989e,"Fix rectangle selection, from Anindya Mukherjee, GitHub issue 2709.",nicm,https://github.com/tmux/tmux/commit/43514f4af612405c0dc07abfdee54bae0889989e,2709.0,2709.0,2021-05-19 08:06:27+00:00,True,2021-06-10 08:34:22+00:00,22.019386574074073,2021-06-18 08:52:47+00:00,30.032175925925927
+2021-05-19 08:06:27+00:00,9ea971dc046ed1c5f241cf1f7b91b3a16e049225,"Fix rectangle selection, from Anindya Mukherjee, GitHub issue 2709.",Nicholas Marriott,https://github.com/tmux/tmux/commit/9ea971dc046ed1c5f241cf1f7b91b3a16e049225,2709.0,2709.0,2021-05-19 08:06:27+00:00,True,2021-06-10 08:34:22+00:00,22.019386574074073,2021-06-18 08:52:47+00:00,30.032175925925927
+2021-06-09 13:47:20+00:00,607e6b1c3339b97408be3d6c2c93a82fcee5251a,"Do not clear region based on current cursor position, this is not necessary
+anymore and causes problems, GitHub issue 2735.",Nicholas Marriott,https://github.com/tmux/tmux/commit/607e6b1c3339b97408be3d6c2c93a82fcee5251a,2735.0,2735.0,2021-06-09 13:47:20+00:00,True,2021-06-10 08:34:22+00:00,0.7826620370370371,2021-06-18 08:52:47+00:00,8.795451388888889
+2021-06-09 13:47:20+00:00,a35c897f0f16a9dc578c9ebfe4c4c4b0d73002aa,"Do not clear region based on current cursor position, this is not
+necessary anymore and causes problems, GitHub issue 2735.",nicm,https://github.com/tmux/tmux/commit/a35c897f0f16a9dc578c9ebfe4c4c4b0d73002aa,2735.0,2735.0,2021-06-09 13:47:20+00:00,True,2021-06-10 08:34:22+00:00,0.7826620370370371,2021-06-18 08:52:47+00:00,8.795451388888889
+2021-06-09 13:47:20+00:00,c827f5092db2142af097e32d02fb73d70acbfa6d,"Do not clear region based on current cursor position, this is not necessary
+anymore and causes problems, GitHub issue 2735.",Nicholas Marriott,https://github.com/tmux/tmux/commit/c827f5092db2142af097e32d02fb73d70acbfa6d,2735.0,2735.0,2021-06-09 13:47:20+00:00,True,2021-06-10 08:34:22+00:00,0.7826620370370371,2021-06-18 08:52:47+00:00,8.795451388888889
+2021-06-16 08:38:05+00:00,9f3874e5c74f5d2c990c44ab0e1369d3876eb57b,"Pass Ctrl keys through as is when given as hex, GitHub issue 2724.",nicm,https://github.com/tmux/tmux/commit/9f3874e5c74f5d2c990c44ab0e1369d3876eb57b,2724.0,2724.0,2021-06-16 08:38:05+00:00,True,2022-06-01 07:34:28+00:00,349.95582175925927,2021-06-18 08:52:47+00:00,2.0102083333333334
+2021-07-06 08:18:49+00:00,35c2958ae4caf70a3074f59fbceeb24cfe82f902,"Forbid empty session names, GitHub issue 2758.",nicm,https://github.com/tmux/tmux/commit/35c2958ae4caf70a3074f59fbceeb24cfe82f902,2758.0,2758.0,2021-07-06 08:18:49+00:00,True,2022-06-01 07:34:28+00:00,329.9692013888889,2021-07-06 09:01:22+00:00,0.029548611111111112
+2021-07-06 08:26:15+00:00,32f2d9d089ced7d693aa412821f1d66134877cf0,"Improve error reporting when the tmux /tmp directory cannot be created
+or used, GitHub issue 2765 from Uwe Kleine-Koenig.",nicm,https://github.com/tmux/tmux/commit/32f2d9d089ced7d693aa412821f1d66134877cf0,2765.0,2765.0,2021-07-06 08:26:15+00:00,True,2022-06-01 07:34:28+00:00,329.96403935185185,2021-07-06 09:01:22+00:00,0.024386574074074074
+2021-07-13 10:39:06+00:00,df3fe2aa72da0555106c6187e750418f0e59d901,"Only use client for sizing when not detached, GitHub issue 2772.",nicm,https://github.com/tmux/tmux/commit/df3fe2aa72da0555106c6187e750418f0e59d901,2772.0,2772.0,2021-07-13 10:39:06+00:00,True,2022-06-01 07:34:28+00:00,322.8717824074074,2021-07-13 11:01:19+00:00,0.01542824074074074
+2021-07-26 09:05:48+00:00,38c5788232e0e3abdd08ade55a9d4fbcda637df1,"Give #() commands a one second grace period where the output is empty
+before telling the user they aren't doing anything. GitHub issue 2774.",nicm,https://github.com/tmux/tmux/commit/38c5788232e0e3abdd08ade55a9d4fbcda637df1,2774.0,2774.0,2021-07-26 09:05:48+00:00,True,2022-06-01 07:34:28+00:00,309.9365740740741,2021-07-28 09:01:19+00:00,1.996886574074074
+2021-08-04 08:07:24+00:00,42490f4750bb6f39c08908e8e7a3b85022a077af,"Add a client-active hook, from ncfavier in GitHub issue 2803.",nicm,https://github.com/tmux/tmux/commit/42490f4750bb6f39c08908e8e7a3b85022a077af,2803.0,2803.0,2021-08-04 08:07:24+00:00,True,2022-06-01 07:34:28+00:00,300.97712962962964,2021-08-04 09:01:25+00:00,0.03751157407407407
+2021-08-09 13:08:11+00:00,be5988457f2993d5a6efa5f6d5add37690ea6a30,"Change copy-line and copy-end-of-line not to cancel and add -and-cancel
+variants, like the other copy commands. GitHub issue 2799.",nicm,https://github.com/tmux/tmux/commit/be5988457f2993d5a6efa5f6d5add37690ea6a30,2799.0,2799.0,2021-08-09 13:08:11+00:00,True,2022-06-01 07:34:28+00:00,295.7682523148148,2021-08-09 15:01:35+00:00,0.07875
+2021-08-11 07:51:40+00:00,f6755c6f2c6fd10a90984fadad4c9ac4a8a92027,"OSC 52 can be long enough to make tmux think the output buffer is too
+big, so treat it as a redraw. GitHub issue 2814.",nicm,https://github.com/tmux/tmux/commit/f6755c6f2c6fd10a90984fadad4c9ac4a8a92027,2814.0,2814.0,2021-08-11 07:51:40+00:00,True,2022-06-01 07:34:28+00:00,293.98805555555555,2021-08-11 09:01:20+00:00,0.04837962962962963
+2021-08-11 08:41:09+00:00,338ec859a463eaa4c0502116ef2857c566c9e468,"Make confirm-before optionally block the invoking client like run-shell,
+GitHub issue 2819.",nicm,https://github.com/tmux/tmux/commit/338ec859a463eaa4c0502116ef2857c566c9e468,2819.0,2819.0,2021-08-11 08:41:09+00:00,True,2022-06-01 07:34:28+00:00,293.95369212962964,2021-08-11 09:01:20+00:00,0.014016203703703704
+2021-08-11 20:36:16+00:00,01fd4b997e3a0a74ea57d6830cf97f98ea2c2a7c,"Add pipe variants of the line copy commands. While here make the command
+list less unreadable. GitHub issue 2813.",nicm,https://github.com/tmux/tmux/commit/01fd4b997e3a0a74ea57d6830cf97f98ea2c2a7c,2813.0,2813.0,2021-08-11 20:36:16+00:00,True,2022-06-01 07:34:28+00:00,293.45708333333334,2021-08-11 23:01:26+00:00,0.10081018518518518
+2021-08-12 08:05:19+00:00,163908fe8a0af8cf2d24510415bd4f81ace3a4d1,"Move hook format setup earlier and add a hook_client, GitHub issue 2809.",nicm,https://github.com/tmux/tmux/commit/163908fe8a0af8cf2d24510415bd4f81ace3a4d1,2809.0,2809.0,2021-08-12 08:05:19+00:00,True,2022-06-01 07:34:28+00:00,292.9785763888889,2021-08-12 09:01:22+00:00,0.03892361111111111
+2021-08-12 08:10:43+00:00,26773ea9efd3b555833618719446309cf7a024de,"Do not dereference pane when it is NULL, fixes a crash when creating a
+hook from the config, GitHub issue 2820.",nicm,https://github.com/tmux/tmux/commit/26773ea9efd3b555833618719446309cf7a024de,2820.0,2820.0,2021-08-12 08:10:43+00:00,True,2022-06-01 07:34:28+00:00,292.9748263888889,2021-08-12 09:01:22+00:00,0.035173611111111114
+2021-08-13 06:51:14+00:00,a2b85069171413aa30c812d44bf8ee4d32a2f834,"Set return code for confirm-before and make command-prompt also block,
+GitHub issue 2822.",nicm,https://github.com/tmux/tmux/commit/a2b85069171413aa30c812d44bf8ee4d32a2f834,2822.0,2822.0,2021-08-13 06:51:14+00:00,True,2022-06-01 07:34:28+00:00,292.03002314814813,2021-08-14 00:34:54+00:00,0.7386574074074074
+2021-08-13 06:53:02+00:00,2bb0b9d6c5edd7c4127c971f5ccebed969f86c1c,"Change focus to be driven by events rather than walking all panes at end
+of event loop, this way the ordering of in and out can be enforced.
+GitHub issue 2808.",nicm,https://github.com/tmux/tmux/commit/2bb0b9d6c5edd7c4127c971f5ccebed969f86c1c,2808.0,2808.0,2021-08-13 06:53:02+00:00,True,2022-06-01 07:34:28+00:00,292.02877314814816,2021-08-14 00:34:54+00:00,0.7374074074074074
+2021-08-14 17:34:44+00:00,c1be1b351d07f95784c1f05ba1359b578fb57af9,"Minor cleanups, GitHub issue 2824.",Nicholas Marriott,https://github.com/tmux/tmux/commit/c1be1b351d07f95784c1f05ba1359b578fb57af9,2824.0,2824.0,2021-08-14 17:34:44+00:00,True,2022-06-01 07:34:28+00:00,290.58314814814815,2021-08-17 09:01:19+00:00,2.643460648148148
+2021-08-17 08:45:10+00:00,41ababdf6c0529d4336a1daf3418ad314c373614,"Be more sophisticated about enabling synchronized updates when there is
+an overlay and treat it like the active pane (use for commands which
+move the cursor only). When there is an overlay also use it for all
+panes and not just the active pane. GitHub issue 2826.",nicm,https://github.com/tmux/tmux/commit/41ababdf6c0529d4336a1daf3418ad314c373614,2826.0,2826.0,2021-08-17 08:45:10+00:00,True,2022-06-01 07:34:28+00:00,287.9509027777778,2021-08-17 09:01:19+00:00,0.011215277777777777
+2021-08-17 20:17:29+00:00,5fdea440cede1690db9a242a091df72f16e53d24,"Treat a pane that has died the same as no pane when sending data to
+control mode clients, GitHub issue 2828.",nicm,https://github.com/tmux/tmux/commit/5fdea440cede1690db9a242a091df72f16e53d24,2828.0,2828.0,2021-08-17 20:17:29+00:00,True,2022-06-01 07:34:28+00:00,287.4701273148148,2021-08-17 21:01:18+00:00,0.030428240740740742
+2021-08-23 08:17:59+00:00,3ed37a207988bc6e96dc673ae4564a4efd682ea6,"Limit width and height to tty correctly, GitHub issue 2843.",nicm,https://github.com/tmux/tmux/commit/3ed37a207988bc6e96dc673ae4564a4efd682ea6,2843.0,2843.0,2021-08-23 08:17:59+00:00,True,2022-06-01 07:34:28+00:00,281.9697800925926,2021-08-23 15:06:46+00:00,0.2838773148148148
+2021-08-25 06:36:25+00:00,78da5a3756a9f51f8e49d2975f74a1ea800b58b6,"Start inputs as NULL so not freeing random stack garbage, GitHub issue 2852.",nicm,https://github.com/tmux/tmux/commit/78da5a3756a9f51f8e49d2975f74a1ea800b58b6,2852.0,2852.0,2021-08-25 06:36:25+00:00,True,2022-06-01 07:34:28+00:00,280.0403125,2021-08-25 09:01:10+00:00,0.10052083333333334
+2021-08-27 17:16:42+00:00,fd756a150b43d319d08ac4117f34edef9e0438c4,"Allow control mode clients to set a hard limit on the window width and
+height, GitHub issue 2594.",nicm,https://github.com/tmux/tmux/commit/fd756a150b43d319d08ac4117f34edef9e0438c4,2594.0,2594.0,2021-08-27 17:16:42+00:00,True,2022-06-01 07:34:28+00:00,277.5956712962963,2021-08-27 19:01:11+00:00,0.07255787037037037
+2021-08-27 22:06:35+00:00,daec63e5e6eb3390d53f4bf7f8a327df77e46c95,"Replace %% in command lists (by copying them) for template arguments ,
+this means they can be used with {} as well. Also make argument
+processing from an existing vector preserve commands. GitHub issue 2858.",nicm,https://github.com/tmux/tmux/commit/daec63e5e6eb3390d53f4bf7f8a327df77e46c95,2858.0,2858.0,2021-08-27 22:06:35+00:00,True,2022-06-01 07:34:28+00:00,277.3943634259259,2021-09-02 09:01:09+00:00,5.454560185185185
+2021-09-09 13:40:00+00:00,5a4b2fd68c19be99d37b2a3dc9d0bfd7959d1843,"Fix parsing of aliases again (GitHub issue 2842), also make argument
+parsing a bit simpler and fix the names of some client flags.",nicm,https://github.com/tmux/tmux/commit/5a4b2fd68c19be99d37b2a3dc9d0bfd7959d1843,2842.0,2842.0,2021-09-09 13:40:00+00:00,True,2022-06-01 07:34:28+00:00,264.7461574074074,2021-09-09 15:01:09+00:00,0.056354166666666664
+2021-09-09 13:40:00+00:00,c0048d6d20a056464a6b1b63e8bdc1793a29b029,"Insert alias in the right place, GitHub issue 2842.",nicm,https://github.com/tmux/tmux/commit/c0048d6d20a056464a6b1b63e8bdc1793a29b029,2842.0,2842.0,2021-09-09 13:40:00+00:00,True,2022-06-01 07:34:28+00:00,264.7461574074074,2021-09-09 15:01:09+00:00,0.056354166666666664
+2021-09-15 07:36:55+00:00,a19cac5c46189c7c6eb4a6f4ccc7336d54676dba,"For the moment, restore if-shell and run-shell to parsing at the last
+moment (when the shell command completes) rather than when first
+invoked, GitHub issue 2872.",nicm,https://github.com/tmux/tmux/commit/a19cac5c46189c7c6eb4a6f4ccc7336d54676dba,2872.0,2872.0,2021-09-15 07:36:55+00:00,True,2022-06-01 07:34:28+00:00,258.9982986111111,2021-09-15 09:01:10+00:00,0.058506944444444445
+2021-09-16 06:39:34+00:00,3c3d371f996b71380547a56db4412c8ca8a31469,"Fix run-shell -d with no command, GitHub issue 2885.",nicm,https://github.com/tmux/tmux/commit/3c3d371f996b71380547a56db4412c8ca8a31469,2885.0,2885.0,2021-09-16 06:39:34+00:00,True,2022-06-01 07:34:28+00:00,258.038125,2021-09-16 09:01:11+00:00,0.09834490740740741
+2021-09-17 07:21:21+00:00,c4b969ca62a6f0b66f97c9bfe88022a91d162038,"Do not destroy sessions twice, GitHub issue 2889.",nicm,https://github.com/tmux/tmux/commit/c4b969ca62a6f0b66f97c9bfe88022a91d162038,2889.0,2889.0,2021-09-17 07:21:21+00:00,True,2022-06-01 07:34:28+00:00,257.0091087962963,2021-09-17 09:01:10+00:00,0.06931712962962963
+2021-09-21 08:54:26+00:00,097a792f9de8184cc3db89049811f3669dfae8f4,"Update obsolete autoconf macros, from ""kylo252"" GitHub issue 2900.",Nicholas Marriott,https://github.com/tmux/tmux/commit/097a792f9de8184cc3db89049811f3669dfae8f4,2900.0,2900.0,2021-09-21 08:54:26+00:00,True,2022-06-01 07:34:28+00:00,252.9444675925926,2021-09-22 17:01:10+00:00,1.3380092592592592
+2021-10-05 12:46:11+00:00,9b1fdb291ee8e940311a51cf41f97b07930b4688,"Separate ""very visible"" flag from blinking flag, it should not affect
+DECSCUSR. GitHub issue 2891.",nicm,https://github.com/tmux/tmux/commit/9b1fdb291ee8e940311a51cf41f97b07930b4688,2891.0,2891.0,2021-10-05 12:46:11+00:00,True,2022-06-01 07:34:28+00:00,238.7835300925926,2021-10-05 15:01:13+00:00,0.09377314814814815
+2021-10-05 12:49:47+00:00,9f6164a05cc0de372f6859127f72c8b242596bf5,"Make send-keys without any arguments send the key it is bound to (if
+any). GitHub issue 2904.",nicm,https://github.com/tmux/tmux/commit/9f6164a05cc0de372f6859127f72c8b242596bf5,2904.0,2904.0,2021-10-05 12:49:47+00:00,True,2022-06-01 07:34:28+00:00,238.7810300925926,2021-10-05 15:01:13+00:00,0.09127314814814814
+2021-10-05 17:23:22+00:00,e06a4e041c68cabe448e6680505b4690e2d7169d,"Set mouse_x and mouse_y on the status line, GitHub issue 2913.",nicm,https://github.com/tmux/tmux/commit/e06a4e041c68cabe448e6680505b4690e2d7169d,2913.0,2913.0,2021-10-05 17:23:22+00:00,True,2022-06-01 07:34:28+00:00,238.59104166666665,2021-10-05 19:01:11+00:00,0.06792824074074075
+2021-10-07 07:53:56+00:00,5f63181ed5a9d409fcb0955217fbe4c1a40dd9ff,"Add a missing El, from Alexis Hildebrandt in GitHub issue 2918.",nicm,https://github.com/tmux/tmux/commit/5f63181ed5a9d409fcb0955217fbe4c1a40dd9ff,2918.0,2918.0,2021-10-07 07:53:56+00:00,True,2022-06-01 07:34:28+00:00,236.9864814814815,2021-10-07 09:01:10+00:00,0.046689814814814816
+2021-10-11 10:55:37+00:00,759efe1b3327a7244c03ecc7b90e0e3c49712d06,"Add -e flag to set environment for popup, from Alexis Hildebrandt in
+GitHub issue 2924.",nicm,https://github.com/tmux/tmux/commit/759efe1b3327a7244c03ecc7b90e0e3c49712d06,2924.0,2924.0,2021-10-11 10:55:37+00:00,True,2022-06-01 07:34:28+00:00,232.8603125,2021-10-11 13:01:13+00:00,0.08722222222222223
+2021-10-13 09:29:13+00:00,837ca176d1874273f3de615c75b506e1b1787a1b,"Add popup-style and popup-border-style options, from Alexis Hildebrandt
+in GitHub issue 2927.",nicm,https://github.com/tmux/tmux/commit/837ca176d1874273f3de615c75b506e1b1787a1b,2927.0,2927.0,2021-10-13 09:29:13+00:00,True,2022-06-01 07:34:28+00:00,230.9203125,2021-10-13 13:01:16+00:00,0.14725694444444445
+2021-10-14 13:19:17+00:00,add20637f256c0118d3c687d5d1446612d14389a,"Add popup-border-lines option to set popup line style, from Alexis
+Hildebrandt, GitHub issue 2930.",nicm,https://github.com/tmux/tmux/commit/add20637f256c0118d3c687d5d1446612d14389a,2930.0,2930.0,2021-10-14 13:19:17+00:00,True,2022-06-01 07:34:28+00:00,229.76054398148148,2021-10-14 15:01:20+00:00,0.07086805555555556
+2021-10-18 09:48:45+00:00,51ff77d47be80d59b1e30e55bd75788fcc22e4bf,"Fix menu width containing disabled items, from Alexis Hildebrandt in
+GitHub issue 2935.",nicm,https://github.com/tmux/tmux/commit/51ff77d47be80d59b1e30e55bd75788fcc22e4bf,2935.0,2935.0,2021-10-18 09:48:45+00:00,True,2022-06-01 07:34:28+00:00,225.9067476851852,2021-10-18 11:01:12+00:00,0.0503125
+2021-10-20 09:50:45+00:00,8a9bfd0cddd783436e842495fc3039aa56571ed1,"Add -T to set a popup title, from Alexis Hildebrandt in GitHub issue 2941.",nicm,https://github.com/tmux/tmux/commit/8a9bfd0cddd783436e842495fc3039aa56571ed1,2941.0,2941.0,2021-10-20 09:50:45+00:00,True,2022-06-01 07:34:28+00:00,223.9053587962963,2021-10-20 13:01:15+00:00,0.13229166666666667
+2021-10-21 08:24:06+00:00,7bd9cdf6fcf43e0edc8ab3a4accf2009ca5aa35e,"Show error if user option doesn't exist, GitHub issue 2938.",nicm,https://github.com/tmux/tmux/commit/7bd9cdf6fcf43e0edc8ab3a4accf2009ca5aa35e,2938.0,2938.0,2021-10-21 08:24:06+00:00,True,2022-06-01 07:34:28+00:00,222.9655324074074,2021-10-21 11:01:10+00:00,0.10907407407407407
+2021-10-21 08:41:05+00:00,289ac55ebde18df237ad21734ba4056896d11022,"Correctly adjust the end pointer for a two character terminator before
+decoding OSC 52 response, from Daniel Ekloef in GitHub issue 2942.",nicm,https://github.com/tmux/tmux/commit/289ac55ebde18df237ad21734ba4056896d11022,2942.0,2942.0,2021-10-21 08:41:05+00:00,True,2022-06-01 07:34:28+00:00,222.95373842592593,2021-10-21 11:01:10+00:00,0.0972800925925926
+2021-10-25 09:38:46+00:00,ef46eb91a5e0b6e2b023544f45dbc98c8fe1377f,"Add -s and -S to display-popup to set popup and border style, from
+Alexis Hildebrandt in GitHub issue 2931.",nicm,https://github.com/tmux/tmux/commit/ef46eb91a5e0b6e2b023544f45dbc98c8fe1377f,2931.0,2931.0,2021-10-25 09:38:46+00:00,True,2022-06-01 07:34:28+00:00,218.91368055555554,2021-10-25 11:01:11+00:00,0.057233796296296297
+2021-10-26 12:22:41+00:00,5745bd27fdfd0e806fb3f734966f66f302c76c48,"Do not allow inline styles to replace mode-style for the selected item,
+from Alexis Hildebrandt in GitHub issue 2946.",nicm,https://github.com/tmux/tmux/commit/5745bd27fdfd0e806fb3f734966f66f302c76c48,2946.0,2946.0,2021-10-26 12:22:41+00:00,True,2022-06-01 07:34:28+00:00,217.79984953703703,2021-10-26 15:01:11+00:00,0.11006944444444444
+2021-10-26 12:29:56+00:00,9695114230613f57c11936ae0e1fe2cd6ba0a7b4,"Accept some emacs control keys in vi normal mode, from Alexis
+Hildebrandt in GitHub issue 2922.",nicm,https://github.com/tmux/tmux/commit/9695114230613f57c11936ae0e1fe2cd6ba0a7b4,2922.0,2922.0,2021-10-26 12:29:56+00:00,True,2022-06-01 07:34:28+00:00,217.79481481481483,2021-10-26 15:01:11+00:00,0.10503472222222222
+2021-10-28 18:39:25+00:00,76f5d3364c8d822989adbf0d3f7bc7c27981110b,"Expand command as a format, GitHub issue 2920.",nicm,https://github.com/tmux/tmux/commit/76f5d3364c8d822989adbf0d3f7bc7c27981110b,2920.0,2920.0,2021-10-28 18:39:25+00:00,True,2022-06-01 07:34:28+00:00,215.53822916666667,2021-10-28 21:01:13+00:00,0.09847222222222222
+2021-10-28 18:54:48+00:00,49d33a4282dad9245cc644b9259b40ae94bc0063,"Allow detach even if suspend flag set, GitHub issue 2932.",nicm,https://github.com/tmux/tmux/commit/49d33a4282dad9245cc644b9259b40ae94bc0063,2932.0,2932.0,2021-10-28 18:54:48+00:00,True,2022-06-01 07:34:28+00:00,215.5275462962963,2021-10-28 21:01:13+00:00,0.08778935185185185
+2021-10-29 07:37:02+00:00,c76904343a3ddfea3c58ec00d9904c16574a8af3,"Spelling, from someone in GitHub issue 2958.",Nicholas Marriott,https://github.com/tmux/tmux/commit/c76904343a3ddfea3c58ec00d9904c16574a8af3,2958.0,2958.0,2021-10-29 07:37:02+00:00,True,2022-06-01 07:34:28+00:00,214.9982175925926,2021-11-01 10:01:13+00:00,3.1001273148148147
+2021-11-03 13:39:13+00:00,57100376cc70739f53a1f8a4bacf192b8cdcd124,"Add a cursor-style option, from Alexis Hildebrandt in GitHub issue 2960.",nicm,https://github.com/tmux/tmux/commit/57100376cc70739f53a1f8a4bacf192b8cdcd124,2960.0,2960.0,2021-11-03 13:39:13+00:00,True,2022-06-01 07:34:28+00:00,209.74670138888888,2021-11-03 16:01:14+00:00,0.09862268518518519
+2021-11-11 09:32:14+00:00,cb8a0d83fbaa2ae49c06105cb94d247ef20ed91e,"If automatic-rename is off, allow the escape sequence to set an empty
+window name, GitHub issue 2964.",nicm,https://github.com/tmux/tmux/commit/cb8a0d83fbaa2ae49c06105cb94d247ef20ed91e,2964.0,2964.0,2021-11-11 09:32:14+00:00,True,2022-06-01 07:34:28+00:00,201.91821759259258,2021-12-07 09:52:59+00:00,26.014409722222222
+2021-11-29 11:06:16+00:00,333cf6429ae16da6fb3892978ea450bc62c3e873,"Bump response timer to three seconds, GitHub issue 2984.",nicm,https://github.com/tmux/tmux/commit/333cf6429ae16da6fb3892978ea450bc62c3e873,2984.0,2984.0,2021-11-29 11:06:16+00:00,True,2022-06-01 07:34:28+00:00,183.85291666666666,2021-12-07 09:52:59+00:00,7.949108796296296
+2021-12-06 10:08:49+00:00,8fccbbb02673bed71676412f1a313093a39c48ff,"Do not dereference NULL window when resizing client, GitHub issue 2982.",nicm,https://github.com/tmux/tmux/commit/8fccbbb02673bed71676412f1a313093a39c48ff,2982.0,2982.0,2021-12-06 10:08:49+00:00,True,2022-06-01 07:34:28+00:00,176.8928125,2021-12-07 09:52:59+00:00,0.9890046296296297
+2021-12-06 10:18:12+00:00,ef676e1202a4d5c423d5bba2f8ecba1f768d8364,"Remove fallback for wcwidth failure, GitHub issue 3003.",Nicholas Marriott,https://github.com/tmux/tmux/commit/ef676e1202a4d5c423d5bba2f8ecba1f768d8364,3003.0,3003.0,2021-12-06 10:18:12+00:00,True,2022-06-01 07:34:28+00:00,176.8862962962963,2021-12-07 09:52:59+00:00,0.9824884259259259
+2021-12-10 12:46:37+00:00,c6149adf55a1ab108a9336ba15a82bd11a809cb3,"Make pane-border-format a pane option, GitHub issue 2999.",nicm,https://github.com/tmux/tmux/commit/c6149adf55a1ab108a9336ba15a82bd11a809cb3,2999.0,2999.0,2021-12-10 12:46:37+00:00,True,2022-06-01 07:34:28+00:00,172.78322916666667,2021-12-10 14:01:10+00:00,0.051770833333333335
+2021-12-10 12:51:15+00:00,9c1633a8659c4045b8303eb99d5f89b4f0dcb784,"Missed unlinked control notifications, GitHub issue 2996.",nicm,https://github.com/tmux/tmux/commit/9c1633a8659c4045b8303eb99d5f89b4f0dcb784,2996.0,2996.0,2021-12-10 12:51:15+00:00,True,2022-06-01 07:34:28+00:00,172.78001157407408,2021-12-10 14:01:10+00:00,0.048553240740740744
+2021-12-21 12:42:27+00:00,db3aabcc34464940c286d7ce3abc8f3edc94b7bc,"Add a NOBLOCK flag rather than adding amount to wait for when
+dealing with potentially-long sequences. GitHub issue 3001.",nicm,https://github.com/tmux/tmux/commit/db3aabcc34464940c286d7ce3abc8f3edc94b7bc,3001.0,3001.0,2021-12-21 12:42:27+00:00,True,2022-06-01 07:34:28+00:00,161.78612268518518,2021-12-21 14:01:09+00:00,0.05465277777777778
+2021-12-21 13:08:27+00:00,ff64aafeabe0c9b51b33a10313e2027ae1686bc4,"ARM's Morello CHERI architecture does not support pointers in packed
+structures, so remove the packed attribute on struct grid_line and
+reorder the members to eliminate unnecessary padding. From Jessica
+Clarke in GitHub issue 3012.",nicm,https://github.com/tmux/tmux/commit/ff64aafeabe0c9b51b33a10313e2027ae1686bc4,3012.0,3012.0,2021-12-21 13:08:27+00:00,True,2022-06-01 07:34:28+00:00,161.76806712962963,2021-12-21 14:01:09+00:00,0.036597222222222225
+2021-12-21 14:57:46+00:00,9aad945f7e58112c3f8819f658e379d672842d73,"Support underscore style with capture-pane -e, GitHub issue 2928.",nicm,https://github.com/tmux/tmux/commit/9aad945f7e58112c3f8819f658e379d672842d73,2928.0,2928.0,2021-12-21 14:57:46+00:00,True,2022-06-01 07:34:28+00:00,161.69215277777778,2021-12-21 18:01:10+00:00,0.12736111111111112
+2021-12-31 11:36:23+00:00,e6e3c75ed70adece8b1cf93017f6f359d022bdb0,"Try to turn on less-capable mouse modes when turning on more-capable, to
+increase the chances we get something even if the terminal doesn't support
+the one we really want. GitHub issue 3020.",nicm,https://github.com/tmux/tmux/commit/e6e3c75ed70adece8b1cf93017f6f359d022bdb0,3020.0,3020.0,2021-12-31 11:36:23+00:00,True,2022-06-01 07:34:28+00:00,151.83200231481482,2021-12-31 14:01:10+00:00,0.10054398148148148
+2022-01-06 08:24:34+00:00,e5e4df7a2241298b7ea3ba77b5fe1fdef6df0e08,"Mention alternate config files, from Daniel Augusto in GitHub issue 3023.",Nicholas Marriott,https://github.com/tmux/tmux/commit/e5e4df7a2241298b7ea3ba77b5fe1fdef6df0e08,3023.0,3023.0,2022-01-06 08:24:34+00:00,True,2022-06-01 07:34:28+00:00,145.96520833333332,2022-01-06 10:01:12+00:00,0.06710648148148148
+2022-02-01 14:48:01+00:00,7e34645fcbe93984461343d67373a29e552fec20,"Add option to show arrows for active pane indicator, GitHub issue 3022
+from Marcel Partap.",nicm,https://github.com/tmux/tmux/commit/7e34645fcbe93984461343d67373a29e552fec20,3022.0,3022.0,2022-02-01 14:48:01+00:00,True,2022-06-01 07:34:28+00:00,119.69892361111111,2022-02-01 16:01:11+00:00,0.05081018518518519
+2022-02-14 09:11:28+00:00,040164555a0e41d23082b74a2a22ff370e8193c2,"Do not return error with -q, GitHub issue 3065.",nicm,https://github.com/tmux/tmux/commit/040164555a0e41d23082b74a2a22ff370e8193c2,3065.0,3065.0,2022-02-14 09:11:28+00:00,True,2022-06-01 07:34:28+00:00,106.93263888888889,2022-02-14 10:01:11+00:00,0.034525462962962966
+2022-02-14 09:11:28+00:00,2adbe3ec1606806e31c74507cfa0225327e27225,"Do not return error with -q, GitHub issue 3065.",nicm,https://github.com/tmux/tmux/commit/2adbe3ec1606806e31c74507cfa0225327e27225,3065.0,3065.0,2022-02-14 09:11:28+00:00,True,2022-06-01 07:34:28+00:00,106.93263888888889,2022-02-14 10:01:11+00:00,0.034525462962962966
+2022-02-17 09:58:59+00:00,4893edd5d67e80e8d4323f6cae02495a7164e3f0,"Add a window-resized hook which is fired when the window is actually
+resized which may be later than the client resize, GitHub issue 2995.",nicm,https://github.com/tmux/tmux/commit/4893edd5d67e80e8d4323f6cae02495a7164e3f0,2995.0,2995.0,2022-02-17 09:58:59+00:00,True,2022-06-01 07:34:28+00:00,103.89964120370371,2022-02-17 12:01:10+00:00,0.08484953703703704
+2022-02-17 09:58:59+00:00,818b2176ef52a13867905d3d3e0269dc1b4d6fb4,"Add a window-resized hook which is fired when the window is actually
+resized which may be later than the client resize, GitHub issue 2995.",nicm,https://github.com/tmux/tmux/commit/818b2176ef52a13867905d3d3e0269dc1b4d6fb4,2995.0,2995.0,2022-02-17 09:58:59+00:00,True,2022-06-01 07:34:28+00:00,103.89964120370371,2022-02-17 12:01:10+00:00,0.08484953703703704
+2022-02-22 11:07:59+00:00,0fd01f8873ccae655b0f997ca0dc46c42ebe399d,"Initialize copy_width before adjusting it, GitHub issue 3079.",nicm,https://github.com/tmux/tmux/commit/0fd01f8873ccae655b0f997ca0dc46c42ebe399d,3079.0,3079.0,2022-02-22 11:07:59+00:00,True,2022-06-01 07:34:28+00:00,98.85172453703704,2022-02-22 14:01:10+00:00,0.12026620370370371
+2022-02-22 11:07:59+00:00,92a26a8b8c4b32223fb81d7bde93c986ff4f7f6b,"Initialize copy_width before adjusting it, GitHub issue 3079.",nicm,https://github.com/tmux/tmux/commit/92a26a8b8c4b32223fb81d7bde93c986ff4f7f6b,3079.0,3079.0,2022-02-22 11:07:59+00:00,True,2022-06-01 07:34:28+00:00,98.85172453703704,2022-02-22 14:01:10+00:00,0.12026620370370371
+2022-02-22 11:10:58+00:00,a26ebccd421e53ce1e3fcad6f1db9759cb58b043,"Add next_session_id format with the next session ID, GitHub issue 3078.",nicm,https://github.com/tmux/tmux/commit/a26ebccd421e53ce1e3fcad6f1db9759cb58b043,3078.0,3078.0,2022-02-22 11:10:58+00:00,True,2022-06-01 07:34:28+00:00,98.84965277777778,2022-02-22 14:01:10+00:00,0.11819444444444445
+2022-02-22 11:10:58+00:00,fa71e9a07911715da596d618fe045943337c596b,"Add next_session_id format with the next session ID, GitHub issue 3078.",nicm,https://github.com/tmux/tmux/commit/fa71e9a07911715da596d618fe045943337c596b,3078.0,3078.0,2022-02-22 11:10:58+00:00,True,2022-06-01 07:34:28+00:00,98.84965277777778,2022-02-22 14:01:10+00:00,0.11819444444444445
+2022-02-28 09:35:33+00:00,42e795933625dbda27e3c0a453fc7d0fbf4bb758,"Exit on SIGHUP before attach also, GitHub issue 3084.",nicm,https://github.com/tmux/tmux/commit/42e795933625dbda27e3c0a453fc7d0fbf4bb758,3084.0,3084.0,2022-02-28 09:35:33+00:00,True,2022-06-01 07:34:28+00:00,92.91591435185185,2022-02-28 10:01:11+00:00,0.017800925925925925
+2022-02-28 09:35:33+00:00,2da096d828f2b02f9d7fc329474f98aa6740328b,"Exit on SIGHUP before attach also, GitHub issue 3084.",nicm,https://github.com/tmux/tmux/commit/2da096d828f2b02f9d7fc329474f98aa6740328b,3084.0,3084.0,2022-02-28 09:35:33+00:00,True,2022-06-01 07:34:28+00:00,92.91591435185185,2022-02-28 10:01:11+00:00,0.017800925925925925
+2022-03-07 11:52:35+00:00,a731b1a9162bfa8157c474d411a4d0d6f131439d,"Pass client when adding menu item, GitHub issue 3103.",nicm,https://github.com/tmux/tmux/commit/a731b1a9162bfa8157c474d411a4d0d6f131439d,3103.0,3103.0,2022-03-07 11:52:35+00:00,True,2022-06-01 07:34:28+00:00,85.82075231481481,2022-03-07 14:01:11+00:00,0.08930555555555555
+2022-03-07 11:52:35+00:00,d5a84de84293798438989d7894e8001bec8c19f1,"Pass client when adding menu item, GitHub issue 3103.",nicm,https://github.com/tmux/tmux/commit/d5a84de84293798438989d7894e8001bec8c19f1,3103.0,3103.0,2022-03-07 11:52:35+00:00,True,2022-06-01 07:34:28+00:00,85.82075231481481,2022-03-07 14:01:11+00:00,0.08930555555555555
+2022-03-08 22:14:42+00:00,bfbe972225d10be7f6eaca22d88d90df4fae09c9,"With -f use percentages of window size not pane size, GitHub issue 2866.",nicm,https://github.com/tmux/tmux/commit/bfbe972225d10be7f6eaca22d88d90df4fae09c9,2866.0,2866.0,2022-03-08 22:14:42+00:00,True,2022-06-01 07:34:28+00:00,84.38872685185186,2022-03-09 00:01:12+00:00,0.07395833333333333
+2022-03-08 22:14:42+00:00,ad7113e0dbf2e5f5b6b33fd34824c5cf16e9053c,"With -f use percentages of window size not pane size, GitHub issue 2866.",nicm,https://github.com/tmux/tmux/commit/ad7113e0dbf2e5f5b6b33fd34824c5cf16e9053c,2866.0,2866.0,2022-03-08 22:14:42+00:00,True,2022-06-01 07:34:28+00:00,84.38872685185186,2022-03-09 00:01:12+00:00,0.07395833333333333
+2022-03-16 17:00:31+00:00,e6e737ac0bf9a5be729b5c71f3a582355432d041,"Add an option to set the character used for unused areas of the
+terminal, GitHub issue 3110.",nicm,https://github.com/tmux/tmux/commit/e6e737ac0bf9a5be729b5c71f3a582355432d041,3110.0,3110.0,2022-03-16 17:00:31+00:00,True,2022-06-01 07:34:28+00:00,76.60690972222223,2022-03-16 20:01:10+00:00,0.12545138888888888
+2022-03-16 17:00:31+00:00,fe44b105e4a2d1d7baa12b37d0b84d8c6be9addc,"Add an option to set the character used for unused areas of the
+terminal, GitHub issue 3110.",nicm,https://github.com/tmux/tmux/commit/fe44b105e4a2d1d7baa12b37d0b84d8c6be9addc,3110.0,3110.0,2022-03-16 17:00:31+00:00,True,2022-06-01 07:34:28+00:00,76.60690972222223,2022-03-16 20:01:10+00:00,0.12545138888888888
+2022-03-17 11:36:44+00:00,c0508c9321d2bd3b94a850d953db9532854b45cd,"Add an option (scroll-on-clear) to control if tmux scrolls into history
+on clear, from Robert Lange in GitHub issue 3121.",nicm,https://github.com/tmux/tmux/commit/c0508c9321d2bd3b94a850d953db9532854b45cd,3121.0,3121.0,2022-03-17 11:36:44+00:00,True,2022-06-01 07:34:28+00:00,75.83175925925926,2022-03-17 16:01:11+00:00,0.18364583333333334
+2022-03-17 11:36:44+00:00,10d689e7354f789f951016f7f4d57a0c2d14e124,"Add an option (scroll-on-clear) to control if tmux scrolls into history
+on clear, from Robert Lange in GitHub issue 3121.",nicm,https://github.com/tmux/tmux/commit/10d689e7354f789f951016f7f4d57a0c2d14e124,3121.0,3121.0,2022-03-17 11:36:44+00:00,True,2022-06-01 07:34:28+00:00,75.83175925925926,2022-03-17 16:01:11+00:00,0.18364583333333334
+2022-03-24 09:06:12+00:00,792d13af49f2550a9a8d11b0099528628957a1a0,"Add a capability for OSC 7 and use it similarly to how the title is set
+(and controlled by the same set-titles option). GitHub issue 3127.",nicm,https://github.com/tmux/tmux/commit/792d13af49f2550a9a8d11b0099528628957a1a0,3127.0,3127.0,2022-03-24 09:06:12+00:00,True,2022-06-01 07:34:28+00:00,68.93629629629629,2022-03-24 12:01:11+00:00,0.12151620370370371
+2022-03-24 09:06:12+00:00,89a0046ad360d7a499732e327bae69b7e4b2536e,"Add a capability for OSC 7 and use it similarly to how the title is set
+(and controlled by the same set-titles option). GitHub issue 3127.",nicm,https://github.com/tmux/tmux/commit/89a0046ad360d7a499732e327bae69b7e4b2536e,3127.0,3127.0,2022-03-24 09:06:12+00:00,True,2022-06-01 07:34:28+00:00,68.93629629629629,2022-03-24 12:01:11+00:00,0.12151620370370371
+2022-03-28 07:48:02+00:00,fc7f1e7acb3539a43df46136e971f770515e0b0d,"Add support for systemd socket activation (where systemd creates the Unix
+domain socket for tmux rather than tmux creating it). Build with
+--enable-systemd. From Julien Moutinho in GitHub issue 3119.",Nicholas Marriott,https://github.com/tmux/tmux/commit/fc7f1e7acb3539a43df46136e971f770515e0b0d,3119.0,3119.0,2022-03-28 07:48:02+00:00,True,2022-06-01 07:34:28+00:00,64.9905787037037,2022-03-28 09:01:11+00:00,0.050798611111111114
+2022-03-28 07:48:02+00:00,1c69a91c25654339a0e670ed5a1495d52b37eb8e,"Add support for systemd socket activation (where systemd creates the Unix
+domain socket for tmux rather than tmux creating it). Build with
+--enable-systemd. From Julien Moutinho in GitHub issue 3119.",Nicholas Marriott,https://github.com/tmux/tmux/commit/1c69a91c25654339a0e670ed5a1495d52b37eb8e,3119.0,3119.0,2022-03-28 07:48:02+00:00,True,2022-06-01 07:34:28+00:00,64.9905787037037,2022-03-28 09:01:11+00:00,0.050798611111111114
+2022-04-06 13:33:42+00:00,18105c8ecb901c72040db09f58585503a8409fd0,"Do not send focus sequences when focus is enabled or disabled by the
+application if it is turned off. GitHub issue 3142.",Nicholas Marriott,https://github.com/tmux/tmux/commit/18105c8ecb901c72040db09f58585503a8409fd0,3142.0,3142.0,2022-04-06 13:33:42+00:00,True,2022-06-01 07:34:28+00:00,55.750532407407405,2022-05-01 21:33:38+00:00,25.33328703703704
+2022-04-18 10:48:42+00:00,58d1a206c6ae6b33059ea6b469c21dad92ea0841,"Add a way for lines added to copy mode to be passed through the parser to
+handle escape sequences and use it for run-shell, GitHub issue 3156.",Nicholas Marriott,https://github.com/tmux/tmux/commit/58d1a206c6ae6b33059ea6b469c21dad92ea0841,3156.0,3156.0,2022-04-18 10:48:42+00:00,True,2022-06-01 07:34:28+00:00,43.86511574074074,2022-05-01 21:33:38+00:00,13.44787037037037
+2022-04-18 10:48:42+00:00,cd89000c1d75d0cfec28cf7e81b06f80a43ea093,"Add a way for lines added to copy mode to be passed through the parser
+to handle escape sequences and use it for run-shell, GitHub issue 3156.",nicm,https://github.com/tmux/tmux/commit/cd89000c1d75d0cfec28cf7e81b06f80a43ea093,3156.0,3156.0,2022-04-18 10:48:42+00:00,True,2022-06-01 07:34:28+00:00,43.86511574074074,2022-05-01 21:33:38+00:00,13.44787037037037
+2022-04-27 10:37:04+00:00,c6b51cea923e0c4e92636998a776ada42511b6e5,"If a mouse position was above the maximum supported by the normal mouse
+protocol (223), tmux was allowing it to wrap around. However, since tmux was
+not correctly handling this on input, other programs also do not handle it
+correctly, and the alternative SGR mouse mode is now widespread, this seems
+unnecessary, so remove this feature. Also define some constants to make it
+clearer what the numbers mean. Mostly from Leonid S Usov in GitHub issue 3165.",Nicholas Marriott,https://github.com/tmux/tmux/commit/c6b51cea923e0c4e92636998a776ada42511b6e5,3165.0,3165.0,2022-04-27 10:37:04+00:00,True,2022-06-01 07:34:28+00:00,34.873194444444444,2022-05-01 21:33:38+00:00,4.455949074074074
+2022-04-27 10:37:04+00:00,2b60ff588ebc26258848fa9d89a6e32e46eeba58,"If a mouse position was above the maximum supported by the normal mouse
+protocol (223), tmux was allowing it to wrap around. However, since tmux
+was not correctly handling this on input, other programs also do not
+handle it correctly, and the alternative SGR mouse mode is now
+widespread, this seems unnecessary, so remove this feature. Also define
+some constants to make it clearer what the numbers mean. Mostly from
+Leonid S Usov in GitHub issue 3165.",nicm,https://github.com/tmux/tmux/commit/2b60ff588ebc26258848fa9d89a6e32e46eeba58,3165.0,3165.0,2022-04-27 10:37:04+00:00,True,2022-06-01 07:34:28+00:00,34.873194444444444,2022-05-01 21:33:38+00:00,4.455949074074074
+2022-05-20 07:34:37+00:00,95baa32383bf095daf1a1e707de6b540ddb05d37,"Set PWD so shells have a hint about the real path (this was done before but
+lost in a merge). GitHub issue 3186.",Nicholas Marriott,https://github.com/tmux/tmux/commit/95baa32383bf095daf1a1e707de6b540ddb05d37,3186.0,3186.0,2022-05-20 07:34:37+00:00,True,2022-06-01 07:34:28+00:00,11.999895833333333,2022-05-30 15:28:27+00:00,10.329050925925927
+2022-05-20 07:34:37+00:00,6a5d210e558ffe9d8ec9b84f06da07e69629db7b,"Set PWD so shells have a hint about the real path (this was done before
+but lost in a merge). GitHub issue 3186.",nicm,https://github.com/tmux/tmux/commit/6a5d210e558ffe9d8ec9b84f06da07e69629db7b,3186.0,3186.0,2022-05-20 07:34:37+00:00,True,2022-06-01 07:34:28+00:00,11.999895833333333,2022-05-30 15:28:27+00:00,10.329050925925927
+2022-05-20 08:01:12+00:00,58c8ea120943232887b2d4be53b77009c504af06,"Remove duplicates from completion list, GitHub issue 3178.",nicm,https://github.com/tmux/tmux/commit/58c8ea120943232887b2d4be53b77009c504af06,3178.0,3178.0,2022-05-20 08:01:12+00:00,True,2022-06-01 07:34:28+00:00,11.981435185185186,2022-05-30 15:28:27+00:00,10.310590277777777
+2022-05-20 08:01:12+00:00,cf7e1c94dfa472f698cc5902d901ef1cef938f64,"Remove duplicates from completion list, GitHub issue 3178.",Nicholas Marriott,https://github.com/tmux/tmux/commit/cf7e1c94dfa472f698cc5902d901ef1cef938f64,3178.0,3178.0,2022-05-20 08:01:12+00:00,True,2022-06-01 07:34:28+00:00,11.981435185185186,2022-05-30 15:28:27+00:00,10.310590277777777
+2022-05-31 10:22:51+00:00,86a184b288bca66ec62706f413b7c151cb0850a4,"Trim menu item text correctly, GitHub issue 3197.",nicm,https://github.com/tmux/tmux/commit/86a184b288bca66ec62706f413b7c151cb0850a4,3197.0,3197.0,2022-05-31 10:22:51+00:00,True,2022-06-01 07:34:28+00:00,0.8830671296296296,2022-05-31 13:01:09+00:00,0.10993055555555556
+2022-06-02 20:41:48+00:00,0f6227f46b1d33476ef448682a2ba0b0290e6d9b,"When deleting or renaming a buffer and a buffer name is specified,
+complain if the buffer doesn't exist instead of silently deleting or
+renaming the most recent buffer. GitHub issue 3205.",nicm,https://github.com/tmux/tmux/commit/0f6227f46b1d33476ef448682a2ba0b0290e6d9b,3205.0,3205.0,2022-06-02 20:41:48+00:00,True,2022-06-09 11:37:28+00:00,6.621990740740741,2022-06-02 23:01:08+00:00,0.09675925925925925
+2022-06-04 07:42:30+00:00,020c403dff56269d93625970ed41761520afc853,"When picking a buffer because one isn't specified by the user, ignore
+named buffers. GitHub issue 3212 from David le Blanc.",nicm,https://github.com/tmux/tmux/commit/020c403dff56269d93625970ed41761520afc853,3212.0,3212.0,2022-06-04 07:42:30+00:00,True,2022-06-09 11:37:28+00:00,5.163171296296296,2022-06-04 09:01:09+00:00,0.05461805555555556
+2022-06-09 09:13:12+00:00,ccc9dc3bb49ac258c856d8478346b4ce829b188e,"If an application gives the first parameter to OSC 52, validate and pass
+on to outside terminal. GitHub issue 3192.",nicm,https://github.com/tmux/tmux/commit/ccc9dc3bb49ac258c856d8478346b4ce829b188e,3192.0,3192.0,2022-06-09 09:13:12+00:00,True,2022-06-09 11:37:28+00:00,0.10018518518518518,2022-06-09 11:01:09+00:00,0.07496527777777778
+2022-06-20 08:00:02+00:00,a888ce9963053c790c6ee9bf64cc53d95f0f9c09,"Do not display configuration file errors in a pane when in control mode,
+instead report them with a %config-error notification. GitHub issue 3193.",nicm,https://github.com/tmux/tmux/commit/a888ce9963053c790c6ee9bf64cc53d95f0f9c09,3193.0,3193.0,2022-06-20 08:00:02+00:00,True,2024-02-13 10:22:31+00:00,603.0989467592592,2022-06-20 11:01:09+00:00,0.12577546296296296
+2022-06-27 09:18:20+00:00,786cff8db9dd64ec8143a492c63051582ee41288,"Do not expand single character format aliases inside #[] since they
+interfere with colours. GitHub issue 3239 from Magnus Gross.",nicm,https://github.com/tmux/tmux/commit/786cff8db9dd64ec8143a492c63051582ee41288,3239.0,3239.0,2022-06-27 09:18:20+00:00,True,2024-02-13 10:22:31+00:00,596.0445717592593,2022-06-27 11:01:09+00:00,0.07140046296296296
+2022-07-06 07:37:37+00:00,d0d2c39decd1c342f2ffdb360e5d6b509b9bb34e,"Support hyperlinks with capture-pane -e and add a mouse_hyperlink
+format, GitHub issue 3247 from Jeff Chiang.",nicm,https://github.com/tmux/tmux/commit/d0d2c39decd1c342f2ffdb360e5d6b509b9bb34e,3247.0,3247.0,2022-07-06 07:37:37+00:00,True,2024-02-13 10:22:31+00:00,587.1145138888888,2022-07-06 09:01:10+00:00,0.058020833333333334
+2022-07-19 06:54:59+00:00,e06c09889c8f56164ddc920d534357357769cf13,"Add permissions for workflow, GitHub issue 3202.",Nicholas Marriott,https://github.com/tmux/tmux/commit/e06c09889c8f56164ddc920d534357357769cf13,3202.0,3202.0,2022-07-19 06:54:59+00:00,True,2024-02-13 10:22:31+00:00,574.1441203703704,2022-07-19 09:01:08+00:00,0.08760416666666666
+2022-07-19 07:10:24+00:00,ee431d482a8dac52f4fb16de1038e819a9e42b9a,"Do not ignore the ""off"" flag when checking if a pane should be stopped,
+GitHub issue 3250.",nicm,https://github.com/tmux/tmux/commit/ee431d482a8dac52f4fb16de1038e819a9e42b9a,3250.0,3250.0,2022-07-19 07:10:24+00:00,True,2024-02-13 10:22:31+00:00,574.1334143518518,2022-07-19 09:01:08+00:00,0.07689814814814815
+2022-07-20 10:10:29+00:00,a8da24771cd7c51b531fafef0b2d51e3a7fbad1f,"Clear marks when the search string changes. From Anindya Mukherjee,
+GitHub issue 3255.",nicm,https://github.com/tmux/tmux/commit/a8da24771cd7c51b531fafef0b2d51e3a7fbad1f,3255.0,3255.0,2022-07-20 10:10:29+00:00,True,2024-02-13 10:22:31+00:00,573.0083564814814,2022-07-22 09:01:10+00:00,1.951863425925926
+2022-07-22 07:27:44+00:00,9360e0ef329c12931bb97f42197a56776bb3d2f0,"Sort panes by index not by ID, GitHub issue 3249.",nicm,https://github.com/tmux/tmux/commit/9360e0ef329c12931bb97f42197a56776bb3d2f0,3249.0,3249.0,2022-07-22 07:27:44+00:00,True,2024-02-13 10:22:31+00:00,571.1213773148148,2022-07-22 09:01:10+00:00,0.06488425925925925
+2022-08-02 10:53:04+00:00,00812c9053a0b1067f833925b726086a67d8528d,"Check for $YACC, from Wei Shih in GitHub issue 3267.",Nicholas Marriott,https://github.com/tmux/tmux/commit/00812c9053a0b1067f833925b726086a67d8528d,3267.0,3267.0,2022-08-02 10:53:04+00:00,True,2024-02-13 10:22:31+00:00,559.9787847222223,2022-08-02 11:01:09+00:00,0.005613425925925926
+2022-08-02 11:11:55+00:00,42ba6c1b229c92256274e848e9c5ff1d59d9081b,"Add a third state ""all"" to allow-passthrough to work even in invisible
+panes, from Sergei Grechanik in GitHub issue 3274.",nicm,https://github.com/tmux/tmux/commit/42ba6c1b229c92256274e848e9c5ff1d59d9081b,3274.0,3274.0,2022-08-02 11:11:55+00:00,True,2024-02-13 10:22:31+00:00,559.9656944444445,2022-08-02 13:01:09+00:00,0.07585648148148148
+2022-08-03 13:28:01+00:00,c6e7568471f35f7a22e199b444adf17c685e86f3,"Do not crash when searching for .* with extremely long lines. Reported
+by Torbjorn Lonnemark, GitHub issue 3272.",nicm,https://github.com/tmux/tmux/commit/c6e7568471f35f7a22e199b444adf17c685e86f3,3272.0,3272.0,2022-08-03 13:28:01+00:00,True,2024-02-13 10:22:31+00:00,558.8711805555556,2022-08-03 15:01:11+00:00,0.06469907407407408
+2022-08-04 12:06:41+00:00,de5cd54124e37672adfdfe0229712e7e74acc9b0,"Change g and G to go to top and bottom of menu, GitHub issue 3286.",nicm,https://github.com/tmux/tmux/commit/de5cd54124e37672adfdfe0229712e7e74acc9b0,3286.0,3286.0,2022-08-04 12:06:41+00:00,True,2024-02-13 10:22:31+00:00,557.9276620370371,2022-08-04 15:01:09+00:00,0.12115740740740741
+2022-08-10 14:04:06+00:00,273577ba0a88c8a373bc8a2ded7e6a08b82114d0,"Fix check of home directory (&& not ||), from Markus F X J Oberhumer,
+GitHub issue 3297.",nicm,https://github.com/tmux/tmux/commit/273577ba0a88c8a373bc8a2ded7e6a08b82114d0,3297.0,3297.0,2022-08-10 14:04:06+00:00,True,2024-02-13 10:22:31+00:00,551.8461226851852,2022-08-10 17:01:11+00:00,0.12297453703703703
+2022-08-15 08:54:11+00:00,03149bf7f62e2c92d0e60087c52604d2dd51794f,"Add a Nobr terminfo capability to tell tmux the terminal does not use
+bright colours for bold (makes a difference to how tmux applies palette
+differences). From Damien Tardy-Panis in GitHub issue 3301.",nicm,https://github.com/tmux/tmux/commit/03149bf7f62e2c92d0e60087c52604d2dd51794f,3301.0,3301.0,2022-08-15 08:54:11+00:00,True,2024-02-13 10:22:31+00:00,547.0613425925926,2022-08-15 12:54:47+00:00,0.16708333333333333
+2022-08-23 08:14:25+00:00,416c27c9958e928b9ff845c1701acf5b10d0db8d,"Add scroll-middle copy mode command to make cursor line in the middle,
+from Varun Kumar E in GitHub issue 3307.",nicm,https://github.com/tmux/tmux/commit/416c27c9958e928b9ff845c1701acf5b10d0db8d,3307.0,3307.0,2022-08-23 08:14:25+00:00,True,2024-02-13 10:22:31+00:00,539.0889583333334,2022-08-23 11:01:10+00:00,0.11579861111111112
+2022-09-09 11:02:42+00:00,f03c3ca6c36cd52ae5ec4ae8cd4fa137cf79aaf3,"Add message-line option to control where message and prompt go, from
+Varun Kumar E in GitHub issue 3324.",nicm,https://github.com/tmux/tmux/commit/f03c3ca6c36cd52ae5ec4ae8cd4fa137cf79aaf3,3324.0,3324.0,2022-09-09 11:02:42+00:00,True,2024-02-13 10:22:31+00:00,521.9720949074074,2022-09-22 16:10:38+00:00,13.213842592592593
+2022-09-19 06:04:28+00:00,19344ec890e0c4343e3c20695806d482c631d67c,"Add headers and fix type, from Marvin Schmidt. GitHub issue 3332.",Nicholas Marriott,https://github.com/tmux/tmux/commit/19344ec890e0c4343e3c20695806d482c631d67c,3332.0,3332.0,2022-09-19 06:04:28+00:00,True,2024-02-13 10:22:31+00:00,512.1792013888889,2022-09-22 16:10:38+00:00,3.4209490740740742
+2022-09-28 07:55:50+00:00,9cc8e40aa08ff91bc1c5d0211c1d2cef02f2c7a2,"Add a -T flag to capture-pane to stop at the last used cell instead of
+the full width. Restore the previous behaviour by making it default to
+off unless -J is used (the only time it matters). Fixes mosh unit tests;
+GitHub issue 3339.",nicm,https://github.com/tmux/tmux/commit/9cc8e40aa08ff91bc1c5d0211c1d2cef02f2c7a2,3339.0,3339.0,2022-09-28 07:55:50+00:00,True,2024-02-13 10:22:31+00:00,503.1018634259259,2022-09-28 11:01:09+00:00,0.12869212962962964
+2022-09-28 08:00:00+00:00,a10452be2d84d4ff1b9d4e636627b7a9c5a2c42a,"Add scroll-top and scroll-bottom commands to scroll so cursor is at top
+or bottom. From Anindya Mukherjee, GitHub issue 3334.",nicm,https://github.com/tmux/tmux/commit/a10452be2d84d4ff1b9d4e636627b7a9c5a2c42a,3334.0,3334.0,2022-09-28 08:00:00+00:00,True,2024-02-13 10:22:31+00:00,503.0989699074074,2022-09-28 11:01:09+00:00,0.12579861111111112
+2022-10-17 08:18:32+00:00,5ce34add77fa3517a01e63b915c5f4e3241af470,"Do not attempt to connect to the socket as a client if systemd is active, from
+Julien Moutinho in GitHub issue 3345.",Nicholas Marriott,https://github.com/tmux/tmux/commit/5ce34add77fa3517a01e63b915c5f4e3241af470,3345.0,3345.0,2022-10-17 08:18:32+00:00,True,2024-02-13 10:22:31+00:00,484.08609953703706,2022-10-17 13:01:10+00:00,0.19627314814814814
+2022-10-25 09:12:12+00:00,2111142cf1715eeac174cd5c71ed90f00595b17e,"Fix a memory leak, from Japin Li in GitHub issue 3358.",nicm,https://github.com/tmux/tmux/commit/2111142cf1715eeac174cd5c71ed90f00595b17e,3358.0,3358.0,2022-10-25 09:12:12+00:00,True,2024-02-13 10:22:31+00:00,476.0488310185185,2022-10-25 11:01:10+00:00,0.07567129629629629
+2022-10-28 13:00:11+00:00,7c2dcd72380dc2d9e119e99cb423a67ae17b6bd2,"Notify when a paste buffer is deleted, GitHub issue 3302 from George
+Nachman.",nicm,https://github.com/tmux/tmux/commit/7c2dcd72380dc2d9e119e99cb423a67ae17b6bd2,3302.0,3302.0,2022-10-28 13:00:11+00:00,True,2024-02-13 10:22:31+00:00,472.89050925925926,2022-10-28 15:01:10+00:00,0.0840162037037037
+2022-11-03 08:34:14+00:00,3be369522b6de38ba08ee50a86a49a9a86af490b,"Add a -l flag to display-message to disable format expansion, from Aaron
+Jensen. GitHub issue 3372.",nicm,https://github.com/tmux/tmux/commit/3be369522b6de38ba08ee50a86a49a9a86af490b,3372.0,3372.0,2022-11-03 08:34:14+00:00,True,2024-02-13 10:22:31+00:00,467.07519675925926,2022-11-03 10:01:11+00:00,0.060381944444444446
+2022-11-03 08:42:13+00:00,17290b912116c4397620526d43dcf6ddcf0044b7,"If there are no buffers, reset mode as soon as any key pressed. Fixes
+crash reported by Gaoyang Zhang in GitHub issue 3373.",nicm,https://github.com/tmux/tmux/commit/17290b912116c4397620526d43dcf6ddcf0044b7,3373.0,3373.0,2022-11-03 08:42:13+00:00,True,2024-02-13 10:22:31+00:00,467.0696527777778,2022-11-03 10:01:11+00:00,0.05483796296296296
+2022-11-11 08:49:10+00:00,2d08235987efa1e2f9c932c4a5c8a0200b4804c1,"Add modified Tab key sequences, from Aaron Jensen, GitHub issue 3368.",nicm,https://github.com/tmux/tmux/commit/2d08235987efa1e2f9c932c4a5c8a0200b4804c1,3368.0,3368.0,2022-11-11 08:49:10+00:00,True,2024-02-13 10:22:31+00:00,459.0648263888889,2022-11-11 10:01:09+00:00,0.04998842592592593
+2022-12-07 09:44:58+00:00,7e497c7f2303b29b0f44fe360a78c44ca86b87f9,"Process escape sequences in show-buffer, GitHub issue 3401.",nicm,https://github.com/tmux/tmux/commit/7e497c7f2303b29b0f44fe360a78c44ca86b87f9,3401.0,3401.0,2022-12-07 09:44:58+00:00,True,2024-02-13 10:22:31+00:00,433.0260763888889,2022-12-07 12:01:09+00:00,0.09457175925925926
+2022-12-16 08:14:06+00:00,3b3f42053a5f11af5285392a5a072facbc16f4a9,"Add send-keys -K to handle keys directly as if typed (so look up in key
+table). GitHub issue 3361.",nicm,https://github.com/tmux/tmux/commit/3b3f42053a5f11af5285392a5a072facbc16f4a9,3361.0,3361.0,2022-12-16 08:14:06+00:00,True,2024-02-13 10:22:31+00:00,424.08917824074075,2023-01-06 09:02:00+00:00,21.03326388888889
+2022-12-16 08:22:26+00:00,7cb48fc40b178d0b7bf281dee6799fa0e3745c70,Do not escape tabs in output (iTerm2 needs them). GitHub issue 3414.,nicm,https://github.com/tmux/tmux/commit/7cb48fc40b178d0b7bf281dee6799fa0e3745c70,3414.0,3414.0,2022-12-16 08:22:26+00:00,True,2024-02-13 10:22:31+00:00,424.0833912037037,2023-01-06 09:02:00+00:00,21.02747685185185
+2023-01-08 22:16:27+00:00,7ced0a03d2ff51274d5fa5fb6eeaa6f4aac9f2f4,"Restore code to handle wcwidth failure so that unknown codepoints still
+do the most likely right thing. GitHub issue 3427, patch based on an
+diff from Jesse Luehrs in GitHub issue 3003.",nicm,https://github.com/tmux/tmux/commit/7ced0a03d2ff51274d5fa5fb6eeaa6f4aac9f2f4,3427.0,3427.0,2023-01-08 22:16:27+00:00,True,2024-02-13 10:22:31+00:00,400.504212962963,2023-01-08 23:26:09+00:00,0.04840277777777778
+2023-01-08 22:16:27+00:00,2a32565e0c882c9e78ef9c7d52476c3574331f62,"Restore code to handle wcwidth failure so that unknown codepoints still
+do the most likely right thing. GitHub issue 3427, patch based on an
+diff from Jesse Luehrs in GitHub issue 3003.",Nicholas Marriott,https://github.com/tmux/tmux/commit/2a32565e0c882c9e78ef9c7d52476c3574331f62,3427.0,3427.0,2023-01-08 22:16:27+00:00,True,2024-02-13 10:22:31+00:00,400.504212962963,2023-01-08 23:26:09+00:00,0.04840277777777778
+2023-01-08 22:17:18+00:00,09afc6c8ee971918d925c441c41a9de7f598efb7,"If a pane is killed, cancel reading from the file. GitHub issue 3422.",nicm,https://github.com/tmux/tmux/commit/09afc6c8ee971918d925c441c41a9de7f598efb7,3422.0,3422.0,2023-01-08 22:17:18+00:00,True,2024-02-13 10:22:31+00:00,400.5036226851852,2023-01-08 23:26:09+00:00,0.0478125
+2023-01-12 18:50:19+00:00,483cc77c1cbc6898fef143c8100945139c14a92c,"Have tmux recognise pasted texts wrapped in bracket paste sequences,
+rather than only forwarding them to the program inside. From Andrew
+Onyshchuk in GitHub issue 3431.",nicm,https://github.com/tmux/tmux/commit/483cc77c1cbc6898fef143c8100945139c14a92c,3431.0,3431.0,2023-01-12 18:50:19+00:00,True,2024-02-13 10:22:31+00:00,396.64736111111114,2023-01-12 22:01:09+00:00,0.13252314814814814
+2023-01-17 06:51:56+00:00,d578cf8d3fa1e42ab14b9ec9499f31c6b9c6f384,"Update palette when moving a pane, GitHub issue 3437.",nicm,https://github.com/tmux/tmux/commit/d578cf8d3fa1e42ab14b9ec9499f31c6b9c6f384,3437.0,3437.0,2023-01-17 06:51:56+00:00,True,2024-02-13 10:22:31+00:00,392.1462384259259,2023-01-17 10:01:09+00:00,0.13140046296296296
+2023-01-23 09:34:06+00:00,e7e112fbd0263bb8661d0cf931d66c1b57e7fd3b,"Too many \s in example, GitHub issue 3445.",nicm,https://github.com/tmux/tmux/commit/e7e112fbd0263bb8661d0cf931d66c1b57e7fd3b,3445.0,3445.0,2023-01-23 09:34:06+00:00,True,2024-02-13 10:22:31+00:00,386.0336226851852,2023-01-23 12:01:11+00:00,0.1021412037037037
+2023-02-07 10:21:46+00:00,93b1b781504f8de30f1858a4d0cf013396143c53,Extend display-message to work for control clients. GitHub issue 3449.,nicm,https://github.com/tmux/tmux/commit/93b1b781504f8de30f1858a4d0cf013396143c53,3449.0,3449.0,2023-02-07 10:21:46+00:00,True,2024-02-13 10:22:31+00:00,371.0005208333333,2023-02-07 12:01:13+00:00,0.0690625
+2023-02-07 10:21:46+00:00,7acc8d703dec9f02e072ebc95495d634868b62e4,"Add -f to list-clients like the other list commands, from Andy Walker in
+GitHub issue 3449.",nicm,https://github.com/tmux/tmux/commit/7acc8d703dec9f02e072ebc95495d634868b62e4,3449.0,3449.0,2023-02-07 10:21:46+00:00,True,2024-02-13 10:22:31+00:00,371.0005208333333,2023-02-07 12:01:13+00:00,0.0690625
+2023-02-10 12:39:03+00:00,907f58cc3c2c76184dfd06129902b2147a2e4c5b,"Fix cursor position after zero width space, GitHub issue 3469.",nicm,https://github.com/tmux/tmux/commit/907f58cc3c2c76184dfd06129902b2147a2e4c5b,3469.0,3469.0,2023-02-10 12:39:03+00:00,True,2024-02-13 10:22:31+00:00,367.9051851851852,2023-02-10 16:01:10+00:00,0.1403587962962963
+2023-03-15 08:15:51+00:00,ac4bb89d4355a7a9bd2abe4cb27b31a445f7cd99,"Fix command prompt not to always append argument but only if there has
+actually been expansion. GitHub issue 3493.",nicm,https://github.com/tmux/tmux/commit/ac4bb89d4355a7a9bd2abe4cb27b31a445f7cd99,3493.0,3493.0,2023-03-15 08:15:51+00:00,True,2024-02-13 10:22:31+00:00,335.087962962963,2023-03-15 10:01:10+00:00,0.07313657407407408
+2023-03-15 19:30:20+00:00,a9ac61469175e45c8ba58ae0360306aa06c0cd59,"Do not leak screen in popups, GitHub issue 3492.",nicm,https://github.com/tmux/tmux/commit/a9ac61469175e45c8ba58ae0360306aa06c0cd59,3492.0,3492.0,2023-03-15 19:30:20+00:00,True,2024-02-13 10:22:31+00:00,334.61957175925926,2023-03-15 22:01:09+00:00,0.1047337962962963
+2023-03-27 08:49:15+00:00,c21af7e446beafd27a7a0384186bc480fd2e126d,"Add a format to show if there are unseen changes while in a mode, from
+Dan Aloni in GitHub issue 3498.",nicm,https://github.com/tmux/tmux/commit/c21af7e446beafd27a7a0384186bc480fd2e126d,3498.0,3498.0,2023-03-27 08:49:15+00:00,True,2024-02-13 10:22:31+00:00,323.0647685185185,2023-04-27 18:16:08+00:00,31.393668981481483
+2023-04-03 07:39:47+00:00,a2018b2c3ffd488824c599c340c2c67095f04919,"Clarify text for new -A slightly, GitHub issue 3508.",nicm,https://github.com/tmux/tmux/commit/a2018b2c3ffd488824c599c340c2c67095f04919,3508.0,3508.0,2023-04-03 07:39:47+00:00,True,2024-02-13 10:22:31+00:00,316.1130092592593,2023-04-27 18:16:08+00:00,24.44190972222222
+2023-04-25 09:32:11+00:00,551e0c36d95b1a9de1febf8f062fdc9d64b682df,"Invalidate cached tty state after changing features since they may
+change what the terminal can do and need mouse sequences or similar to
+be sent again, GitHub issue 3513.",nicm,https://github.com/tmux/tmux/commit/551e0c36d95b1a9de1febf8f062fdc9d64b682df,3513.0,3513.0,2023-04-25 09:32:11+00:00,True,2024-02-13 10:22:31+00:00,294.0349537037037,2023-04-27 18:16:08+00:00,2.3638541666666666
+2023-04-25 16:24:23+00:00,0ff991b25faf6a88edb356e2ea0ba80151eecb79,"Set default lock command to vlock on Linux if present at build time, from Josh
+Boyer in GitHub issue 3527.",Nicholas Marriott,https://github.com/tmux/tmux/commit/0ff991b25faf6a88edb356e2ea0ba80151eecb79,3527.0,3527.0,2023-04-25 16:24:23+00:00,True,2024-02-13 10:22:31+00:00,293.7487037037037,2023-04-27 18:16:08+00:00,2.0776041666666667
+2023-04-28 06:12:47+00:00,41b318ac7c881fc4cdf834ea5e14a7e8646605aa,"Add options to change the confirm key and default behaviour of
+confirm-before. From Elias Assaf in GitHub issue 3548; prompted by an
+earlier change from Yutaro Yoshii in GitHub issue 3496.",nicm,https://github.com/tmux/tmux/commit/41b318ac7c881fc4cdf834ea5e14a7e8646605aa,3548.0,3548.0,2023-04-28 06:12:47+00:00,True,2024-02-13 10:22:31+00:00,291.1734259259259,2023-04-28 11:52:21+00:00,0.23581018518518518
+2023-06-26 07:17:51+00:00,ff8882a24f44594c871ad849f885bcd895836e73,"Add ""us"" to styles for underscore colour, GitHub issue 3589.",nicm,https://github.com/tmux/tmux/commit/ff8882a24f44594c871ad849f885bcd895836e73,3589.0,3589.0,2023-06-26 07:17:51+00:00,True,2024-02-13 10:22:31+00:00,232.12824074074075,2023-06-26 09:01:10+00:00,0.07174768518518519
+2023-07-03 10:48:46+00:00,ac43186dff0f4e92a566987bb9108d6c5421e9ff,"Do not risk writing over the end of the buffer when it ends in #
+(because strchr \0 will be non-NULL), reported by Robert Morris in
+GitHub issue 3610.",nicm,https://github.com/tmux/tmux/commit/ac43186dff0f4e92a566987bb9108d6c5421e9ff,3610.0,3610.0,2023-07-03 10:48:46+00:00,True,2024-02-13 10:22:31+00:00,224.98177083333334,2023-07-03 11:01:09+00:00,0.008599537037037037
+2023-07-10 09:25:55+00:00,8b3e2eab5afde62a4eb87b132b4196105c1cfaa6,"Use a stack for last panes line windows, from Thomas Bertschinger in
+GitHub issue 3588.",nicm,https://github.com/tmux/tmux/commit/8b3e2eab5afde62a4eb87b132b4196105c1cfaa6,3588.0,3588.0,2023-07-10 09:25:55+00:00,True,2024-02-13 10:22:31+00:00,218.03930555555556,2023-07-10 11:01:12+00:00,0.06616898148148148
+2023-07-10 12:01:18+00:00,63b728237716594d711ef9e7ee3a0203d43f6723,"It should no longer be necessary to ignore SIGCHLD because it is now
+blocked around daemon(), and doing so causes trouble with newer libevent
+(it cannot restore the original handler). Reported by Azat Khuzhin in
+GitHub issue 3626.",nicm,https://github.com/tmux/tmux/commit/63b728237716594d711ef9e7ee3a0203d43f6723,3626.0,3626.0,2023-07-10 12:01:18+00:00,True,2024-02-13 10:22:31+00:00,217.93140046296296,2023-07-10 13:01:12+00:00,0.04159722222222222
+2023-08-08 08:21:39+00:00,43b841f188c994966e00e59c96581b876652bef1,"Add support for marking lines with a shell prompt based on the OSC 133
+extension, from Munif Tanjim in GitHub issue 3596.",nicm,https://github.com/tmux/tmux/commit/43b841f188c994966e00e59c96581b876652bef1,3596.0,3596.0,2023-08-08 08:21:39+00:00,True,2024-02-13 10:22:31+00:00,189.0839351851852,2023-08-08 09:01:11+00:00,0.027453703703703702
+2023-08-15 07:04:18+00:00,dee72ed41f54d9ba12b1ce20c18476d9276a876d,"Add options and flags for menu styles similar to those existing for
+popups, from Alexis Hildebrandt. GitHub issue 3650.",nicm,https://github.com/tmux/tmux/commit/dee72ed41f54d9ba12b1ce20c18476d9276a876d,3650.0,3650.0,2023-08-15 07:04:18+00:00,True,2024-02-13 10:22:31+00:00,182.13765046296297,2023-08-15 09:01:09+00:00,0.08114583333333333
+2023-08-17 14:10:58+00:00,8636848e6348bb0e38cd6aaaadbe61e15181bc8f,"Add a session, pane and user mouse range types for the status line and
+add format variables for mouse_status_line and mouse_status_range so
+they can be associated with different commands in the key bindings.
+GitHub issue 3652.",nicm,https://github.com/tmux/tmux/commit/8636848e6348bb0e38cd6aaaadbe61e15181bc8f,3652.0,3652.0,2023-08-17 14:10:58+00:00,True,2024-02-13 10:22:31+00:00,179.84135416666666,2023-08-17 17:01:09+00:00,0.11818287037037037
+2023-09-01 14:25:11+00:00,c41d59f232a7243bfff34ec3f02adc76fddc91b2,"Expand name before looking for window with -S, GitHub issue 3670.",nicm,https://github.com/tmux/tmux/commit/c41d59f232a7243bfff34ec3f02adc76fddc91b2,3670.0,3670.0,2023-09-01 14:25:11+00:00,True,2024-02-13 10:22:31+00:00,164.8314814814815,2023-09-01 16:06:27+00:00,0.07032407407407408
+2023-09-02 09:20:14+00:00,84936b832f7a2ec1d4b98aad4eb285087a1a2708,"Use 8 for underscore colour defaults instead of 0 which is less
+confusing, and fix writing tge default colour. GitHub issue 3627.",nicm,https://github.com/tmux/tmux/commit/84936b832f7a2ec1d4b98aad4eb285087a1a2708,3627.0,3627.0,2023-09-02 09:20:14+00:00,True,2024-02-13 10:22:31+00:00,164.04325231481482,2023-09-02 11:01:09+00:00,0.07008101851851851
+2023-09-02 20:08:57+00:00,c767d62329597b9152c0e1b33ba2656be8e0bced,"Request terminal colours again on SIGWINCH but at most once every 30
+seconds, GitHub issue 3582.",nicm,https://github.com/tmux/tmux/commit/c767d62329597b9152c0e1b33ba2656be8e0bced,3582.0,3582.0,2023-09-02 20:08:57+00:00,True,2024-02-13 10:22:31+00:00,163.59275462962964,2023-09-02 21:01:09+00:00,0.03625
+2023-09-04 08:03:25+00:00,43e5e80343185e69a1b864fc48095ede0b898180,"Skip wrapped lines in top level search loop because they will be
+combined in the inner loop (in window_copy_search_rl_regex and the
+others), avoids searching the same text multiple times. Also add a line
+length limit for regex searches. GitHub issue 3675.",nicm,https://github.com/tmux/tmux/commit/43e5e80343185e69a1b864fc48095ede0b898180,3675.0,3675.0,2023-09-04 08:03:25+00:00,True,2024-02-13 10:22:31+00:00,162.09659722222221,2023-09-04 09:01:10+00:00,0.04010416666666667
+2023-09-15 06:31:57+00:00,d394293ba59fc932085eb8c01592822a9b1ec1f7,"Add -t to source-file, GitHub issue 3473.",nicm,https://github.com/tmux/tmux/commit/d394293ba59fc932085eb8c01592822a9b1ec1f7,3473.0,3473.0,2023-09-15 06:31:57+00:00,True,2024-02-13 10:22:31+00:00,151.16011574074074,2023-09-15 09:01:11+00:00,0.10363425925925926
+2023-09-15 15:49:49+00:00,f09cde2542470e5c1a292cc6871c4f0e00cedde5,"Change UTF-8 combining to inspect the previous character at the cursor
+position rather than keeping the last character from the input stream,
+this is how most terminals work and fixes problems with displaying these
+characters in vim. GitHub issue 3600.",nicm,https://github.com/tmux/tmux/commit/f09cde2542470e5c1a292cc6871c4f0e00cedde5,3600.0,3600.0,2023-09-15 15:49:49+00:00,True,2024-02-13 10:22:31+00:00,150.77270833333333,2023-09-17 20:00:34+00:00,2.1741319444444445
+2023-09-15 15:49:49+00:00,9456258ccc03a1a959cfb7d020011d751b39bb1b,"Rewrite combined character handling to be more consistent and to support
+newer Unicode combined characters (which we have to ""know"" are combined
+since they are not width zero). GitHub issue 3600.",nicm,https://github.com/tmux/tmux/commit/9456258ccc03a1a959cfb7d020011d751b39bb1b,3600.0,3600.0,2023-09-15 15:49:49+00:00,True,2024-02-13 10:22:31+00:00,150.77270833333333,2023-09-17 20:00:34+00:00,2.1741319444444445
+2023-09-16 16:18:50+00:00,7e79108f8a0d109b058f07cd84f17957f730432a,Remove next- and previous-prompt added in error. GitHub issue 3696.,nicm,https://github.com/tmux/tmux/commit/7e79108f8a0d109b058f07cd84f17957f730432a,3696.0,3696.0,2023-09-16 16:18:50+00:00,True,2024-02-13 10:22:31+00:00,149.75255787037037,2023-09-17 20:00:34+00:00,1.1539814814814815
+2023-10-23 08:12:42+00:00,36e1ac65560a34c6fa381f821f6b1b733f9b6ed6,"Unzoom window at start of destroy so it doesn't happen later (when
+destroying panes) after the layout has been freed, GitHub issue 3717.",nicm,https://github.com/tmux/tmux/commit/36e1ac65560a34c6fa381f821f6b1b733f9b6ed6,3717.0,3717.0,2023-10-23 08:12:42+00:00,True,2024-02-13 10:22:31+00:00,113.09015046296297,2023-11-02 22:58:45+00:00,10.6153125
+2023-12-08 10:46:52+00:00,f7bf7e9671d89ac8b249ea52b7660ead9f700b03,"Remove flags from the prefix before comparing with the received key so
+that modifier keys with flags work correctly, GitHub issue 3764.",nicm,https://github.com/tmux/tmux/commit/f7bf7e9671d89ac8b249ea52b7660ead9f700b03,3764.0,3764.0,2023-12-08 10:46:52+00:00,True,2024-02-13 10:22:31+00:00,66.98309027777778,2024-01-03 19:17:10+00:00,26.354375
+2023-12-27 20:16:18+00:00,f0284454079a23962dab96dc692bec39d346f0d6,"Correctly handle window ops with no pane, GitHub issue 3747.",nicm,https://github.com/tmux/tmux/commit/f0284454079a23962dab96dc692bec39d346f0d6,3747.0,3747.0,2023-12-27 20:16:18+00:00,True,2024-02-13 10:22:31+00:00,47.58765046296296,2024-01-03 19:17:10+00:00,6.958935185185185
+2023-12-27 20:16:18+00:00,605bf21ff225c68d21577a94d423e9ec16158cdb,"Do not use NULL window, GitHub issue 3747.",Nicholas Marriott,https://github.com/tmux/tmux/commit/605bf21ff225c68d21577a94d423e9ec16158cdb,3747.0,3747.0,2023-12-27 20:16:18+00:00,True,2024-02-13 10:22:31+00:00,47.58765046296296,2024-01-03 19:17:10+00:00,6.958935185185185
+2023-12-27 20:17:21+00:00,73a2b1208839ea32319616969616ef01b5511c9c,"Always initialize screen mode, GitHub issue 3750 from Ding Fei.",nicm,https://github.com/tmux/tmux/commit/73a2b1208839ea32319616969616ef01b5511c9c,3750.0,3750.0,2023-12-27 20:17:21+00:00,True,2024-02-13 10:22:31+00:00,47.586921296296296,2024-01-03 19:17:10+00:00,6.958206018518519
+2023-12-27 20:21:11+00:00,008ecd45927681c6172ca1561eef1c6f4e7f57be,"groff apparently generates broken output for some common characters in
+mdoc, so escaped versions have to be used instead. From Alexis
+Hildebrandt in GitHub issue 3762.",nicm,https://github.com/tmux/tmux/commit/008ecd45927681c6172ca1561eef1c6f4e7f57be,3762.0,3762.0,2023-12-27 20:21:11+00:00,True,2024-02-13 10:22:31+00:00,47.58425925925926,2024-01-03 19:17:10+00:00,6.9555439814814815
+2024-01-22 16:35:03+00:00,428f8a9b2884093b5f40b64797753871ddfa67b0,"Increase buffer size to avoid truncating styles, GitHub issue 3809 from
+Ricardo Bittencourt.",nicm,https://github.com/tmux/tmux/commit/428f8a9b2884093b5f40b64797753871ddfa67b0,3809.0,3809.0,2024-01-22 16:35:03+00:00,True,2024-02-13 10:22:31+00:00,21.741296296296298,2024-01-22 18:01:09+00:00,0.05979166666666667
+2024-02-13 08:04:14+00:00,4bdb855020d266ea0a480a53e13c806fcaad9b45,"Do not allow paste into panes which have exited, from Romain Francoise
+in GitHub issue 3830.",nicm,https://github.com/tmux/tmux/commit/4bdb855020d266ea0a480a53e13c806fcaad9b45,3830.0,3830.0,2024-02-13 08:04:14+00:00,True,2024-02-13 10:22:31+00:00,0.0960300925925926,2024-02-13 10:01:10+00:00,0.08120370370370371
